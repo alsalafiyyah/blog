@@ -20,12 +20,12 @@ const { page } = Astro.props;
     <title>Blog posts</title>
   </head>
   <body>
-    <h1>Blog Archive</h1>
+    <h1>Fatwas</h1>
     
     <ul>
       {page.data.map((post) => (
         <li>
-          <a href={`/blog/${post.id}`}>{post.data.title}</a>
+          <a href={`/blog/blog/${post.id}`}>{post.data.title}</a>
           <p>{post.data.description}</p>
         </li>
       ))}
