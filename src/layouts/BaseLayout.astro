@@ -16,10 +16,12 @@ const { title = SITE_TITLE } = Astro.props;
     <title>{title}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body class="bg-gray-50 text-gray-900">
+  <body itemscope itemtype="https://schema.org/WebPage" class="bg-white dark:bg-zinc-950 dark:text-zinc-100 text-black antialiased selection:bg-black selection:text-white dark:selection:bg-white dark:selection:text-black transition-colors duration-300">
     <Navbar />
-    <main class="max-w-7xl mx-auto p-6">
-      <slot />
+    <main role="main" class="max-w-7xl mx-auto px-8">
+      <section class="grid grid-cols-1 md:grid-cols-12 gap-12 py-24 items-start">
+       <slot />
+      </section>
     </main>
   </body>
 </html>
