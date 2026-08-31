@@ -1,0 +1,26 @@
+---
+interface Props {
+  date: string;
+  hijri?: string;
+}
+
+const { date, hijri } = Astro.props;
+---
+
+<footer class="mt-12 pt-6 border-t border-gray-200 text-sm text-gray-600">
+  <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+    <!-- Published metadata -->
+    <div>
+      <p>Published on <span class="font-medium text-gray-900">{date}</span></p>
+      {hijri && <p class="text-xs text-gray-500 mt-0.5">Hijri: {hijri}</p>}
+    </div>
+
+    <!-- Back to archive link -->
+    <a 
+      href="/blog/" 
+      class="inline-flex items-center gap-1 font-medium text-blue-600 hover:underline"
+    >
+      &larr; Back to all posts
+    </a>
+  </div>
+</footer>
