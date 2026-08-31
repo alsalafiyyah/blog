@@ -1,22 +1,17 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseLayout from '../layouts/Main.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 
-// Fetch and sort all fatwas by date descending
 const allFatwas = (await getCollection('fatwas')).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+  (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
 );
 
-// Get featured fatwa or fallback to the most recent one
-const featuredFatwa = allFatwas.find((f) => f.data.featured) || allFatwas[0];
+const featuredFatwa = allFatwas.find((f: any) => f.data.featured) || allFatwas[0];
+const recentFatwas = allFatwas.filter((f: any) => f.id !== featuredFatwa?.id).slice(0, 5);
 
-// Get recent fatwas (excluding the featured one)
-const recentFatwas = allFatwas.filter((f) => f.id !== featuredFatwa?.id).slice(0, 5);
-
-// Helper function to extract a clean post URL
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/blog/fatwas/${cleanId}/`;
+  return `/fatwas/${cleanId}/`;
 };
 ---
 
@@ -63,7 +58,7 @@ const getCleanUrl = (id: string) => {
       </div>
 
       <ul class="divide-y divide-gray-100 dark:divide-zinc-800">
-        {recentFatwas.map((fatwa) => (
+        {recentFatwas.map((fatwa: any) => (
           <li class="py-4 space-y-1">
             <a href={getCleanUrl(fatwa.id)} class="text-lg font-semibold text-blue-600 dark:text-blue-400 hover:underline block">
               {fatwa.data.title}
