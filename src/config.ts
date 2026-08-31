@@ -14,6 +14,12 @@ export const NAV_ITEMS = [
   { label: "Biographies", href: "/blog/biography/" },
 ];
 
+export const FOOTER_MENU = [
+  { label: "About", href: "/blog/about" },
+  { label: "Contact", href: "/blog/contact/" },
+  { label: "Instagram", href: "https://instagram.com/alsalafiyyah" },
+];
+
 export const SCHOLAR_GROUPS = {
   group1: {
     chairman: [
