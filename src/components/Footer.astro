@@ -10,8 +10,8 @@ const currentYear = new Date().getFullYear();
     
     <div itemscope itemtype="https://schema.org/Organization" class="flex flex-col gap-4 max-w-sm w-full">
         <div class="flex items-center justify-between md:justify-start gap-4">
-            <!-- Logo Container -->
-            <a href="{SITE_URL}" class="flex-none hover:opacity-50 transition-opacity">
+            <!-- Logo Container (Fixed SITE_URL expression) -->
+            <a href={SITE_URL} class="flex-none hover:opacity-50 transition-opacity">
                 <Logo class="w-auto h-15 object-contain dark:invert transition-all duration-300" />
             </a>
 
@@ -24,16 +24,17 @@ const currentYear = new Date().getFullYear();
                 </svg>
             </button>
 
-        <a href="/ar/" class="text-black dark:text-white hover:opacity-50 transition-opacity">
-         <TranslateIcon class="w-auto h-15 object-contain dark:invert transition-all duration-300" />
-        </a>
+            <a href="/ar/" class="text-black dark:text-white hover:opacity-50 transition-opacity">
+             <TranslateIcon class="w-auto h-15 object-contain dark:invert transition-all duration-300" />
+            </a>
         </div>
 
         <div class="flex flex-col mt-2">
             <p>
                 &copy; {currentYear}
                 <span itemprop="name">{SITE_TITLE}</span>
-                <meta itemprop="url" content="{SITE_URL}">
+                <!-- Fixed SITE_URL expression for Schema meta tag -->
+                <meta itemprop="url" content={SITE_URL}>
                 <link itemprop="logo" href="">
             </p>
             <span class="text-zinc-600 text-[8px] tracking-[0.4em] mt-1">The Manhaj of the Salaf</span>
@@ -41,23 +42,16 @@ const currentYear = new Date().getFullYear();
     </div>
 
     <div class="flex flex-col sm:flex-row gap-12 md:gap-16 w-full md:w-auto">
-        
-        <!-- Column 2: External Link List -->
-        <div class="flex flex-col gap-3 min-w-[120px]">
-
-        </div>
-
-        <!-- Column 3: Site Internal Navigation -->
+        <!-- Site Internal Navigation -->
         <div class="flex flex-col gap-3 min-w-[140px]">
             <span class="text-gray-400 dark:text-zinc-600 text-[9px] tracking-[0.3em]">Navigation</span>
             <div class="flex flex-col gap-2 items-start">
-      {FOOTER_MENU.map((item) => (
-       <a itemprop="url" href={item.href} class="hover:line-through transition-all">
-        <span itemprop="name">{item.label}</span>
-        </a>
-      ))}
+                {FOOTER_MENU.map((item) => (
+                    <a itemprop="url" href={item.href} class="hover:line-through transition-all">
+                        <span itemprop="name">{item.label}</span>
+                    </a>
+                ))}
             </div>
         </div>
-
     </div>
 </footer>
