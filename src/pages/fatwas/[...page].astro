@@ -13,7 +13,7 @@ export const getStaticPaths = (async ({ paginate }) => {
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/fatwas/${cleanId}/`; // Fixed route prefix from /blog/fatwas/ to /fatwas/
+  return `/blog/fatwas/${cleanId}/`;
 };
 
 const { page } = Astro.props;
