@@ -11,7 +11,7 @@ export const NAV_ITEMS = [
   { label: "Fatwas", href: "/fatwas/" },
   { label: "Audios", href: "/audios/" },
   { label: "Videos", href: "/videos/" },
-  { label: "Biographies", href: "/biography/" },
+  { label: "Biographies", href: "/blog/biography/" },
 ];
 
 export const SCHOLAR_GROUPS = {
