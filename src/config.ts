@@ -8,6 +8,7 @@ export const POSTS_PER_PAGE = 2;
 export const SITE_URL = "https://alsalafiyyah.github.io/blog/";
 export const CATEGORY_URL = "https://alsalafiyyah.github.io/blog/category/";
 export const SEARCH_URL = "https://alsalafiyyah.github.io/blog/search/";
+export const BIOGRAPHY_URL = "https://alsalafiyyah.github.io/blog/biography/";
 
 // Navbar/Mobile Sidebar Menu
 export const NAV_ITEMS = [
