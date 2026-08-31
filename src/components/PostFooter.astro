@@ -124,7 +124,7 @@ const encodedUrl = encodeURIComponent(currentUrl);
   {category && category.length > 0 && (
     <div>
       <span class="text-gray-400 block mb-2 text-[10px] font-black uppercase tracking-widest">Classified under</span>
-      <div class="flex flex-wrap gap-2">
+      <div class="flex flex-wrap md:justify-end gap-2">
         {category.map((cat) => (
           <a href={`/fatwas/category/${cat}/`} class="border border-black dark:border-white px-2 py-1 text-[10px] font-black uppercase tracking-widest hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all">
             {cat}
