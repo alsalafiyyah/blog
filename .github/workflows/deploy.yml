@@ -16,9 +16,11 @@ jobs:
     steps:
       - name: Checkout your repository
         uses: actions/checkout@v4
+        
       - name: Install, build, and upload your site
         uses: withastro/action@v3
-        # If your Astro project is in a subfolder, specify 'path: your-subfolder'
+        with:
+          node-version: '22' # Forces GitHub Actions to use Node.js 22 (or higher)
 
   deploy:
     needs: build
