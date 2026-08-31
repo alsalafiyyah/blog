@@ -17,8 +17,10 @@ const { Content } = await render(post);
 <BaseLayout title={post.data.title}>
   <a href="/blog">← Back to all posts</a>
   <h1>{post.data.title}</h1>
-  <p><em>{post.data.date.toDateString()}</em></p>
-  <p><em>{post.data.hijri}</em></p>
+<p class="text-gray-500 text-sm">
+  {post.data.date.toISOString().split('T')[0]} 
+  {post.data.hijri && `(${post.data.hijri})`}
+</p>
   <hr />
   <Content />
 </BaseLayout>
