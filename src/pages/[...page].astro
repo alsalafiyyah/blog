@@ -48,15 +48,17 @@ const { page } = Astro.props;
     ))}
 
   <!-- Pagination controls -->
-  <div class="flex justify-between items-center mt-8">
+  <nav class="flex items-center justify-between border-t-4 border-black dark:border-white pt-12 mt-12 mb-24 transition-colors">
     {page.url.prev ? (
-      <a href={page.url.prev} class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Previous</a>
+      <a href={page.url.prev} class="text-sm font-black uppercase tracking-widest hover:line-through">← Previous</a>
     ) : <div />}
     
-    <span class="text-gray-600">Page {page.currentPage} of {page.lastPage}</span>
-    
+    <div class="text-sm font-black uppercase tracking-widest tabular-nums">
+     <span class="text-gray-600">Page {page.currentPage} of {page.lastPage}</span>
+    </div>
+
     {page.url.next ? (
-      <a href={page.url.next} class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Next</a>
+      <a href={page.url.next} class="text-sm font-black uppercase tracking-widest hover:line-through">Next →</a>
     ) : <div />}
-  </div>
+  </nav>
 </BaseLayout>
