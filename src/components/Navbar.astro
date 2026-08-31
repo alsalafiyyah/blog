@@ -39,6 +39,19 @@ import Logo from '../assets/logo.svg';
             </a>
         </div>
 
+        <div role="search" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" class="flex flex-1 justify-end">
+            <form itemprop="target" action="/search" method="get" class="relative flex items-center group">
+                <meta itemprop="urlTemplate" content="/search?q={search_term_string}"/>
+                <label for="search-input" class="cursor-pointer" dir="{{ site.site_elements.dir }}">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-3 md:w-3 opacity-40 group-focus-within:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </label>
+                <input itemprop="query-input" id="search-input" type="search" name="q" placeholder="Search" 
+                    class="bg-transparent border-b-2 border-black/30 md:border-gray-300 focus:border-red-500 dark:border-zinc-700 dark:focus:border-white outline-none transition-all duration-300 w-0 focus:w-36 ml-1 md:ml-4 md:w-28 md:focus:w-52 text-[10px] md:text-xs py-1.5 font-bold tracking-widest text-black dark:text-white">
+            </form>
+        </div>
+        
   </nav>
  </header>
 </div>
