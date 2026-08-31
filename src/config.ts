@@ -15,8 +15,8 @@ export const BIOGRAPHY_URL = "https://alsalafiyyah.github.io/blog/biography/";
 export const NAV_ITEMS = [
   { label: "Index", href: "/blog/" },
   { label: "Fatwas", href: "/blog/fatwas/" },
-  { label: "Audios", href: "/audios/" },
-  { label: "Videos", href: "/videos/" },
+  { label: "Audios", href: "/blog/audios/" },
+  { label: "Videos", href: "/blog/videos/" },
   { label: "Biographies", href: "/blog/biography/" },
 ];
 
