@@ -1,5 +1,6 @@
 ---
 import { SITE_TITLE, SITE_URL } from '../config';
+import Logo from '../assets/logo.svg';
 ---
 
 <div itemscope itemtype="https://schema.org/WebSite">
@@ -32,11 +33,7 @@ import { SITE_TITLE, SITE_URL } from '../config';
         <!-- Logo Section -->
         <div class="flex-none">
             <a itemprop="url" href={SITE_URL} class="flex items-center relative z-10">
-                <img 
-                    src="assets/logos/logo.svg" 
-                    alt="" 
-                    class="w-auto h-16 object-contain dark:invert transition-all duration-300"
-                >
+                <Logo class="w-auto h-16 object-contain dark:invert transition-all duration-300" />
                 <span itemprop="name" class="sr-only">{SITE_TITLE}</span>
             </a>
         </div>
