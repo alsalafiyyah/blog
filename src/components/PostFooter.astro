@@ -20,6 +20,9 @@ interface Props {
 
 const { date, hijri, scholar, source, group, muftis } = Astro.props;
 const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : null;
+const currentUrl = Astro.url.href;
+const encodedTitle = encodeURIComponent(post?.data?.title || 'Check out this post');
+const encodedUrl = encodeURIComponent(currentUrl);
 ---
 
 <footer class="mt-10 border-t-4 border-black dark:border-white pt-10 space-y-12 transition-colors">
@@ -93,29 +96,52 @@ const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : nul
         </div>
       </div>
     )}
-    
+
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-[10px] font-black uppercase tracking-widest">
-    <div class="space-y-6">
-      
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-[10px] font-black uppercase tracking-widest">
+  <div class="space-y-6">
+    <div>
+      <span class="text-gray-400 block mb-1">Published:</span>
+      <p class="leading-relaxed">
+        {hijri ? `${hijri} | ` : ''}{date}
+      </p>
+    </div>
+    {source && (
       <div>
-        <span class="text-gray-400 block mb-1">Published:</span>
+        <span class="text-gray-400 block mb-1">Source:</span>
         <p class="leading-relaxed">
-          {hijri ? `${hijri} | ` : ''}{date}
+          {source}
         </p>
       </div>
+    )}
+  </div>
 
-      {source && (
-        <div>
-          <span class="text-gray-400 block mb-1">Source:</span>
-          <p class="leading-relaxed">
-            {source}
-          </p>
-        </div>
-      )}
-
+  <div class="space-y-6 md:text-right">
+    <div>
+     <span class="text-gray-400 block mb-4">Spread:</span>
+     <div class="flex flex-wrap md:justify-end gap-x-6 gap-y-2">
+      <a href={`https://x.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`} target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-900 dark:text-white">
+        X / Twitter
+      </a>
+      <a href={`https://www.threads.net/intent/post?text=${encodedTitle}%20${encodedUrl}`} target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-900 dark:text-white">
+        Threads
+      </a>
+      <a href={`https://t.me/share/url?url=${encodedUrl}&text=${encodedTitle}`} target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-900 dark:text-white">
+        Telegram
+      </a>
+      <a href={`https://wa.me/?text=${encodedTitle}%20${encodedUrl}`} target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-900 dark:text-white">
+        WhatsApp
+      </a>
+      <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`} target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-900 dark:text-white">
+        Facebook
+      </a>
+      <a href={`https://vk.com/share.php?url=${encodedUrl}&title=${encodedTitle}`} target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-900 dark:text-white">
+        VK
+      </a>
+     </div>
     </div>
   </div>
+</div>
 
 </footer>
