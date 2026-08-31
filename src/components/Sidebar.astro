@@ -1,22 +1,25 @@
 ---
 import { getCollection } from 'astro:content';
 
-// Fetch recent posts to display in the sidebar
 const allPosts = (await getCollection('fatwas')).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+  (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
 );
-const recentPosts = allPosts.slice(0, 3); // Get top 3 recent posts
+const recentPosts = allPosts.slice(0, 3);
+
+const getCleanUrl = (id: string) => {
+  const cleanId = id.includes('/') ? id.split('/').pop() : id;
+  return `/fatwas/${cleanId}/`;
+};
 ---
 
 <aside itemscope itemtype="https://schema.org/WPSideBar" class="hidden md:block md:col-span-3 space-y-12 sticky top-12 self-start">
-
  <div class="border-t-2 border-black dark:border-white pt-4">
     <span class="text-[10px] font-black uppercase tracking-widest text-gray-400 block mb-6">Recent Fatwas</span>
     <div class="space-y-8">
-      {recentPosts.map((post) => (
-        <a href="{{ post.url | relative_url }}" class="group block">
+      {recentPosts.map((post: any) => (
+        <a href={getCleanUrl(post.id)} class="group block">
           <span class="text-[9px] font-bold uppercase tracking-widest opacity-40 group-hover:opacity-100 transition-opacity">
-            {post.data.date.toISOString().split('T')[0]} / {post.data.hijri && `(${post.data.hijri})`}
+            {post.data.date.toISOString().split('T')[0]} {post.data.hijri && `/ (${post.data.hijri})`}
           </span>
           <h4 class="text-sm font-black leading-tight uppercase mt-1 group-hover:bg-black group-hover:text-white dark:group-hover:bg-white dark:group-hover:text-black transition-all p-1 -ml-1">
             {post.data.title}
@@ -24,5 +27,5 @@ const recentPosts = allPosts.slice(0, 3); // Get top 3 recent posts
         </a>
       ))}
     </div>
-  </div>
+ </div>
 </aside>
