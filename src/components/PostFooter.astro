@@ -12,9 +12,9 @@ const { date, hijri, scholar, source } = Astro.props;
 <footer class="mt-10 border-t-4 footer-post border-black dark:border-white pt-10 space-y-12 transition-colors">
   <!-- Scholar & Source Box -->
 {(scholar || source) && (
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-gray-50 p-4 rounded-lg border border-gray-200">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
       <div class="space-y-1">
-        {scholar && <p><span class="font-semibold text-gray-900">Scholar:</span> {scholar}</p>}
+        {scholar && <p><span class="text-lg font-black italic serif hover:line-through">Scholar:</span> {scholar}</p>}
       </div>
       <div class="space-y-1">
         {source && <p><span class="font-semibold text-gray-900">Source:</span> {source}</p>}
