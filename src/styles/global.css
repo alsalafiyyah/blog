@@ -1,16 +1,12 @@
 @import "tailwindcss";
-
 @custom-variant dark (&:where(.dark, .dark *));
 
         body { font-family: 'Inter', sans-serif; }
         .serif { font-family: 'Playfair Display', serif; }
-        /* Custom scrollbar */
         ::-webkit-scrollbar { width: 5px; }
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: black; }
         .dark ::-webkit-scrollbar-thumb { background: white; }
-
-        /* --- Jekyll Markdown Custom Styles --- */
         h3, h4, h5, h6 {
             font-family: 'Inter', sans-serif;
             font-weight: 900;
@@ -49,7 +45,7 @@
             color: #ef4444 !important;
             text-decoration: underline;
         }
-/* The Footnote Container */
+
 .footnotes {
     margin-top: 2rem;
     padding-top: 2rem;
