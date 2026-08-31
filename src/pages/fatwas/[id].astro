@@ -1,0 +1,61 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostFooter from '../../components/PostFooter.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => {
+
+    const id = post.id.includes('/') ? post.id.split('/').pop() : post.id;
+    
+    return {
+      params: { id },
+      props: { post },
+    };
+  });
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const formattedDate = post.data.date.toISOString().split('T')[0];
+const mp3 = post.data.mp3;
+
+const getAudioSrc = (fileOrUrl: string) => {
+  if (fileOrUrl.startsWith('http://') || fileOrUrl.startsWith('https://')) {
+    return fileOrUrl;
+  }
+  return `/audio/${fileOrUrl}`;
+};
+---
+
+<BaseLayout title={post.data.title}>
+<div class="prose prose-xl prose-black">
+      <header class="mb-6 border-b-4 border-black dark:border-white">
+          <div class="max-w-full">
+           <h1 itemprop="headline" class="text-3xl md:text-[3vw] leading-[0.9] font-black uppercase tracking-tighter serif">
+              {post.data.title}
+           </h1>
+          </div>
+      </header>
+  <div class="post">
+    {mp3 && (
+      <div class="mb-10 mt-10">
+        <media-theme-tailwind-audio style="width:100%">
+          <audio slot="media" src={getAudioSrc(mp3)} playsinline></audio>
+        </media-theme-tailwind-audio>
+      </div>
+    )}
+   <Content />
+  </div>
+<PostFooter 
+  date={formattedDate} 
+  hijri={post.data.hijri} 
+  scholar={post.data.scholar} 
+  source={post.data.source} 
+  group={post.data.group}
+  muftis={post.data.muftis}
+  title={post.data.title} 
+/>
+</div>
+</BaseLayout>
