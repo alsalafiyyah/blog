@@ -15,7 +15,7 @@ const scholars = (await getCollection('biography')).sort((a, b) =>
     <ul class="space-y-4 pt-4">
       {scholars.map((scholar) => (
         <li class="border border-gray-200 p-5 rounded-lg bg-white shadow-sm hover:shadow transition-shadow">
-          <a href={`/biography/${scholar.id}/`} class="text-xl font-semibold text-blue-600 hover:underline">
+          <a href={`/blog/biography/${scholar.id}/`} class="text-xl font-semibold text-blue-600 hover:underline">
             {scholar.data.name}
           </a>
           {scholar.data.died && <p class="text-xs text-gray-400 mt-1">Passed away: {scholar.data.died}</p>}
