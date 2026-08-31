@@ -16,22 +16,22 @@ const { page } = Astro.props;
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>My Astro Blog</title>
+    <title>My Blog Archive</title>
   </head>
   <body>
-    <h1>Welcome to My Blog</h1>
+    <h1>All Posts</h1>
     
     <ul>
       {page.data.map((post) => (
         <li>
-          {/* Links correctly to username.github.io/repo-name/blog/post-id */}
+          {/* Links to username.github.io/blog/how-to-answer-... */}
           <a href={`/blog/${post.id}`}>{post.data.title}</a>
           <p>{post.data.description}</p>
         </li>
       ))}
     </ul>
 
-    {/* Pagination controls */}
+    <!-- Pagination controls -->
     <div class="pagination">
       {page.url.prev ? <a href={page.url.prev}>Previous</a> : null}
       <span>Page {page.currentPage} of {page.lastPage}</span>
