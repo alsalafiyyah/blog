@@ -13,6 +13,8 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+
+const formattedDate = post.data.date.toISOString().split('T')[0];
 ---
 
 <BaseLayout title={post.data.title}>
@@ -28,6 +30,6 @@ const { Content } = await render(post);
   <div class="post">
    <Content />
   </div>
-  <PostFooter date={post.data.date} hijri={post.data.hijri} />
+  <PostFooter date={formattedDate} hijri={post.data.hijri} />
 </div>
 </BaseLayout>
