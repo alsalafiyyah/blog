@@ -30,6 +30,6 @@ const formattedDate = post.data.date.toISOString().split('T')[0];
   <div class="post">
    <Content />
   </div>
-  <PostFooter date={formattedDate} hijri={post.data.hijri} />
+  <PostFooter date={formattedDate} hijri={post.data.hijri} scholar={post.data.scholar} />
 </div>
 </BaseLayout>
