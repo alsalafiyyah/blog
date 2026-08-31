@@ -11,7 +11,7 @@ const recentFatwas = allFatwas.filter((f: any) => f.id !== featuredFatwa?.id).sl
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/fatwas/${cleanId}/`;
+  return `/blog/fatwas/${cleanId}/`;
 };
 ---
 
