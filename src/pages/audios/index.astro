@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Fetch all fatwas and filter specifically for the 'muqolat' category
+const allFatwas = (await getCollection('fatwas')).sort(
+  (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const muqolatPosts = allFatwas.filter((post: any) => 
+  post.data.category && 
+  post.data.category.map((c: string) => c.toLowerCase()).includes('audios')
+);
+
+const getCleanUrl = (id: string) => {
+  const cleanId = id.includes('/') ? id.split('/').pop() : id;
+  return `/fatwas/${cleanId}/`;
+};
+---
+
+<BaseLayout title="Muqolat - Articles & Essays">
+  <div class="space-y-8">
+    <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
+      <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Page</span>
+      <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif">
+        Audio Fatwas
+      </h1>
+      <p class="text-xs text-gray-500 font-bold uppercase tracking-wider">
+        Found {muqolatPosts.length} article{muqolatPosts.length === 1 ? '' : 's'}
+      </p>
+    </header>
+
+    {muqolatPosts.length > 0 ? (
+      <ul class="divide-y divide-gray-100 dark:divide-zinc-800">
+        {muqolatPosts.map((post: any) => (
+          <li class="py-6 space-y-2">
+            <a href={getCleanUrl(post.id)} class="text-xl font-bold text-blue-600 dark:text-blue-400 hover:underline block">
+              {post.data.title}
+            </a>
+            {post.data.scholar && (
+              <p class="text-xs text-gray-400 font-serif italic">{post.data.scholar}</p>
+            )}
+            <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">{post.data.summary}</p>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="text-sm text-gray-500 italic">No audio fatwas found yet.</p>
+    )}
+
+    <div class="pt-4">
+      <a href="/" class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 hover:underline">
+        &larr; Back to Home
+      </a>
+    </div>
+  </div>
+</BaseLayout>
