@@ -1,6 +1,6 @@
 ---
 import { SITE_TITLE } from '../config';
-import "styles/global.css";
+import '../styles/global.css';
 
 interface Props {
   title?: string;
@@ -15,8 +15,8 @@ const { title = SITE_TITLE } = Astro.props;
     <title>{title}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body>
-    <main>
+  <body class="bg-gray-50 text-gray-900">
+    <main class="max-w-2xl mx-auto p-6">
       <slot />
     </main>
   </body>
