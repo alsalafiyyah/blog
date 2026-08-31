@@ -11,9 +11,12 @@ export async function getStaticPaths() {
   }));
 }
 
-const { post } = Astro.props;
-const { Content } = await render(post);
+interface Props {
+  mp3?: string;
+}
 
+const { post, mp3 } = Astro.props;
+const { Content } = await render(post);
 const formattedDate = post.data.date.toISOString().split('T')[0];
 ---
 
@@ -28,6 +31,15 @@ const formattedDate = post.data.date.toISOString().split('T')[0];
           </div>
       </header>
   <div class="post">
+{mp3 && (
+    <div class="bg-gray-50 border border-gray-200 p-6 rounded-lg space-y-3">
+      <h4 class="text-xs font-bold uppercase tracking-wider text-gray-900">Listen to Audio</h4>
+      <audio controls class="w-full">
+        <source src={`${mp3}`} type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  )}
    <Content />
   </div>
 <PostFooter 

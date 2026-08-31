@@ -6,6 +6,7 @@ scholar: "Shaykh Muhammad ibn al-Uthaymeen"
 source: "Fatawa Arkan al-Islam p.21, Question 4"
 summary: "Ahl al-Sunnah wal-Jama'ah are those who adhered strictly to the Sunnah, united upon it, and turned away from anything else—neither in matters of creed and knowledge, nor in matters of practice and rulings."
 ---
+
 ### Question: 
 
 Who are Ahl al-Sunnah wal-Jama'ah (The People of the Sunnah and the Muslim Community)?

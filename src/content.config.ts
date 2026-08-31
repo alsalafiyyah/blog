@@ -10,6 +10,7 @@ const blog = defineCollection({
     scholar: z.string().optional(),
     group: z.string().optional(),
     source: z.string().optional(),
+    mp3: z.string().optional(),
     summary: z.string(),
   }),
 });
