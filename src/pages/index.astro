@@ -16,7 +16,7 @@ const recentFatwas = allFatwas.filter((f) => f.id !== featuredFatwa?.id).slice(0
 // Helper function to extract a clean post URL
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/fatwas/${cleanId}/`;
+  return `/blog/fatwas/${cleanId}/`;
 };
 ---
 
