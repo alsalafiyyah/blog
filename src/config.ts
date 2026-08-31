@@ -6,4 +6,7 @@ export const SITE_URL = "https://alsalafiyyah.github.io/blog/";
 export const NAV_ITEMS = [
   { label: "Index", href: "/blog/" },
   { label: "Fatwas", href: "/fatwas/" },
+  { label: "Audios", href: "/audios/" },
+  { label: "Videos", href: "/videos/" },
+  { label: "Biographies", href: "/scholars/" },
 ];
