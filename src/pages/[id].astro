@@ -38,12 +38,11 @@ const getAudioSrc = (fileOrUrl: string) => {
       </header>
   <div class="post">
     {mp3 && (
-      <div class="bg-gray-50 border border-gray-200 p-6 rounded-lg space-y-3 mb-6">
-        <h4 class="text-xs font-bold uppercase tracking-wider text-gray-900">Listen to Audio</h4>
+      <div class="mb-6">
   <media-theme-tailwind-audio style="width:100%">
   <audio
     slot="media"
-    src="{getAudioSrc(mp3)}"
+    src={getAudioSrc(mp3)}
     playsinline
   ></audio>
 </media-theme-tailwind-audio>
