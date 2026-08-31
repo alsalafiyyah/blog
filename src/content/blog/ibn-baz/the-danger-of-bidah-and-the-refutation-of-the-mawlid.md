@@ -6,6 +6,10 @@ scholar: "Shaykh Abdul-Aziz ibn Baz"
 source: "Fatawa Arkan al-Islam p.21, Question 4"
 mp3: "https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/ta3lqat_%20jame3_kabeer/7743.mp3"
 summary: "Indeed, love for the Messenger ﷺ is not shown through innovations; love for the Messenger is demonstrated by following him, walking upon his path, magnifying his commands and prohibitions, calling to his Sunnah, and refuting those who deny it."
+muftis:
+  shaykh:
+  - name: Shaykh Abdul-Aziz ibn Baz
+    url: /biography/binbaz/
 ---
 
 People wrote about this when the innovation occurred. Among those who wrote about it was Abu al-Abbas Ibn Taymiyyah (may Allah have mercy on him), Shaykh al-Islam Ibn Taymiyyah, who discussed it in *Iqtida' al-Sirat al-Mustaqim*. He clarified that it is an innovation (bid'ah), and that people practicing it or claiming love for the Messenger does not make it a Sunnah nor justify it.
