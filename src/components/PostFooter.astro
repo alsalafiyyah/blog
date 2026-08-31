@@ -13,12 +13,13 @@ interface Props {
   source?: string;
   group?: string;
   mp3?: string;
+  title?: string;
   muftis?: {
     shaykh?: MuftiItem[];
   };
 }
 
-const { date, hijri, scholar, source, group, muftis } = Astro.props;
+const { date, hijri, scholar, source, group, muftis, title } = Astro.props;
 const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : null;
 const currentUrl = Astro.url.href;
 const encodedTitle = encodeURIComponent(title || 'Check out this post');
