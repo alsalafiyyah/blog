@@ -34,13 +34,14 @@ const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : nul
 
 {/* Individual Mufti/Shaykh */}
   {muftis?.shaykh && muftis.shaykh.length > 0 && (
-    <div class="bg-gray-50 border border-gray-200 p-6 rounded-lg space-y-2 text-xs font-bold uppercase tracking-wider">
-      <span class="text-gray-400 block mb-1">Answered By:</span>
-      {muftis.shaykh.map((item) => (
-        <a href={item.url}class="text-blue-600 hover:underline block text-sm font-semibold">
-          {item.name}
-        </a>
-      ))}
+    <div class="md:col-span-3 space-y-4">
+      <div class="flex flex-wrap gap-x-8 gap-y-2">
+        {muftis.shaykh.map((item) => (
+          <a href={item.url} class="text-lg font-black italic font-serif hover:line-through">
+            {item.name}
+          </a>
+        ))}
+      </div>
     </div>
   )}
 
