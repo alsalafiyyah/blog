@@ -32,7 +32,7 @@ import Logo from '../assets/logo.svg';
                 </label>
 
       {NAV_ITEMS.map((item) => (
-       <a itemprop="url" href={item.href} class="relative py-1 text-black dark:text-white hover:text-red-500 dark:hover:text-red-500 transition-colors after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-red-500 hover:after:w-full after:transition-all">
+       <a itemprop="url" href={item.href} class="text-4xl font-black lowercase tracking-tighter serif italic hover:line-through transition-all">
         <span itemprop="name">{item.label}</span>
         </a>
       ))}
