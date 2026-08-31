@@ -1,0 +1,67 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const allFatwas = await getCollection('fatwas');
+  
+  const uniqueCategories = [
+    ...new Set(
+      allFatwas.flatMap((fatwa) => fatwa.data.category || [])
+    ),
+  ];
+
+  return uniqueCategories.map((category) => {
+    const filteredFatwas = allFatwas
+      .filter((fatwa) => fatwa.data.category?.includes(category))
+      .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+    return {
+      params: { category },
+      props: { fatwas: filteredFatwas, categoryName: category },
+    };
+  });
+}
+
+const { category } = Astro.params;
+const { fatwas, categoryName } = Astro.props;
+
+const getCleanUrl = (id: string) => {
+  const cleanId = id.includes('/') ? id.split('/').pop() : id;
+  return `/fatwas/${cleanId}/`;
+};
+---
+
+<BaseLayout title={`Category: ${categoryName}`}>
+  <div class="space-y-8">
+    <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
+      <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Category Archive</span>
+      <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif capitalize">
+        {categoryName}
+      </h1>
+      <p class="text-xs text-gray-500 font-bold uppercase tracking-wider">
+        Found {fatwas.length} fatwa{fatwas.length === 1 ? '' : 's'}
+      </p>
+    </header>
+
+    <ul class="divide-y divide-gray-100 dark:divide-zinc-800">
+      {fatwas.map((fatwa) => (
+        <li class="py-6 space-y-2">
+          <a href={getCleanUrl(fatwa.id)} class="text-xl font-bold text-blue-600 dark:text-blue-400 hover:underline block">
+            {fatwa.data.title}
+          </a>
+          {fatwa.data.scholar && (
+            <p class="text-xs text-gray-400 font-serif italic">{fatwa.data.scholar}</p>
+          )}
+          <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">{fatwa.data.summary}</p>
+        </li>
+      ))}
+    </ul>
+
+    <div class="pt-4">
+      <a href="/fatwas/" class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 hover:underline">
+        &larr; Back to all fatwas
+      </a>
+    </div>
+  </div>
+</BaseLayout>
