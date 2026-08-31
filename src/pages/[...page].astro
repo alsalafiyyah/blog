@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import type { GetStaticPaths } from 'astro';
+import "../styles/global.css";
 
 export const getStaticPaths = (async ({ paginate }) => {
   const posts = (await getCollection('blog')).sort(
