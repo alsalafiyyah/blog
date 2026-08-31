@@ -40,12 +40,10 @@ const getAudioSrc = (fileOrUrl: string) => {
       </header>
   <div class="post">
     {mp3 && (
-      <div class="bg-gray-50 border border-gray-200 p-6 rounded-lg space-y-3 mb-6">
-        <h4 class="text-xs font-bold uppercase tracking-wider text-gray-900">Listen to Audio</h4>
-        <audio controls class="w-full">
-          <source src={getAudioSrc(mp3)} type="audio/mpeg" />
-          Your browser does not support the audio element.
-        </audio>
+      <div class="mb-10 mt-10">
+        <media-theme-tailwind-audio style="width:100%">
+          <audio slot="media" src={getAudioSrc(mp3)} playsinline></audio>
+        </media-theme-tailwind-audio>
       </div>
     )}
    <Content />
