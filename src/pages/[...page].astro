@@ -23,7 +23,7 @@ const { page } = Astro.props;
         <a href={`/blog/${post.id}/`} class="text-xl font-semibold text-blue-600 hover:underline">
           {post.data.title}
         </a>
-        <p class="text-gray-600 mt-2">{post.data.description}</p>
+        <p class="text-gray-600 mt-2">{post.data.summary}</p>
       </li>
     ))}
   </ul>

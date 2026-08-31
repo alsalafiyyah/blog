@@ -1,7 +1,8 @@
 ---
 title: "Who are Ahl al-Sunnah wal-Jama'ah?"
-date: 2026-06-01
-description: "Ahl al-Sunnah wal-Jama'ah are those who adhered strictly to the Sunnah, united upon it, and turned away from anything else—neither in matters of creed and knowledge, nor in matters of practice and rulings."
+date: 2026-08-08
+hijri: 1448-03-15
+summary: "Ahl al-Sunnah wal-Jama'ah are those who adhered strictly to the Sunnah, united upon it, and turned away from anything else—neither in matters of creed and knowledge, nor in matters of practice and rulings."
 ---
 ### Question: 
 
