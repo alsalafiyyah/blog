@@ -26,26 +26,34 @@ const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : nul
 
 {activeGroup && (
     <div class="bg-gray-50 border border-gray-200 p-6 rounded-lg space-y-4 text-xs font-bold uppercase tracking-wider">
-      <h4 class="text-gray-900 border-b pb-2">Committee Members ({group})</h4>
+      <h4 class="text-gray-900 border-b pb-2">Committee Structure ({group})</h4>
       
-      {activeGroup.chairman?.length > 0 && (
+      {activeGroup.chairman && activeGroup.chairman.length > 0 && (
         <div>
           <span class="text-gray-400 block mb-1">Chairman:</span>
-          {activeGroup.chairman.map((c: any) => <a href={c.url} class="text-blue-600 hover:underline block">{c.name}</a>)}
+          {activeGroup.chairman.map((c: any) => (
+            <a href={c.url} class="text-blue-600 hover:underline block">{c.name}</a>
+          ))}
         </div>
       )}
 
-      {activeGroup.deputy_chairman?.length > 0 && (
+      {activeGroup.deputy_chairman && activeGroup.deputy_chairman.length > 0 && (
         <div>
           <span class="text-gray-400 block mb-1">Deputy Chairman:</span>
-          {activeGroup.deputy_chairman.map((d: any) => <a href={d.url} class="text-blue-600 hover:underline block">{d.name}</a>)}
+          {activeGroup.deputy_chairman.map((d: any) => (
+            <a href={d.url} class="text-blue-600 hover:underline block">{d.name}</a>
+          ))}
         </div>
       )}
 
-      {activeGroup.members?.length > 0 && (
+      {activeGroup.members && activeGroup.members.length > 0 && (
         <div>
           <span class="text-gray-400 block mb-1">Members:</span>
-          {activeGroup.members.map((m: any) => <a href={m.url} class="text-blue-600 hover:underline block">{m.name}</a>)}
+          <div class="space-y-1">
+            {activeGroup.members.map((m: any) => (
+              <a href={m.url} class="text-blue-600 hover:underline block">{m.name}</a>
+            ))}
+          </div>
         </div>
       )}
     </div>
