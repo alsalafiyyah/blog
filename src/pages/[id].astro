@@ -5,16 +5,21 @@ import PostFooter from '../components/PostFooter.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
-  return posts.map((post) => ({
-    params: { id: post.id },
-    props: { post },
-  }));
+  return posts.map((post) => {
+    // This allows folder structures like "alifta/filename" while mapping to "filename" or keeping the path
+    // If you want clean flat URLs like /blog/allah-create.../ use:
+    const id = post.id.includes('/') ? post.id.split('/').pop() : post.id;
+    
+    return {
+      params: { id },
+      props: { post },
+    };
+  });
 }
 
 const { post } = Astro.props;
 const { Content } = await render(post);
 const formattedDate = post.data.date.toISOString().split('T')[0];
-
 const mp3 = post.data.mp3;
 
 const getAudioSrc = (fileOrUrl: string) => {
