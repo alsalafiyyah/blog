@@ -15,4 +15,15 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+// biography
+const biography = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.md', base: './src/content/biography' }),
+  schema: z.object({
+    name: z.string(),
+    title: z.string(),
+    died: z.string().optional(),
+    summary: z.string(),
+  }),
+});
+
+export const collections = { blog, biography };

@@ -1,0 +1,32 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const scholars = await getCollection('biography');
+  return scholars.map((scholar) => ({
+    params: { id: scholar.id },
+    props: { scholar },
+  }));
+}
+
+const { scholar } = Astro.props;
+const { Content } = await render(scholar);
+---
+
+<BaseLayout title={scholar.data.title}>
+  <article class="prose max-w-none">
+    <header class="mb-6 border-b border-gray-200 pb-4">
+      <h1 class="text-3xl font-bold mb-2">{scholar.data.name}</h1>
+      {scholar.data.died && <p class="text-sm text-gray-500">Passed away: {scholar.data.died}</p>}
+    </header>
+    
+    <Content />
+
+    <div class="mt-12 pt-6 border-t border-gray-200">
+      <a href="/biography/" class="text-sm font-medium text-blue-600 hover:underline">
+        &larr; Back to biographies list
+      </a>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const scholars = (await getCollection('biography')).sort((a, b) =>
+  a.data.name.localeCompare(b.data.name)
+);
+---
+
+<BaseLayout title="Biographies of Scholars">
+  <div class="space-y-6">
+    <h1 class="text-3xl font-bold">Biographies of Scholars</h1>
+    <p class="text-gray-600">Learn about the prominent scholars, committee members, and Imams of Sunnah.</p>
+    
+    <ul class="space-y-4 pt-4">
+      {scholars.map((scholar) => (
+        <li class="border border-gray-200 p-5 rounded-lg bg-white shadow-sm hover:shadow transition-shadow">
+          <a href={`/biography/${scholar.id}/`} class="text-xl font-semibold text-blue-600 hover:underline">
+            {scholar.data.name}
+          </a>
+          {scholar.data.died && <p class="text-xs text-gray-400 mt-1">Passed away: {scholar.data.died}</p>}
+          <p class="text-gray-600 mt-2 text-sm">{scholar.data.summary}</p>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>
