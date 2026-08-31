@@ -1,8 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import type { GetStaticPaths } from 'astro';
-import "../styles/global.css";
-import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import BaseLayout from '../layouts/BaseLayout.astro';
 
 export const getStaticPaths = (async ({ paginate }) => {
   const posts = (await getCollection('blog')).sort(
@@ -15,31 +14,30 @@ export const getStaticPaths = (async ({ paginate }) => {
 const { page } = Astro.props;
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{SITE_TITLE}</title>
-    <meta name="description" content={SITE_DESCRIPTION} />
-  </head>
-  <body>
-    <h1>All Posts</h1>
-    
-    <ul>
-      {page.data.map((post) => (
-        <li>
-          {/* Links to username.github.io/blog/how-to-answer-... */}
-          <a href={`/blog/${post.id}/`}>{post.data.title}</a>
-          <p>{post.data.description}</p>
-        </li>
-      ))}
-    </ul>
+<BaseLayout>
+  <h1 class="text-3xl font-bold mb-6">All Posts</h1>
+  
+  <ul class="space-y-6">
+    {page.data.map((post) => (
+      <li class="border-b pb-4">
+        <a href={`/blog/${post.id}/`} class="text-xl font-semibold text-blue-600 hover:underline">
+          {post.data.title}
+        </a>
+        <p class="text-gray-600 mt-2">{post.data.description}</p>
+      </li>
+    ))}
+  </ul>
 
-    <!-- Pagination controls -->
-    <div class="pagination">
-      {page.url.prev ? <a href={page.url.prev}>Previous</a> : null}
-      <span>Page {page.currentPage} of {page.lastPage}</span>
-      {page.url.next ? <a href={page.url.next}>Next</a> : null}
-    </div>
-  </body>
-</html>
+  <!-- Pagination controls -->
+  <div class="flex justify-between items-center mt-8">
+    {page.url.prev ? (
+      <a href={page.url.prev} class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Previous</a>
+    ) : <div />}
+    
+    <span class="text-gray-600">Page {page.currentPage} of {page.lastPage}</span>
+    
+    {page.url.next ? (
+      <a href={page.url.next} class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Next</a>
+    ) : <div />}
+  </div>
+</BaseLayout>
