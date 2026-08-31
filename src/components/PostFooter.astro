@@ -48,46 +48,46 @@ const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : nul
   )}
 
 {/* Group Muftis/Shaykhs */}
-  {activeGroup && (
-    <div>
-      <h4 class="text-[10px] font-black uppercase tracking-widest text-gray-400 border-b border-gray-100 dark:border-zinc-800 pb-2">
-        Scholars of the Permanent Committee for Scholarly Research and Ifta ({group})
-      </h4>
-      
-      {activeGroup.chairman && activeGroup.chairman.length > 0 && (
-        <div class="space-y-2">
-          <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Chairman</h5>
-          <div class="flex flex-col gap-2">
-            {activeGroup.chairman.map((c: any) => (
-              <a href={c.url} class="text-lg font-black italic font-serif hover:line-through">{c.name}</a>
-            ))}
+    {activeGroup && (
+      <div class="md:col-span-3 space-y-6">
+        <h4 class="text-[10px] font-black uppercase tracking-widest text-gray-400 border-b border-gray-100 dark:border-zinc-800 pb-2">
+          Scholars of the Permanent Committee for Scholarly Research and Ifta ({group})
+        </h4>
+        
+        {activeGroup.chairman && activeGroup.chairman.length > 0 && (
+          <div class="space-y-2">
+            <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Chairman</h5>
+            <div class="flex flex-col gap-2">
+              {activeGroup.chairman.map((c: any) => (
+                <a href={c.url} class="text-lg font-black italic font-serif hover:line-through">{c.name}</a>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
-      {activeGroup.deputy_chairman && activeGroup.deputy_chairman.length > 0 && (
-        <div class="space-y-2">
-          <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Deputy Chairman</h5>
-          <div class="flex flex-col gap-2">
-            {activeGroup.deputy_chairman.map((d: any) => (
-              <a href={d.url} class="text-lg font-black italic font-serif hover:line-through">{d.name}</a>
-            ))}
+        {activeGroup.deputy_chairman && activeGroup.deputy_chairman.length > 0 && (
+          <div class="space-y-2">
+            <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Deputy Chairman</h5>
+            <div class="flex flex-col gap-2">
+              {activeGroup.deputy_chairman.map((d: any) => (
+                <a href={d.url} class="text-lg font-black italic font-serif hover:line-through">{d.name}</a>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
-      {activeGroup.members && activeGroup.members.length > 0 && (
-        <div class="space-y-2">
-          <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Members</h5>
-          <div class="flex flex-col gap-2">
-            {activeGroup.members.map((m: any) => (
-              <a href={m.url} class="text-lg font-black italic font-serif hover:line-through">{m.name}</a>
-            ))}
+        {activeGroup.members && activeGroup.members.length > 0 && (
+          <div class="space-y-2">
+            <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Members</h5>
+            <div class="flex flex-col gap-2">
+              {activeGroup.members.map((m: any) => (
+                <a href={m.url} class="text-lg font-black italic font-serif hover:line-through">{m.name}</a>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
-    </div>
-  )}
+        )}
+      </div>
+    )}
 
   </div>
 
