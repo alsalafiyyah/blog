@@ -15,14 +15,15 @@ const { Content } = await render(post);
 ---
 
 <BaseLayout title={post.data.title}>
+
 <div class="prose prose-xl prose-black">
-  <a href="/blog">← Back to all posts</a>
-  {post.data.scholar && `${post.data.scholar}`}
-  <h1>{post.data.title}</h1>
-<p class="text-gray-500 text-sm">
-  {post.data.date.toISOString().split('T')[0]} 
-  {post.data.hijri && `(${post.data.hijri})`}
-</p>
+      <header class="py-6 border-b-4 border-black dark:border-white">
+          <div class="max-w-full">
+           <h1 itemprop="headline" class="text-3xl md:text-[3vw] leading-[0.9] font-black uppercase tracking-tighter serif mt-8">
+              {post.data.title}
+           </h1>
+          </div>
+      </header>
   <div class="post">
    <Content />
   </div>
