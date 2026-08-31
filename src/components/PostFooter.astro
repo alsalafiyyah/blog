@@ -119,14 +119,14 @@ const encodedUrl = encodeURIComponent(currentUrl);
   </div>
 
   <div class="space-y-6 md:text-right">
-         {/* Categories */}
+{/* Categories */}
           {post.data.category && post.data.category.length > 0 && (
             <div>
                 <span class="text-gray-400 block mb-2">Classified under</span>
                 <div class="flex flex-wrap gap-2">
                   {post.data.category.map((cat) => (
-                    <a href={`/blog/category/${cat}/`} class="border border-black dark:border-white px-2 py-1 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all">
-                        {{ category }}
+                    <a href={`/fatwas/category/${cat}/`} class="border border-black dark:border-white px-2 py-1 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all">
+                        {cat}
                     </a>
                    ))}
                 </div>
