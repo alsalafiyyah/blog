@@ -5,6 +5,8 @@ hijri: "1441-03-22"
 scholar: "Shaykh Muhammad ibn al-Uthaymeen"
 source: "Fatawa Nur ala Ad-Darb, Tape no. 175"
 featured: true
+category:
+  - creed
 mp3: "https://salafimanhaj.github.io/assets/ibn-uthaymeen/who-are-the-salaf.mp3"
 summary: "The Righteous Salaf are the Sahabah (Companions of the Prophet ﷺ) and those who followed their path among the Tabi’un (Successors), and the Atba’ al-Tabi’un (Successors of the Successors)."
 muftis:
