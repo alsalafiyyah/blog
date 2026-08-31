@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const posts = (await getCollection('blog')).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+  
+  return paginate(posts, { pageSize: 5 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Astro Blog</title>
+  </head>
+  <body>
+    <h1>Welcome to My Blog</h1>
+    
+    <ul>
+      {page.data.map((post) => (
+        <li>
+          {/* Links correctly to username.github.io/repo-name/blog/post-id */}
+          <a href={`/blog/${post.id}`}>{post.data.title}</a>
+          <p>{post.data.description}</p>
+        </li>
+      ))}
+    </ul>
+
+    {/* Pagination controls */}
+    <div class="pagination">
+      {page.url.prev ? <a href={page.url.prev}>Previous</a> : null}
+      <span>Page {page.currentPage} of {page.lastPage}</span>
+      {page.url.next ? <a href={page.url.next}>Next</a> : null}
+    </div>
+  </body>
+</html>
