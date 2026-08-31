@@ -1,0 +1,90 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Fetch all posts so the client script can filter them
+const allPosts = (await getCollection('blog')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+// Map posts to a lightweight JSON structure for the browser script
+const searchIndex = allPosts.map((post) => ({
+  id: post.id,
+  title: post.data.title,
+  summary: post.data.summary,
+  date: post.data.date.toISOString().split('T')[0],
+  // Include body/content or other fields if you want deeper searches
+}));
+---
+
+<BaseLayout title="Search Posts">
+  <div class="space-y-6">
+    <h1 class="text-3xl font-bold">Search Blog Posts</h1>
+
+    <!-- Search Input Form -->
+    <form method="GET" action="/search" class="flex gap-2">
+      <input 
+        type="text" 
+        name="q" 
+        id="search-input"
+        placeholder="Type keywords (e.g., grave, sunnah)..." 
+        class="flex-grow px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+      />
+      <button 
+        type="submit" 
+        class="px-6 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+      >
+        Search
+      </button>
+    </form>
+
+    <!-- Search Results Container -->
+    <div id="search-results" class="space-y-4 pt-4">
+      <p id="search-status" class="text-gray-500">Enter a keyword above to start searching.</p>
+      <ul id="results-list" class="space-y-4"></ul>
+    </div>
+  </div>
+
+  <!-- Client-side search logic -->
+  <define:vars={{ searchIndex }}>
+    const posts = searchIndex;
+  </define:vars>
+
+  <script>
+    // Access search index passed from Astro frontmatter
+    const posts = JSON.parse(document.currentScript.previousElementSibling.textContent || '[]');
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = (urlParams.get('q') || '').toLowerCase().trim();
+
+    const searchInput = document.getElementById('search-input') as HTMLInputElement;
+    const searchStatus = document.getElementById('search-status');
+    const resultsList = document.getElementById('results-list');
+
+    if (searchInput) {
+      searchInput.value = query;
+    }
+
+    if (query && resultsList && searchStatus) {
+      const filtered = posts.filter((post) => 
+        post.title.toLowerCase().includes(query) || 
+        post.summary.toLowerCase().includes(query)
+      );
+
+      if (filtered.length > 0) {
+        searchStatus.textContent = `Found ${filtered.length} result(s) for "${query}":`;
+        resultsList.innerHTML = filtered.map(post => `
+          <li class="border-b border-gray-200 pb-4">
+            <a href="/blog/${post.id}/" class="text-xl font-semibold text-blue-600 hover:underline">
+              ${post.title}
+            </a>
+            <p class="text-sm text-gray-500 mt-1">${post.date}</p>
+            <p class="text-gray-600 mt-2">${post.summary}</p>
+          </li>
+        `).join('');
+      } else {
+        searchStatus.textContent = `No matching posts found for "${query}".`;
+      }
+    }
+  </script>
+</BaseLayout>
