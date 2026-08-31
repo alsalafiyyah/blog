@@ -24,7 +24,7 @@ const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : nul
 
 <footer class="mt-10 border-t-4 border-black dark:border-white pt-10 space-y-12 transition-colors">
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
-  
+
   {scholar && (
     <div class="hidden grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
       <div class="space-y-1 text-lg font-black italic font-serif">
@@ -49,39 +49,43 @@ const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : nul
 
 {/* Group Muftis/Shaykhs */}
 {activeGroup && (
-    <div class="bg-gray-50 border border-gray-200 p-6 rounded-lg space-y-4 text-xs font-bold uppercase tracking-wider">
       <h4 class="text-gray-900 border-b pb-2">Committee Structure ({group})</h4>
       
       {activeGroup.chairman && activeGroup.chairman.length > 0 && (
-        <div>
-          <span class="text-gray-400 block mb-1">Chairman:</span>
+        <div class="space-y-4">
+          <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Chairman</h5>
+          <div class="flex flex-col gap-2">
           {activeGroup.chairman.map((c: any) => (
-            <a href={c.url} class="text-blue-600 hover:underline block">{c.name}</a>
+            <a href={c.url} class="text-lg font-black italic serif hover:line-through">{c.name}</a>
           ))}
+         </div>
         </div>
       )}
 
       {activeGroup.deputy_chairman && activeGroup.deputy_chairman.length > 0 && (
-        <div>
-          <span class="text-gray-400 block mb-1">Deputy Chairman:</span>
+        <div class="space-y-4">
+          <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Deputy Chairman</h5>
+          <div class="flex flex-col gap-2">
           {activeGroup.deputy_chairman.map((d: any) => (
-            <a href={d.url} class="text-blue-600 hover:underline block">{d.name}</a>
+            <a href={d.url} class="text-lg font-black italic serif hover:line-through">{d.name}</a>
           ))}
+         </div>
         </div>
       )}
 
       {activeGroup.members && activeGroup.members.length > 0 && (
-        <div>
-          <span class="text-gray-400 block mb-1">Members:</span>
-          <div class="space-y-1">
+        <div class="space-y-4">
+          <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Members</h5>
+          <div class="flex flex-col gap-2">
             {activeGroup.members.map((m: any) => (
-              <a href={m.url} class="text-blue-600 hover:underline block">{m.name}</a>
+              <a href={m.url} class="text-lg font-black italic serif hover:line-through">{m.name}</a>
             ))}
           </div>
         </div>
       )}
     </div>
   )}
+  
   </div>
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-[10px] font-black uppercase tracking-widest">
