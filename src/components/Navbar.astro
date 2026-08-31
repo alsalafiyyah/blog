@@ -1,15 +1,15 @@
 ---
-import { SITE_TITLE } from '../config';
+import { SITE_TITLE, SITE_URL } from '../config';
 ---
 
 <div itemscope itemtype="https://schema.org/WebSite">
- <meta itemprop="url" content="/blog"/>
+ <meta itemprop="url" content={SITE_URL}/>
  <header itemscope itemtype="https://schema.org/WPHeader" class="border-b border-gray-100">
   <nav itemscope itemtype="https://schema.org/SiteNavigationElement" aria-label="Main Navigation" class="flex justify-between items-center px-8 py-5 max-w-7xl mx-auto uppercase tracking-widest text-xs font-bold">
     <div class="flex flex-1 items-center gap-8">
 
       <div class="hidden md:flex gap-8">
-       <a itemprop="url" href="/" class="relative py-1 text-black dark:text-white hover:text-red-500 dark:hover:text-red-500 transition-colors after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-red-500 hover:after:w-full after:transition-all"><span itemprop="name">Index</span></a>
+       <a itemprop="url" href={SITE_URL} class="relative py-1 text-black dark:text-white hover:text-red-500 dark:hover:text-red-500 transition-colors after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-red-500 hover:after:w-full after:transition-all"><span itemprop="name">Index</span></a>
       </div>
 
         <div class="md:hidden">
@@ -25,13 +25,13 @@ import { SITE_TITLE } from '../config';
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </label>
-                <a itemprop="url" href="/" class="text-4xl font-black lowercase tracking-tighter serif italic hover:line-through transition-all"><span itemprop="name">Index</span></a>
+                <a itemprop="url" href={SITE_URL} class="text-4xl font-black lowercase tracking-tighter serif italic hover:line-through transition-all"><span itemprop="name">Index</span></a>
              </div>
         </div>
 
         <!-- Logo Section -->
         <div class="flex-none">
-            <a itemprop="url" href="/" class="flex items-center relative z-10">
+            <a itemprop="url" href={SITE_URL} class="flex items-center relative z-10">
                 <img 
                     src="assets/logos/logo.svg" 
                     alt="" 
