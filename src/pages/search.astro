@@ -73,7 +73,7 @@ const searchIndex = allPosts.map((post) => ({
         searchStatus.textContent = `Found ${filtered.length} result(s) for "${query}":`;
         resultsList.innerHTML = filtered.map((post: any) => `
           <li class="border-b border-gray-200 pb-4">
-            <a href="/blog/${post.id}/" class="text-xl font-semibold text-blue-600 hover:underline">
+            <a href="/blog/fatwas/${post.id}/" class="text-xl font-semibold text-blue-600 hover:underline">
               ${post.title}
             </a>
             <p class="text-sm text-gray-500 mt-1">${post.date}</p>
