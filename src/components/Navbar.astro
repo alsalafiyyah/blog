@@ -2,14 +2,46 @@
 import { SITE_TITLE } from '../config';
 ---
 
-<header class="border-b border-gray-200 mb-8 py-4">
-  <nav class="max-w-2xl mx-auto px-6 flex justify-between items-center">
-    <a href="/blog/" class="font-bold text-lg hover:text-blue-600">
-      {SITE_TITLE}
-    </a>
+<div itemscope itemtype="https://schema.org/WebSite">
+ <meta itemprop="url" content="/blog"/>
+ <header itemscope itemtype="https://schema.org/WPHeader" class="border-b border-gray-100">
+  <nav itemscope itemtype="https://schema.org/SiteNavigationElement" aria-label="Main Navigation" class="flex justify-between items-center px-8 py-5 max-w-7xl mx-auto uppercase tracking-widest text-xs font-bold">
+    <div class="flex flex-1 items-center gap-8">
 
-    <div class="space-x-4 text-sm font-medium text-gray-600">
-      <a href="/blog/" class="hover:text-blue-600">Home</a>
+      <div class="hidden md:flex gap-8">
+       <a itemprop="url" href="/" class="relative py-1 text-black dark:text-white hover:text-red-500 dark:hover:text-red-500 transition-colors after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-red-500 hover:after:w-full after:transition-all"><span itemprop="name">Index</span></a>
       </div>
+
+        <div class="md:hidden">
+            <input type="checkbox" id="menu-toggle" class="hidden peer">
+            <label for="menu-toggle" class="cursor-pointer z-40 relative">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+                </svg>
+            </label>
+            <div class="fixed inset-0 bg-black text-white z-50 flex flex-col justify-center items-center gap-8 transition-transform duration-500 translate-x-full peer-checked:translate-x-0">
+                <label for="menu-toggle" class="absolute top-12 left-8 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </label>
+                <a itemprop="url" href="/" class="text-4xl font-black lowercase tracking-tighter serif italic hover:line-through transition-all"><span itemprop="name">Index</span></a>
+             </div>
+        </div>
+
+        <!-- Logo Section -->
+        <div class="flex-none">
+            <a itemprop="url" href="/" class="flex items-center relative z-10">
+                <img 
+                    src="assets/logos/logo.svg" 
+                    alt="" 
+                    class="w-auto h-16 object-contain dark:invert transition-all duration-300"
+                >
+                <span itemprop="name" class="sr-only">{SITE_TITLE}</span>
+            </a>
+        </div>
+
+    </div>
   </nav>
-</header>
+ </header>
+</div>
