@@ -23,6 +23,7 @@ const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : nul
 ---
 
 <footer class="mt-10 border-t-4 border-black dark:border-white pt-10 space-y-12 transition-colors">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
   
   {scholar && (
     <div class="hidden grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
@@ -81,6 +82,7 @@ const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : nul
       )}
     </div>
   )}
+  </div>
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-[10px] font-black uppercase tracking-widest">
     <div class="space-y-6">
