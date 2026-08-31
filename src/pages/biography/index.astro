@@ -2,24 +2,34 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
-const scholars = (await getCollection('biography')).sort((a, b) =>
-  a.data.name.localeCompare(b.data.name)
+const scholars = (await getCollection('biography')).sort(
+  (a: any, b: any) => a.data.name.localeCompare(b.data.name)
 );
+
+const getCleanUrl = (id: string) => {
+  const cleanId = id.includes('/') ? id.split('/').pop() : id;
+  return `/biography/${cleanId}/`;
+};
 ---
 
-<BaseLayout title="Biographies of Scholars">
-  <div class="space-y-6">
-    <h1 class="text-3xl font-bold">Biographies of Scholars</h1>
-    <p class="text-gray-600">Learn about the prominent scholars, committee members, and Imams of Sunnah.</p>
-    
-    <ul class="space-y-4 pt-4">
-      {scholars.map((scholar) => (
-        <li class="border border-gray-200 p-5 rounded-lg bg-white shadow-sm hover:shadow transition-shadow">
-          <a href={`/blog/biography/${scholar.id}/`} class="text-xl font-semibold text-blue-600 hover:underline">
+<BaseLayout title="Scholars Biographies">
+  <div class="space-y-8">
+    <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
+      <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Directory</span>
+      <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif">Scholars Biographies</h1>
+    </header>
+
+    <ul class="divide-y divide-gray-100 dark:divide-zinc-800">
+      {/* Explicitly type 'scholar' as 'any' */}
+      {scholars.map((scholar: any) => (
+        <li class="py-6 space-y-2">
+          <a href={getCleanUrl(scholar.id)} class="text-xl font-bold text-blue-600 dark:text-blue-400 hover:underline block">
             {scholar.data.name}
           </a>
-          {scholar.data.died && <p class="text-xs text-gray-400 mt-1">Passed away: {scholar.data.died}</p>}
-          <p class="text-gray-600 mt-2 text-sm">{scholar.data.summary}</p>
+          {scholar.data.title && (
+            <p class="text-xs text-gray-400 font-serif italic">{scholar.data.title}</p>
+          )}
+          <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">{scholar.data.summary}</p>
         </li>
       ))}
     </ul>

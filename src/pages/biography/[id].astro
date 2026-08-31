@@ -4,29 +4,44 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
   const scholars = await getCollection('biography');
-  return scholars.map((scholar) => ({
-    params: { id: scholar.id },
-    props: { scholar },
-  }));
+  
+  // Explicitly type 'scholar' as 'any' to fix error 7006
+  return scholars.map((scholar: any) => {
+    const id = scholar.id.includes('/') ? scholar.id.split('/').pop() : scholar.id;
+    return {
+      params: { id },
+      props: { scholar },
+    };
+  });
 }
 
-const { scholar } = Astro.props;
+// Cast Astro.props as any to fix 'Property data does not exist on type never' errors
+const { scholar } = Astro.props as any;
 const { Content } = await render(scholar);
 ---
 
-<BaseLayout title={scholar.data.title}>
-  <article class="prose max-w-none">
-    <header class="mb-6 border-b border-gray-200 pb-4">
-      <h1 class="text-3xl font-bold mb-2">{scholar.data.name}</h1>
-      {scholar.data.died && <p class="text-sm text-gray-500">Passed away: {scholar.data.died}</p>}
+<BaseLayout title={scholar.data.name}>
+  <div class="space-y-8">
+    <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
+      <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif">
+        {scholar.data.name}
+      </h1>
+      {scholar.data.title && (
+        <p class="text-xs text-gray-400 font-serif italic">{scholar.data.title}</p>
+      )}
+      {scholar.data.died && (
+        <p class="text-xs font-bold uppercase tracking-wider text-gray-500">Passed away: {scholar.data.died}</p>
+      )}
     </header>
-    
-    <Content />
 
-    <div class="mt-12 pt-6 border-t border-gray-200">
-      <a href="/biography/" class="text-sm font-medium text-blue-600 hover:underline">
-        &larr; Back to biographies list
+    <div class="post prose prose-xl prose-black dark:prose-invert">
+      <Content />
+    </div>
+
+    <div class="pt-4">
+      <a href="/biography/" class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 hover:underline">
+        &larr; Back to biographies directory
       </a>
     </div>
-  </article>
+  </div>
 </BaseLayout>
