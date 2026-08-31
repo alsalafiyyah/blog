@@ -11,13 +11,12 @@ export async function getStaticPaths() {
   }));
 }
 
-interface Props {
-  mp3?: string;
-}
-
-const { post, mp3 } = Astro.props;
+const { post } = Astro.props;
 const { Content } = await render(post);
 const formattedDate = post.data.date.toISOString().split('T')[0];
+
+// Access mp3 from post.data instead of Astro.props
+const mp3 = post.data.mp3;
 
 const getAudioSrc = (fileOrUrl: string) => {
   if (fileOrUrl.startsWith('http://') || fileOrUrl.startsWith('https://')) {
@@ -25,7 +24,6 @@ const getAudioSrc = (fileOrUrl: string) => {
   }
   return `/audio/${fileOrUrl}`;
 };
-
 ---
 
 <BaseLayout title={post.data.title}>
@@ -39,15 +37,15 @@ const getAudioSrc = (fileOrUrl: string) => {
           </div>
       </header>
   <div class="post">
-{mp3 && (
-    <div class="bg-gray-50 border border-gray-200 p-6 rounded-lg space-y-3">
-      <h4 class="text-xs font-bold uppercase tracking-wider text-gray-900">Listen to Audio</h4>
-      <audio controls class="w-full">
-        <source src={getAudioSrc(mp3)} type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-  )}
+    {mp3 && (
+      <div class="bg-gray-50 border border-gray-200 p-6 rounded-lg space-y-3 mb-6">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-gray-900">Listen to Audio</h4>
+        <audio controls class="w-full">
+          <source src={getAudioSrc(mp3)} type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    )}
    <Content />
   </div>
 <PostFooter 
