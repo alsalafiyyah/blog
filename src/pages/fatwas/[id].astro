@@ -4,7 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostFooter from '../../components/PostFooter.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = await getCollection('fatwas');
   return posts.map((post) => {
 
     const id = post.id.includes('/') ? post.id.split('/').pop() : post.id;

@@ -12,7 +12,28 @@ const blog = defineCollection({
     source: z.string().optional(),
     mp3: z.string().optional(),
     summary: z.string(),
-    // Added muftis schema validation
+    muftis: z.object({
+      shaykh: z.array(
+        z.object({
+          name: z.string(),
+          url: z.string(),
+        })
+      ).optional(),
+    }).optional(),
+  }),
+});
+
+const fatwas = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.md', base: './src/content/fatwas' }),
+  schema: z.object({
+    title: z.string(),
+    date: z.coerce.date(),
+    hijri: z.string().optional(),
+    group: z.string().optional(),
+    scholar: z.string().optional(),
+    source: z.string().optional(),
+    mp3: z.string().optional(),
+    summary: z.string(),
     muftis: z.object({
       shaykh: z.array(
         z.object({

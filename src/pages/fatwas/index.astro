@@ -5,7 +5,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { POSTS_PER_PAGE } from '../../config';
 
 export const getStaticPaths = (async ({ paginate }) => {
-  const posts = (await getCollection('blog')).sort(
+  const posts = (await getCollection('fatwas')).sort(
     (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
   );
   
@@ -14,7 +14,7 @@ export const getStaticPaths = (async ({ paginate }) => {
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/blog/${cleanId}/`;
+  return `/fatwas/${cleanId}/`;
 };
 
 const { page } = Astro.props;
