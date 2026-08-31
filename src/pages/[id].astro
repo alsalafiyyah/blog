@@ -15,7 +15,6 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 const formattedDate = post.data.date.toISOString().split('T')[0];
 
-// Access mp3 from post.data instead of Astro.props
 const mp3 = post.data.mp3;
 
 const getAudioSrc = (fileOrUrl: string) => {
