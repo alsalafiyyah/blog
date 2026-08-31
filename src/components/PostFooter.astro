@@ -123,22 +123,22 @@ const encodedUrl = encodeURIComponent(currentUrl);
      <span class="text-gray-400 block mb-4">Spread:</span>
      <div class="flex flex-wrap md:justify-end gap-x-6 gap-y-2">
       <a href={`https://x.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`} target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-900 dark:text-white">
-        X / Twitter
+        <i class="fa-brands fa-x-twitter fa-xl"></i>
       </a>
       <a href={`https://www.threads.net/intent/post?text=${encodedTitle}%20${encodedUrl}`} target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-900 dark:text-white">
-        Threads
+        <i class="fa-brands fa-threads fa-xl"></i>
       </a>
       <a href={`https://t.me/share/url?url=${encodedUrl}&text=${encodedTitle}`} target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-900 dark:text-white">
-        Telegram
+        <i class="fa-brands fa-telegram fa-xl"></i>
       </a>
       <a href={`https://wa.me/?text=${encodedTitle}%20${encodedUrl}`} target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-900 dark:text-white">
-        WhatsApp
+        <i class="fa-brands fa-whatsapp fa-xl"></i>
       </a>
       <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`} target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-900 dark:text-white">
-        Facebook
+        <i class="fa-brands fa-facebook fa-xl"></i>
       </a>
       <a href={`https://vk.com/share.php?url=${encodedUrl}&title=${encodedTitle}`} target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-900 dark:text-white">
-        VK
+        <i class="fa-brands fa-vk fa-xl"></i>
       </a>
      </div>
     </div>
