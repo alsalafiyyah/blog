@@ -5,6 +5,10 @@ hijri: "1448-03-15"
 scholar: "Shaykh Muhammad ibn al-Uthaymeen"
 source: "Fatawa Arkan al-Islam p.165, Question 80"
 summary: "How do we respond to grave-worshippers who use the burial of the Prophet (peace be upon him) in the Prophet's Mosque as an argument?"
+muftis:
+  shaykh:
+  - name: "Shaykh Muhammad ibn al-Uthaymeen"
+    url: "/biography/ibn-uthaymeen/"
 ---
 
 ### Question: 

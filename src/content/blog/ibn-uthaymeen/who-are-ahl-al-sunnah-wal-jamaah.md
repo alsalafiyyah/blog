@@ -5,6 +5,10 @@ hijri: "1448-03-15"
 scholar: "Shaykh Muhammad ibn al-Uthaymeen"
 source: "Fatawa Arkan al-Islam p.21, Question 4"
 summary: "Ahl al-Sunnah wal-Jama'ah are those who adhered strictly to the Sunnah, united upon it, and turned away from anything else—neither in matters of creed and knowledge, nor in matters of practice and rulings."
+muftis:
+  shaykh:
+  - name: "Shaykh Muhammad ibn al-Uthaymeen"
+    url: "/biography/ibn-uthaymeen/"
 ---
 
 ### Question: 
