@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from '../layouts/Main.astro';
 
 // Fetch and sort all fatwas by date descending
 const allFatwas = (await getCollection('fatwas')).sort(
