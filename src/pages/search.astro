@@ -9,7 +9,7 @@ const allPosts = (await getCollection('blog')).sort(
 
 // Map posts to a lightweight JSON structure
 const searchIndex = allPosts.map((post) => ({
-  id: post.id,
+  id: post.id.includes('/') ? post.id.split('/').pop() : post.id,
   title: post.data.title,
   summary: post.data.summary,
   date: post.data.date.toISOString().split('T')[0],
