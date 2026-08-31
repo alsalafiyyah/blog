@@ -5,10 +5,8 @@ import PostFooter from '../../components/PostFooter.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('fatwas');
-  return posts.map((post) => {
-
+  return posts.map((post: any) => {
     const id = post.id.includes('/') ? post.id.split('/').pop() : post.id;
-    
     return {
       params: { id },
       props: { post },
@@ -16,7 +14,7 @@ export async function getStaticPaths() {
   });
 }
 
-const { post } = Astro.props;
+const { post } = Astro.props as any;
 const { Content } = await render(post);
 const formattedDate = post.data.date.toISOString().split('T')[0];
 const mp3 = post.data.mp3;
