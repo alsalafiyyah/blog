@@ -1,7 +1,7 @@
 ---
 title: "How to Answer Those Who Justify Grave-Worship Using the Prophet's Mosque"
 date: 2026-08-08
-hijri: 1448-03-15
+hijri: "1448-03-15"
 summary: "How do we respond to grave-worshippers who use the burial of the Prophet (peace be upon him) in the Prophet's Mosque as an argument?"
 ---
 
