@@ -21,7 +21,10 @@ interface Props {
 }
 
 const { date, hijri, scholar, source, group, muftis, title, category } = Astro.props;
-const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : null;
+
+// Fix: Cast SCHOLAR_GROUPS as any to allow dynamic string indexing
+const activeGroup = group && (SCHOLAR_GROUPS as any)[group] ? (SCHOLAR_GROUPS as any)[group] : null;
+
 const currentUrl = Astro.url.href;
 const encodedTitle = encodeURIComponent(title || 'Check out this post');
 const encodedUrl = encodeURIComponent(currentUrl);
