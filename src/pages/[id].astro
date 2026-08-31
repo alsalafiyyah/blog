@@ -48,12 +48,12 @@ const getAudioSrc = (fileOrUrl: string) => {
     )}
    <Content />
   </div>
-<PostFooter 
-  date={formattedDate} 
-  hijri={post.data.hijri} 
-  scholar={post.data.scholar} 
-  source={post.data.source} 
-  group={post.data.group}
-/>
+  <PostFooter
+    date={formattedDate}
+    hijri={post.data.hijri}
+    scholar={post.data.scholar}
+    source={post.data.source}
+    group={post.data.group}
+    muftis={post.data.muftis}
 </div>
 </BaseLayout>

@@ -1,16 +1,24 @@
 ---
 import { SCHOLAR_GROUPS } from '../config';
 
+interface MuftiItem {
+  name: string;
+  url: string;
+}
+
 interface Props {
   date: string;
   hijri?: string;
   scholar?: string;
   source?: string;
   group?: string;
+  mp3?: string;
+  muftis?: {
+    shaykh?: MuftiItem[];
+  };
 }
 
-const { date, hijri, scholar, source, group } = Astro.props;
-
+const { date, hijri, scholar, source, group, muftis } = Astro.props;
 const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : null;
 ---
 
@@ -24,6 +32,19 @@ const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : nul
     </div>
   )}
 
+{/* Individual Mufti/Shaykh */}
+  {muftis?.shaykh && muftis.shaykh.length > 0 && (
+    <div class="bg-gray-50 border border-gray-200 p-6 rounded-lg space-y-2 text-xs font-bold uppercase tracking-wider">
+      <span class="text-gray-400 block mb-1">Answered By:</span>
+      {muftis.shaykh.map((item) => (
+        <a href={item.url} class="text-blue-600 hover:underline block text-sm font-semibold">
+          {item.name}
+        </a>
+      ))}
+    </div>
+  )}
+
+{/* Group Muftis/Shaykhs */}
 {activeGroup && (
     <div class="bg-gray-50 border border-gray-200 p-6 rounded-lg space-y-4 text-xs font-bold uppercase tracking-wider">
       <h4 class="text-gray-900 border-b pb-2">Committee Structure ({group})</h4>
