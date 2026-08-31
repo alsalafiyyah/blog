@@ -5,7 +5,7 @@ export const SITE_URL = "https://alsalafiyyah.github.io/blog/";
 // Pagination
 export const POSTS_PER_PAGE = 2;
 
-// menu items
+// Navbar/Mobile Sidebar Menu
 export const NAV_ITEMS = [
   { label: "Index", href: "/blog/" },
   { label: "Fatwas", href: "/blog/fatwas/" },
@@ -14,12 +14,14 @@ export const NAV_ITEMS = [
   { label: "Biographies", href: "/blog/biography/" },
 ];
 
+// Bottom Footer Menu
 export const FOOTER_MENU = [
   { label: "About", href: "/blog/about" },
   { label: "Contact", href: "/blog/contact/" },
   { label: "Instagram", href: "https://instagram.com/alsalafiyyah" },
 ];
 
+// Alifta Scholars
 export const SCHOLAR_GROUPS = {
   group1: {
     chairman: [
