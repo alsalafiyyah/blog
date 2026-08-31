@@ -9,7 +9,7 @@ const allFatwas = (await getCollection('fatwas')).sort(
 
 const muqolatPosts = allFatwas.filter((post: any) => 
   post.data.category && 
-  post.data.category.map((c: string) => c.toLowerCase()).includes('audios')
+  post.data.category.map((c: string) => c.toLowerCase()).includes('muqolat')
 );
 
 const getCleanUrl = (id: string) => {
