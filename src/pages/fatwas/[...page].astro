@@ -6,22 +6,22 @@ import { POSTS_PER_PAGE } from '../../config';
 
 export const getStaticPaths = (async ({ paginate }) => {
   const posts = (await getCollection('fatwas')).sort(
-    (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+    (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
   );
-  
   return paginate(posts, { pageSize: POSTS_PER_PAGE });
 }) satisfies GetStaticPaths;
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/blog/fatwas/${cleanId}/`;
+  return `/fatwas/${cleanId}/`; // Fixed route prefix from /blog/fatwas/ to /fatwas/
 };
 
 const { page } = Astro.props;
+const posts = page.data as any[];
 ---
 
 <BaseLayout>
-    {page.data.map((post) => (
+    {posts.map((post: any) => (
     <div class="group block border-b border-black/10 dark:border-white/10 hover:border-black dark:hover:border-white transition-colors duration-300 py-8 first:pt-4 last:border-b-0">
         <a href={getCleanUrl(post.id)} class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 items-baseline w-full">
             
