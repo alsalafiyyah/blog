@@ -22,7 +22,9 @@ const { title = SITE_TITLE } = Astro.props;
     <main role="main" class="max-w-7xl mx-auto px-8">
       <section class="grid grid-cols-1 md:grid-cols-12 gap-12 py-24 items-start">
        <Sidebar />
-       <slot />
+       <article class="md:col-span-8 md:col-start-5 max-w-none">
+        <slot />
+       </article>
       </section>
     </main>
   </body>

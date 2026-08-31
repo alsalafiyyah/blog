@@ -16,7 +16,6 @@ const { page } = Astro.props;
 
 <BaseLayout>
     {page.data.map((post) => (
-    <article class="md:col-span-8 md:col-start-5 max-w-none">
     <div class="group block border-b border-black/10 dark:border-white/10 hover:border-black dark:hover:border-white transition-colors duration-300 py-8 first:pt-4 last:border-b-0">
         <a href={`/blog/${post.id}/`} class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 items-baseline w-full">
             
@@ -46,7 +45,6 @@ const { page } = Astro.props;
 
         </a>
       </div>
-    </article>
     ))}
 
   <!-- Pagination controls -->
