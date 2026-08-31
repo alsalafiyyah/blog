@@ -33,6 +33,7 @@ const fatwas = defineCollection({
     scholar: z.string().optional(),
     source: z.string().optional(),
     mp3: z.string().optional(),
+    featured: z.boolean().optional(),
     summary: z.string(),
     muftis: z.object({
       shaykh: z.array(
