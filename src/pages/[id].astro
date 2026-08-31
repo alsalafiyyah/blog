@@ -18,6 +18,14 @@ interface Props {
 const { post, mp3 } = Astro.props;
 const { Content } = await render(post);
 const formattedDate = post.data.date.toISOString().split('T')[0];
+
+const getAudioSrc = (fileOrUrl: string) => {
+  if (fileOrUrl.startsWith('http://') || fileOrUrl.startsWith('https://')) {
+    return fileOrUrl;
+  }
+  return `/audio/${fileOrUrl}`;
+};
+
 ---
 
 <BaseLayout title={post.data.title}>
@@ -35,7 +43,7 @@ const formattedDate = post.data.date.toISOString().split('T')[0];
     <div class="bg-gray-50 border border-gray-200 p-6 rounded-lg space-y-3">
       <h4 class="text-xs font-bold uppercase tracking-wider text-gray-900">Listen to Audio</h4>
       <audio controls class="w-full">
-        <source src={`${mp3}`} type="audio/mpeg" />
+        <source src={getAudioSrc(mp3)} type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </div>
