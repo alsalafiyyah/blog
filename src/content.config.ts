@@ -8,6 +8,7 @@ const blog = defineCollection({
     date: z.coerce.date(),
     hijri: z.string().optional(),
     scholar: z.string().optional(),
+    source: z.string().optional(),
     summary: z.string(),
   }),
 });
