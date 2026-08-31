@@ -49,9 +49,9 @@ const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : nul
 
 {/* Group Muftis/Shaykhs */}
   {activeGroup && (
-    <div class="md:col-span-3 space-y-6 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
+    <div>
       <h4 class="text-[10px] font-black uppercase tracking-widest text-gray-400 border-b border-gray-100 dark:border-zinc-800 pb-2">
-        Committee Structure ({group})
+        Scholars of the Permanent Committee for Scholarly Research and Ifta ({group})
       </h4>
       
       {activeGroup.chairman && activeGroup.chairman.length > 0 && (
@@ -88,7 +88,7 @@ const activeGroup = group && SCHOLAR_GROUPS[group] ? SCHOLAR_GROUPS[group] : nul
       )}
     </div>
   )}
-  
+
   </div>
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-[10px] font-black uppercase tracking-widest">
