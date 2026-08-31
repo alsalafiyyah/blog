@@ -4,17 +4,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
   const allFatwas = await getCollection('fatwas');
-  
   const uniqueCategories = [
     ...new Set(
-      allFatwas.flatMap((fatwa) => fatwa.data.category || [])
+      allFatwas.flatMap((fatwa: any) => fatwa.data.category || [])
     ),
   ];
 
   return uniqueCategories.map((category) => {
     const filteredFatwas = allFatwas
-      .filter((fatwa) => fatwa.data.category?.includes(category))
-      .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+      .filter((fatwa: any) => fatwa.data.category?.includes(category))
+      .sort((a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf());
 
     return {
       params: { category },
@@ -28,7 +27,7 @@ const { fatwas, categoryName } = Astro.props;
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/blog/fatwas/${cleanId}/`;
+  return `/fatwas/${cleanId}/`;
 };
 ---
 
@@ -45,7 +44,7 @@ const getCleanUrl = (id: string) => {
     </header>
 
     <ul class="divide-y divide-gray-100 dark:divide-zinc-800">
-      {fatwas.map((fatwa) => (
+      {fatwas.map((fatwa: any) => (
         <li class="py-6 space-y-2">
           <a href={getCleanUrl(fatwa.id)} class="text-xl font-bold text-blue-600 dark:text-blue-400 hover:underline block">
             {fatwa.data.title}
