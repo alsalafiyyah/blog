@@ -3,7 +3,7 @@
 
         body { font-family: 'Inter', sans-serif; }
         .serif { font-family: 'Playfair Display', serif; }
-        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar { width: 2px; }
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: black; }
         .dark ::-webkit-scrollbar-thumb { background: white; }
