@@ -9,7 +9,7 @@ interface Props {
 const { date, hijri, scholar, source } = Astro.props;
 ---
 
-<footer class="mt-12 pt-6 border-t border-gray-200 text-sm text-gray-600 space-y-4">
+<footer class="mt-10 border-t-4 footer-post border-black dark:border-white pt-10 space-y-12 transition-colors">
   <!-- Scholar & Source Box -->
   {(scholar || source) && (
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
