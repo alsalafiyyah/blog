@@ -17,7 +17,7 @@ const { Content } = await render(post);
 <BaseLayout title={post.data.title}>
   <a href="/blog">← Back to all posts</a>
   <h1>{post.data.title}</h1>
-  <p><em>{post.data.pubDate.toDateString()}</em></p>
+  <p><em>{post.data.date.toDateString()}</em></p>
   <hr />
   <Content />
 </BaseLayout>

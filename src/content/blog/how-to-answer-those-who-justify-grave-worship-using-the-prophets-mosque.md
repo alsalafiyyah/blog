@@ -1,6 +1,6 @@
 ---
 title: "How to Answer Those Who Justify Grave-Worship Using the Prophet's Mosque"
-pubDate: 2026-06-01
+date: 2026-06-01
 description: "How do we respond to grave-worshippers who use the burial of the Prophet (peace be upon him) in the Prophet's Mosque as an argument?"
 ---
 
