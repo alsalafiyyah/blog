@@ -8,7 +8,7 @@ export const POSTS_PER_PAGE = 2;
 // menu items
 export const NAV_ITEMS = [
   { label: "Index", href: "/blog/" },
-  { label: "Fatwas", href: "/fatwas/" },
+  { label: "Fatwas", href: "/blog/fatwas/" },
   { label: "Audios", href: "/audios/" },
   { label: "Videos", href: "/videos/" },
   { label: "Biographies", href: "/blog/biography/" },

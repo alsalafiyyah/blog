@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 // Fetch all posts so the client script can filter them
-const allPosts = (await getCollection('blog')).sort(
+const allPosts = (await getCollection('fatwas')).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
 );
 
@@ -18,7 +18,7 @@ const searchIndex = allPosts.map((post) => ({
 
 <BaseLayout title="Search Posts">
   <div class="space-y-6">
-    <h1 class="text-3xl font-bold">Search Blog Posts</h1>
+    <h1 class="text-3xl font-bold">Search Fatwas</h1>
 
     <!-- Search Input Form -->
     <form method="GET" action="/blog/search" class="flex gap-2">

@@ -55,4 +55,4 @@ const biography = defineCollection({
   }),
 });
 
-export const collections = { blog, biography };
+export const collections = { blog, fatwas, biography };

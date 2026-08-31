@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 
 // Fetch recent posts to display in the sidebar
-const allPosts = (await getCollection('blog')).sort(
+const allPosts = (await getCollection('fatwas')).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
 );
 const recentPosts = allPosts.slice(0, 3); // Get top 3 recent posts
