@@ -29,7 +29,7 @@ const { page } = Astro.props;
                 <!-- Scholar Name -->
                 <div class="text-[10px]">
                 <span class="text-zinc-400 uppercase dark:text-zinc-500 group-hover:text-black dark:group-hover:text-white transition-colors">
-                    
+                    {post.data.scholar && `Scholar: ${post.data.scholar}`}
                 </span>
                 </div>
 
@@ -54,7 +54,7 @@ const { page } = Astro.props;
     ) : <div />}
     
     <div class="text-sm font-black uppercase tracking-widest tabular-nums">
-     <span class="text-gray-600">Page {page.currentPage} of {page.lastPage}</span>
+     <span class="text-gray-600">{page.currentPage} / {page.lastPage}</span>
     </div>
 
     {page.url.next ? (
