@@ -10,9 +10,8 @@ const recentPosts = allPosts.slice(0, 3); // Get top 3 recent posts
 
 <aside itemscope itemtype="https://schema.org/WPSideBar" class="hidden md:block md:col-span-3 space-y-12 sticky top-12 self-start">
 
-  <!-- Recent Posts Widget -->
  <div class="border-t-2 border-black dark:border-white pt-4">
-    <h3 class="font-bold text-gray-900 mb-3">Recent Posts</h3>
+    <h3 class="font-bold text-gray-900 mb-3">Recent Fatwas</h3>
     <ul class="space-y-3 text-sm">
       {recentPosts.map((post) => (
         <a href="{{ post.url | relative_url }}" class="group block">
