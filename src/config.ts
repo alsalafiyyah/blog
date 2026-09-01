@@ -13,7 +13,6 @@ export const BIOGRAPHY_URL = "https://alsalafiyyah.github.io/blog/biography/";
 
 // Navbar/Mobile Sidebar Menu
 export const NAV_ITEMS = [
-  { label: "Index", href: "/blog/" },
   { label: "Fatwas", href: "/blog/fatwas/" },
   { label: "Audios", href: "/blog/audios/" },
   { label: "Videos", href: "/blog/videos/" },
