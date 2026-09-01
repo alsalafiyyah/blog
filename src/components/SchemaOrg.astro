@@ -1,0 +1,132 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION, NAV_ITEMS } from '../config';
+
+interface Props {
+  title?: string;
+  description?: string;
+  publishDate?: Date | string;
+  mp3?: string;
+  videoID?: string;
+}
+
+const {
+  title = SITE_TITLE,
+  description = SITE_DESCRIPTION,
+  publishDate,
+  mp3,
+  videoID,
+} = Astro.props;
+
+const siteUrl = Astro.site ? Astro.site.href.replace(/\/$/, '') : 'https://alsalafiyyah.github.io/blog/';
+const currentUrl = Astro.url.href;
+const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
+const hasDate = Boolean(publishDate);
+
+// Format date to ISO XML Schema if available
+const formattedDate = publishDate 
+  ? (typeof publishDate === 'string' ? publishDate : publishDate.toISOString()) 
+  : undefined;
+
+// Build Schema Graph array dynamically
+const schemaGraph: any[] = [
+  // 1. Main Article or WebPage
+  {
+    "@context": "https://schema.org",
+    "@type": hasDate ? "BlogPosting" : "WebPage",
+    "headline": title,
+    "description": description,
+    "url": currentUrl,
+    ...(formattedDate && { "datePublished": formattedDate }),
+    "publisher": {
+      "@type": "Organization",
+      "name": SITE_TITLE,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${siteUrl}/assets/logos/logo.svg`
+      }
+    }
+  },
+  // 2. BreadcrumbList
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": `${siteUrl}/`
+      },
+      ...(!isHome ? [{
+        "@type": "ListItem",
+        "position": 2,
+        "name": title,
+        "item": currentUrl
+      }] : [])
+    ]
+  }
+];
+
+// 3. WebSite with SearchAction (Home only)
+if (isHome) {
+  schemaGraph.push({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${siteUrl}/#website`,
+    "url": `${siteUrl}/`,
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${siteUrl}/search/?q={search_term_string}`
+      },
+      "query-input": "required name=search_term_string"
+    }
+  });
+}
+
+// 4. AudioObject (if mp3 exists)
+if (mp3) {
+  schemaGraph.push({
+    "@context": "https://schema.org",
+    "@type": "AudioObject",
+    "name": title,
+    "description": description,
+    "contentUrl": currentUrl,
+    ...(formattedDate && { "uploadDate": formattedDate }),
+    "encodingFormat": "audio/mpeg"
+  });
+}
+
+// 5. VideoObject (if videoID exists)
+if (videoID) {
+  schemaGraph.push({
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": title,
+    "description": description,
+    "thumbnailUrl": `https://img.youtube.com/vi/${videoID}/maxresdefault.jpg`,
+    ...(formattedDate && { "uploadDate": formattedDate }),
+    "embedUrl": `https://www.youtube.com/embed/${videoID}?modestbranding=1&rel=0`,
+    "author": {
+      "@type": "Person",
+      "name": SITE_TITLE
+    }
+  });
+}
+
+// 6. ItemList Navigation Menu
+schemaGraph.push({
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Navigation Menu",
+  "itemListElement": NAV_ITEMS.map((item, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": item.label,
+    "url": `${siteUrl}${item.href}`
+  }))
+});
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schemaGraph, null, 2)} />

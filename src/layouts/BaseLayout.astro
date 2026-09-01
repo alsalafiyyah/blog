@@ -4,6 +4,7 @@ import '../styles/global.css';
 import Navbar from '../components/Navbar.astro';
 import Sidebar from '../components/Sidebar.astro';
 import Footer from '../components/Footer.astro';
+import SchemaOrg from '../components/SchemaOrg.astro';
 
 interface Props {
   title?: string;
@@ -13,6 +14,8 @@ interface Props {
   ogType?: 'website' | 'article';
   prevUrl?: string;
   nextUrl?: string;
+  mp3?: string;
+  videoID?: string;
 }
 
 const {
@@ -23,6 +26,8 @@ const {
   ogType = 'website',
   prevUrl,
   nextUrl,
+  mp3,
+  videoID,
 } = Astro.props;
 
 const currentUrl = Astro.url.href;
@@ -68,6 +73,8 @@ const generator = Astro.generator;
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={new URL(image, Astro.site)} />
+
+  <SchemaOrg title={title} description={description} publishDate={publishDate} mp3={mp3} videoID={videoID} />
 
     <link 
       rel="stylesheet" 
