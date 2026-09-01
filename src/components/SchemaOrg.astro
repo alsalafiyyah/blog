@@ -17,7 +17,7 @@ const {
   videoID,
 } = Astro.props;
 
-const siteUrl = Astro.site ? Astro.site.href.replace(/\/$/, '') : 'https://yourusername.github.io';
+const siteUrl = Astro.site ? Astro.site.href.replace(/\/$/, '') : 'https://alsalafiyyah.github.io/blog';
 const currentUrl = Astro.url.href;
 const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
 const hasDate = Boolean(publishDate);
@@ -42,7 +42,7 @@ const schemaGraph: any[] = [
       "name": SITE_TITLE,
       "logo": {
         "@type": "ImageObject",
-        "url": `${siteUrl}/assets/logos/logo.svg`
+        "url": `${siteUrl}/assets/logo.svg`
       }
     }
   },
