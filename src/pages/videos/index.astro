@@ -10,7 +10,7 @@ const videoFatwas = allFatwas.filter((post: any) => post.data.videoID || post.da
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/fatwas/${cleanId}/`;
+  return `/blog/fatwas/${cleanId}/`;
 };
 ---
 
