@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { SITE_TITLE } from '../config';
+import { SITE_TITLE, SEARCH_PLACEHOLDER_TITLE, SEARCH_TITLE } from '../config';
 
 const allPosts = (await getCollection('fatwas')).sort(
   (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
@@ -17,11 +17,11 @@ const searchIndex = allPosts.map((post: any) => ({
 }));
 ---
 
-<BaseLayout title={`Search Fatwas - ${SITE_TITLE}`}>
+<BaseLayout title={`${SEARCH_TITLE}`} description={`Search the database of fatwas on ${SITE_TITLE}.`}>
   <div class="space-y-8">
     <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
       <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Database Search</span>
-      <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif">Search Fatwas</h1>
+      <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif">{SEARCH_TITLE}</h1>
     </header>
 
     {/* Search Input Form */}
@@ -30,14 +30,14 @@ const searchIndex = allPosts.map((post: any) => ({
         type="text" 
         name="q" 
         id="search-input"
-        placeholder="Type keywords (e.g., grave, sunnah, bidah)..." 
+        placeholder={SEARCH_PLACEHOLDER_TITLE}
         class="flex-grow px-4 py-3 border-2 border-black dark:border-white bg-transparent text-black dark:text-white font-medium text-sm focus:outline-none focus:bg-black focus:text-white dark:focus:bg-white dark:focus:text-black transition-all"
       />
       <button 
         type="submit" 
         class="px-6 py-3 border-2 border-black dark:border-white bg-black text-white dark:bg-white dark:text-black text-xs font-black uppercase tracking-widest hover:opacity-75 transition-opacity"
       >
-        Search
+        {SEARCH_TITLE}
       </button>
     </form>
 
