@@ -1,8 +1,10 @@
 export const SITE_TITLE = "Al-Salafiyyah";
 export const SITE_DESCRIPTION = "Sayings of the Salaf and Scholars of the Sunnah";
 
-// Settings 
+// Pagination Settings 
 export const POSTS_PER_PAGE = 5;
+
+// Index Widget Settings 
 export const RECENT_FATWAS_COUNT_INDEX = 5;
 
 // URLS settings
