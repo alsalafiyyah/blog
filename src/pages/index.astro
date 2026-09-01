@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { RECENT_FATWAS_COUNT_INDEX } from '../config';
+import { RECENT_FATWAS_COUNT_INDEX, RECENT_FATWAS_TITLE, VIEW_ALL_TITLE, SHOW_MORE_TITLE, READ_MORE_TITLE, SELECTED_FATWA_TITLE } from '../config';
 import BaseLayout from '../layouts/Main.astro';
 import imgImam from '../assets/img.webp';
 import bgIllustration from '../assets/illustration.jfif';
@@ -28,7 +28,7 @@ const getCleanUrl = (id: string) => {
         <div class="flex flex-col space-y-8">
             <div class="flex items-center gap-4 text-[10px] font-black uppercase tracking-[0.3em] text-gray-400 italic">
                 <span class="w-2 h-2 rounded-full bg-red-500 flex-shrink-0 mr-2.5"></span>
-                <span class="text-black dark:text-white">Selected Fatwa</span>
+                <span class="text-black dark:text-white">{SELECTED_FATWA_TITLE}</span>
             </div>
             <a href={getCleanUrl(featuredFatwa.id)} class="h2 text-6xl md:text-[5vw] lg:text-[4.5vw] font-bold font-black uppercase tracking-tighter leading-[0.85] serif">
                 <span class="hover:line-through transition-all">
@@ -43,7 +43,7 @@ const getCleanUrl = (id: string) => {
             </p>
             <div>
                 <a href={getCleanUrl(featuredFatwa.id)} class="inline-block bg-black text-white dark:bg-white dark:text-black px-12 py-5 font-black uppercase tracking-widest text-xs hover:scale-105 transition-transform">
-                    Read Full Fatwa →
+                    {READ_MORE_TITLE} →
                 </a>
             </div>
         </div>
@@ -98,7 +98,7 @@ const getCleanUrl = (id: string) => {
       
       <div class="pt-2">
           <button id="toggle-text-btn" class="text-[11px] font-black uppercase tracking-widest text-black dark:text-white border-b-2 border-black dark:border-white pb-0.5 hover:text-red-500 hover:border-red-500 transition-colors">
-              Show More ↓
+              {SHOW_MORE_TITLE} ↓
           </button>
       </div>
     </div>
@@ -124,9 +124,9 @@ const getCleanUrl = (id: string) => {
                 </div>
             )}
 
-            {/* Recent Fatwas List - Compacted Vertical Height */}
+            {/* Recent Fatwas List */}
             <div class="col-span-1 flex flex-col space-y-4 lg:col-span-1">
-              <div class="h3 text-xl font-black uppercase tracking-tight leading-none serif mb-8">Recent Fatwas</div>
+              <div class="h3 text-xl font-black uppercase tracking-tight leading-none serif mb-8">{RECENT_FATWAS_TITLE}</div>
               <div class="space-y-4 divide-y divide-gray-100 dark:divide-zinc-800">
                {recentFatwas.map((fatwa: any) => (
                 <div class="pt-4 first:pt-0 flex flex-col space-y-1">
@@ -144,8 +144,8 @@ const getCleanUrl = (id: string) => {
                   <div class="w-full flex h-0.5 bg-yellow-700 bg-opacity-10">
                       <div class="w-1/2 bg-red-500 h-full"></div>
                   </div>
-                  <a href="/fatwas/" class="font-sans text-xs uppercase font-bold pt-4 flex w-full items-center justify-between hover:text-red-500 transition-colors">
-                      <span>View All Fatwas</span>
+                  <a href="/blogfatwas/" class="font-sans text-xs uppercase font-bold pt-4 flex w-full items-center justify-between hover:text-red-500 transition-colors">
+                      <span>{VIEW_ALL_TITLE}</span>
                       <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 text-red-500">
                           <line x1="5" y1="12" x2="19" y2="12"></line>
                           <polyline points="12 5 19 12 12 19"></polyline>
