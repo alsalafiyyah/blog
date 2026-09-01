@@ -29,6 +29,7 @@ export const VIEW_FULL_TITLE = "Click to View Full Image";
 
 // Index Widget Settings 
 export const RECENT_FATWAS_COUNT_INDEX = 5;
+export const RECENT_FATWAS_COUNT_SIDEBAR = 5;
 
 // URLS settings
 export const SITE_URL = "https://alsalafiyyah.github.io/blog/";

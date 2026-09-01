@@ -1,10 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
+import { RECENT_FATWAS_TITLE, RECENT_FATWAS_COUNT_SIDEBAR } from '../config';
 
 const allPosts = (await getCollection('fatwas')).sort(
   (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
 );
-const recentPosts = allPosts.slice(0, 3);
+const recentPosts = allPosts.slice(0, RECENT_FATWAS_COUNT_SIDEBAR);
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
@@ -14,7 +15,7 @@ const getCleanUrl = (id: string) => {
 
 <aside itemscope itemtype="https://schema.org/WPSideBar" class="hidden md:block md:col-span-3 space-y-12 sticky top-12 self-start">
  <div class="border-t-2 border-black dark:border-white pt-4">
-    <span class="text-[10px] font-black uppercase tracking-widest text-gray-400 block mb-6">Recent Fatwas</span>
+    <span class="text-[10px] font-black uppercase tracking-widest text-gray-400 block mb-6">{RECENT_FATWAS_TITLE}</span>
     <div class="space-y-6">
       {recentPosts.map((post: any) => (
         <a href={getCleanUrl(post.id)} class="group block mb-0.5">
