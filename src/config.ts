@@ -58,6 +58,7 @@ export const FOOTER_MENU = [
   { label: "Instagram", href: "https://instagram.com/alsalafiyyah" },
 ];
 
+export const INDEX_FEATURED_TITLE = "The Truth Behind the Circulated Image of Imam Muhammad bin Abd al-Wahhab"
 export const INDEX_FEATURED_TEXT = `
 <p>The text in the provided image translates as follows:</p>
 <p>On the right side (False Claim): An alleged picture of the renewer Imam Muhammad ibn Abd al-Wahhab, 
