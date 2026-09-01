@@ -58,6 +58,20 @@ export const FOOTER_MENU = [
   { label: "Instagram", href: "https://instagram.com/alsalafiyyah" },
 ];
 
+export const INDEX_FEATURED_TEXT = `
+<p>The text in the provided image translates as follows:</p>
+<p>On the right side (False Claim): An alleged picture of the renewer Imam Muhammad ibn Abd al-Wahhab, 
+may Allah have mercy on him, is being circulated across social media platforms. The image shows 
+a person sitting on a chair, who they claim is Imam Muhammad ibn Saud, may Allah have mercy on him, 
+and another standing beside him, who they claim is Imam Muhammad ibn Abd al-Wahhab, may Allah have 
+mercy on him.</p>
+<p>On the left side (The Truth): This information is incorrect. The person sitting on the chair is Sheikh 
+Abdullah bin Isa bin Ali Al Khalifa, a son of the ruler of Bahrain, and not Imam Muhammad ibn Saud... 
+It is worth noting that the first photograph was taken in 1826, and the invention of photography was 
+announced on August 19, 1839.</p>
+Source: <a href="https://mujaddid.net/%d8%b5%d9%88%d8%b1%d8%a9-%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d9%85%d8%ac%d8%af%d8%af-%d9%85%d8%ad%d9%85%d8%af%d8%a8%d9%86-%d8%b9%d8%a8%d8%af%d8%a7%d9%84%d9%88%d9%87%d8%a7%d8%b8-%d8%a7/">صورة الإمام محمد بن عبدالوهاب الفوتوغرافية بين الكذب والحقيقة؟!</a>
+`;
+
 // Alifta Scholars
 export const SCHOLAR_GROUPS = {
   group1: {
