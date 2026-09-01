@@ -21,6 +21,7 @@ export const SEARCH_TITLE = "Search";
 export const SLOGAN_TITLE = "The Manhaj of the Salaf";
 export const READ_MORE_TITLE = "Read More";
 export const SHOW_MORE_TITLE = "Show More";
+export const SHOW_LESS_TITLE = "Show Less";
 export const VIEW_ALL_TITLE = "View All";
 export const SELECTED_FATWA_TITLE = "Selected Fatwa";
 
