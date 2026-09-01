@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { PAGE_MUQOLAT_TITLE } from '../../config';
 
 // Fetch all fatwas and filter specifically for the 'muqolat' category
 const allFatwas = (await getCollection('fatwas')).sort(
@@ -18,12 +19,12 @@ const getCleanUrl = (id: string) => {
 };
 ---
 
-<BaseLayout title="Muqolat - Articles">
+<BaseLayout title={`${PAGE_MUQOLAT_TITLE} - Articles`}>
   <div class="space-y-8">
     <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
       <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Page</span>
       <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif">
-        Muqolat
+        {PAGE_MUQOLAT_TITLE}
       </h1>
       <p class="text-xs text-gray-500 font-bold uppercase tracking-wider">
         Found {muqolatPosts.length} article{muqolatPosts.length === 1 ? '' : 's'}
@@ -45,13 +46,7 @@ const getCleanUrl = (id: string) => {
         ))}
       </ul>
     ) : (
-      <p class="text-sm text-gray-500 italic">No Muqolat/articles found yet.</p>
+      <p class="text-sm text-gray-500 italic">No {PAGE_MUQOLAT_TITLE} found yet.</p>
     )}
-
-    <div class="pt-4">
-      <a href="/" class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 hover:underline">
-        &larr; Back to Home
-      </a>
-    </div>
   </div>
 </BaseLayout>

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { PAGE_VIDEOS_TITLE } from '../../config';
 
 const allFatwas = (await getCollection('fatwas')).sort(
   (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
@@ -14,12 +15,12 @@ const getCleanUrl = (id: string) => {
 };
 ---
 
-<BaseLayout title="Video Archive - Islamic Knowledge">
+<BaseLayout title={`${PAGE_VIDEOS_TITLE} - Islamic Knowledge`}>
   <div class="space-y-8">
     <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
       <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Media Library</span>
       <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif">
-        Video Recordings
+        {PAGE_VIDEOS_TITLE}
       </h1>
       <p class="text-xs text-gray-500 font-bold uppercase tracking-wider">
         Found {videoFatwas.length} video recording{videoFatwas.length === 1 ? '' : 's'}
@@ -73,7 +74,7 @@ const getCleanUrl = (id: string) => {
         ))}
       </div>
     ) : (
-      <p class="text-sm text-gray-500 italic">No video recordings found yet.</p>
+      <p class="text-sm text-gray-500 italic">No {PAGE_VIDEOS_TITLE} found yet.</p>
     )}
 
     <div class="pt-4">
