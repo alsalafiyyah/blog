@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { SITE_TITLE } from '../../config';
+import { PAGE_AUDIOS_TITLE } from '../../config';
 
 const allFatwas = (await getCollection('fatwas')).sort(
   (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
@@ -15,7 +15,7 @@ const getCleanUrl = (id: string) => {
 };
 ---
 
-<BaseLayout title={`${SITE_TITLE}`}>
+<BaseLayout title={`${PAGE_AUDIOS_TITLE}`}>
   <div class="space-y-8">
     <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
       <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Media Library</span>
