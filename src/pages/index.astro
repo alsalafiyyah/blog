@@ -29,11 +29,11 @@ const getCleanUrl = (id: string) => {
                 <span class="w-2 h-2 rounded-full bg-red-500 flex-shrink-0 mr-2.5"></span>
                 <span class="text-black dark:text-white">Selected Fatwa</span>
             </div>
-            <h2 class="text-6xl md:text-[5vw] lg:text-[4.5vw] font-black uppercase tracking-tighter leading-[0.85] serif">
-                <a href={getCleanUrl(featuredFatwa.id)} class="hover:line-through transition-all">
+            <a href={getCleanUrl(featuredFatwa.id)} class="h2 text-6xl md:text-[5vw] lg:text-[4.5vw] font-black uppercase tracking-tighter leading-[0.85] serif">
+                <span class="hover:line-through transition-all">
                    {featuredFatwa.data.title}
-                </a>
-            </h2>
+                </span>
+            </a>
             <div class="flex items-center gap-6 text-[10px] font-black uppercase tracking-widest opacity-50">
                 <span>{featuredFatwa.data.hijri} / {featuredFatwa.data.date.toISOString().split('T')[0]}</span>
             </div>
