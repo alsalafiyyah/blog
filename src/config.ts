@@ -18,6 +18,8 @@ export const NAV_ITEMS = [
   { label: "Audios", href: "/blog/audios/" },
   { label: "Videos", href: "/blog/videos/" },
   { label: "Biographies", href: "/blog/biography/" },
+  { label: "Sermons", href: "/blog/sermon/" },
+  { label: "Muqolat", href: "/blog/muqolat/" },
 ];
 
 // Bottom Footer Menu
