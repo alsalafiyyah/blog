@@ -26,6 +26,9 @@ export const SHOW_LESS_TITLE = "Show Less";
 export const VIEW_ALL_TITLE = "View All";
 export const SELECTED_FATWA_TITLE = "Selected Fatwa";
 export const VIEW_FULL_TITLE = "Click to View Full Image";
+export const PAGE_404_TITLE = "Page Not Found";
+export const PAGE_404_HEADER = "Page Not Found";
+export const PAGE_404_TEXT = "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.";
 
 // Index Widget Settings 
 export const RECENT_FATWAS_COUNT_INDEX = 5;
