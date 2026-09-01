@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/Main.astro';
 import imgImam from '../assets/img.webp';
-import bgIllustration from '../assets/images/illustration.jfif';
+import bgIllustration from '../assets/illustration.jfif';
 
 const allFatwas = (await getCollection('fatwas')).sort(
   (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
