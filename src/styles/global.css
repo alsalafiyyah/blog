@@ -38,6 +38,8 @@ body { font-family: 'Inter', sans-serif; }
             color: #ef4444 !important;
             text-decoration: underline;
         }
+        .post ol { list-style-type: decimal !important; padding-bottom: 24px;list-style-position: inside;font-size: 1.125rem;line-height: 1.75;}
+        .post ul { list-style-type: circle !important;padding-bottom: 24px;list-style-position: inside;font-size: 1.125rem;line-height: 1.75;}
 .footnotes {
     margin-top: 2rem;
     padding-top: 2rem;
