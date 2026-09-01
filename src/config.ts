@@ -2,7 +2,7 @@ export const SITE_TITLE = "Fawaid";
 export const SITE_DESCRIPTION = "Sayings of the Salaf and Scholars of the Sunnah";
 
 // Pagination
-export const POSTS_PER_PAGE = 2;
+export const POSTS_PER_PAGE = 5;
 export const RECENT_FATWAS_COUNT_INDEX = 5;
 
 // URLS settings
