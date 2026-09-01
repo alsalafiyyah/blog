@@ -17,7 +17,7 @@ const getCleanUrl = (id: string) => {
     <span class="text-[10px] font-black uppercase tracking-widest text-gray-400 block mb-6">Recent Fatwas</span>
     <div class="space-y-1">
       {recentPosts.map((post: any) => (
-        <a href={getCleanUrl(post.id)} class="group block">
+        <a href={getCleanUrl(post.id)} class="group block mb-0.5">
           <span class="text-[9px] font-bold uppercase tracking-widest opacity-40 group-hover:opacity-100 transition-opacity">
             {post.data.date.toISOString().split('T')[0]} {post.data.hijri && `/ (${post.data.hijri})`}
           </span>
