@@ -34,6 +34,7 @@ const fatwas = defineCollection({
     source: z.string().optional(),
     mp3: z.string().optional(),
     featured: z.boolean().optional(),
+    featured_muqolat: z.boolean().optional(),
     category: z.array(z.string()).optional(),
     videoURL: z.string().optional(),
     videoID: z.string().optional(),
