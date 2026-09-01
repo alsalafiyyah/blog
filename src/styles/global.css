@@ -18,6 +18,14 @@ body { font-family: 'Inter', sans-serif; }
     text-decoration: underline;
 }
 
+        #question, #answer, .post h3, .post h2, .post h4, .page h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.25rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            font-weight: bold;
+        }
+        
 .footnotes {
     margin-top: 2rem;
     padding-top: 2rem;
