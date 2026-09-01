@@ -18,6 +18,7 @@ export const PREV_TITLE = "Previous";
 export const NAVIGATION_TITLE = "Navigation";
 export const RECENT_FATWAS_TITLE = "Recent Fatwas";
 export const SEARCH_TITLE = "Search";
+export const SEARCH_PLACEHOLDER_TITLE = "Search...";
 export const SLOGAN_TITLE = "The Manhaj of the Salaf";
 export const READ_MORE_TITLE = "Read More";
 export const SHOW_MORE_TITLE = "Show More";
