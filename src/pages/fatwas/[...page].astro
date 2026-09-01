@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import type { GetStaticPaths } from 'astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { POSTS_PER_PAGE, PAGE_FATWAS_TITLE } from '../../config';
+import { POSTS_PER_PAGE, PAGE_FATWAS_TITLE, NEXT_TITLE, PREV_TITLE } from '../../config';
 
 export const getStaticPaths = (async ({ paginate }) => {
   const posts = (await getCollection('fatwas')).sort(
@@ -55,7 +55,7 @@ const posts = page.data as any[];
   <!-- Pagination controls -->
   <nav class="flex items-center justify-between border-t-4 border-black dark:border-white pt-12 mt-12 mb-24 transition-colors">
     {page.url.prev ? (
-      <a href={page.url.prev} class="text-sm font-black uppercase tracking-widest hover:line-through">← Previous</a>
+      <a href={page.url.prev} class="text-sm font-black uppercase tracking-widest hover:line-through">← {PREV_TITLE}</a>
     ) : <div />}
     
     <div class="text-sm font-black uppercase tracking-widest tabular-nums">
@@ -63,7 +63,7 @@ const posts = page.data as any[];
     </div>
 
     {page.url.next ? (
-      <a href={page.url.next} class="text-sm font-black uppercase tracking-widest hover:line-through">Next →</a>
+      <a href={page.url.next} class="text-sm font-black uppercase tracking-widest hover:line-through">{NEXT_TITLE} →</a>
     ) : <div />}
   </nav>
 </BaseLayout>
