@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { RECENT_FATWAS_COUNT_INDEX, RECENT_FATWAS_TITLE, VIEW_ALL_TITLE, SHOW_MORE_TITLE, READ_MORE_TITLE, SELECTED_FATWA_TITLE } from '../config';
+import { RECENT_FATWAS_COUNT_INDEX, RECENT_FATWAS_TITLE, VIEW_ALL_TITLE, SHOW_MORE_TITLE, READ_MORE_TITLE, SELECTED_FATWA_TITLE, VIEW_FULL_TITLE } from '../config';
 import BaseLayout from '../layouts/Main.astro';
 import imgImam from '../assets/img.webp';
 import bgIllustration from '../assets/illustration.jfif';
@@ -60,7 +60,7 @@ const getCleanUrl = (id: string) => {
     <div class="relative group cursor-pointer w-full aspect-[4/3] max-h-52 bg-gray-50 dark:bg-zinc-900 border-b-2 border-black dark:border-white overflow-hidden" id="open-modal-btn">
       <img src={imgImam.src} alt="Circulated Image of Imam Muhammad bin Abd al-Wahhab" class="w-full h-full object-cover block">
        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white text-[10px] uppercase font-black tracking-widest pointer-events-none">
-           Click to View Full Image
+           {VIEW_FULL_TITLE}
        </div>
     </div>
 

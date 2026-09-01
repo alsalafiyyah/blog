@@ -25,6 +25,7 @@ export const SHOW_MORE_TITLE = "Show More";
 export const SHOW_LESS_TITLE = "Show Less";
 export const VIEW_ALL_TITLE = "View All";
 export const SELECTED_FATWA_TITLE = "Selected Fatwa";
+export const VIEW_FULL_TITLE = "Click to View Full Image";
 
 // Index Widget Settings 
 export const RECENT_FATWAS_COUNT_INDEX = 5;
