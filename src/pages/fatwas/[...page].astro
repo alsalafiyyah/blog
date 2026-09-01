@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import type { GetStaticPaths } from 'astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { POSTS_PER_PAGE } from '../../config';
+import { POSTS_PER_PAGE, PAGE_FATWAS_TITLE } from '../../config';
 
 export const getStaticPaths = (async ({ paginate }) => {
   const posts = (await getCollection('fatwas')).sort(
@@ -20,7 +20,7 @@ const { page } = Astro.props;
 const posts = page.data as any[];
 ---
 
-<BaseLayout>
+<BaseLayout title={`${PAGE_FATWAS_TITLE}`}>
     {posts.map((post: any) => (
     <div class="group block border-b border-black/10 dark:border-white/10 hover:border-black dark:hover:border-white transition-colors duration-300 py-8 first:pt-4 last:border-b-0">
         <a href={getCleanUrl(post.id)} class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 items-baseline w-full">

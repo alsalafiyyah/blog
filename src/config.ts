@@ -1,6 +1,7 @@
 export const SITE_TITLE = "Al-Salafiyyah";
 export const SITE_DESCRIPTION = "Sayings of the Salaf and Scholars of the Sunnah";
 export const PAGE_AUDIOS_TITLE = "Audio Fatwas";
+export const PAGE_FATWAS_TITLE = "Fatwas";
 export const PAGE_MUQOLAT_TITLE = "Muqolat";
 export const PAGE_VIDEOS_TITLE = "Video Fatwas";
 export const PAGE_SERMONS_TITLE = "Sermons";
