@@ -1,5 +1,5 @@
-const CACHE_NAME = 'islamic-blog-v1';
-const ASSETS_TO_CACHE = [
+const CACHE_NAME = 'islamic-blog-v2';
+const INITIAL_ASSETS = [
   '/',
   '/search/',
   '/audios/',
@@ -9,17 +9,23 @@ const ASSETS_TO_CACHE = [
   '/biography/'
 ];
 
-// Install Event - Caches core routes
+// Install Event - Cache initial assets safely one by one
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS_TO_CACHE);
+    caches.open(CACHE_NAME).then(async (cache) => {
+      for (const asset of INITIAL_ASSETS) {
+        try {
+          await cache.add(asset);
+        } catch (err) {
+          console.warn(`PWA: Failed to pre-cache ${asset}:`, err);
+        }
+      }
     })
   );
   self.skipWaiting();
 });
 
-// Activate Event - Clean up old caches
+// Activate Event - Clean up old cache versions
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
@@ -35,13 +41,28 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// Fetch Event - Serve from cache, fallback to network
+// Fetch Event - Stale-while-revalidate / Cache-first strategy
 self.addEventListener('fetch', (event) => {
+  // Only handle GET requests
+  if (event.request.method !== 'GET') return;
+
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
-      return cachedResponse || fetch(event.request).catch(() => {
-        // Optional: Provide a custom offline fallback page here if desired
+      const fetchPromise = fetch(event.request).then((networkResponse) => {
+        // If valid response, update the cache dynamically
+        if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+          const responseToCache = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache);
+          });
+        }
+        return networkResponse;
+      }).catch(() => {
+        // Network failed, return cached response if available
+        return cachedResponse;
       });
+
+      return cachedResponse || fetchPromise;
     })
   );
 });
