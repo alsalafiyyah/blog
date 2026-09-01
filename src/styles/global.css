@@ -25,7 +25,19 @@ body { font-family: 'Inter', sans-serif; }
             margin-bottom: 1.5rem;
             font-weight: bold;
         }
-        
+        .post p {
+            margin-bottom: 1.5rem;
+            font-size: 1.125rem;
+            line-height: 1.75;
+        }
+        .post a {
+            color: #ef4444 !important;
+            text-decoration: none;
+        }
+        .post a:hover {
+            color: #ef4444 !important;
+            text-decoration: underline;
+        }
 .footnotes {
     margin-top: 2rem;
     padding-top: 2rem;
