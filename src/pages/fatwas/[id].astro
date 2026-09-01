@@ -18,6 +18,8 @@ const { post } = Astro.props as any;
 const { Content } = await render(post);
 const formattedDate = post.data.date.toISOString().split('T')[0];
 const mp3 = post.data.mp3;
+const videoID = post.data.videoID;
+const videoURL = post.data.videoURL;
 
 const getAudioSrc = (fileOrUrl: string) => {
   if (fileOrUrl.startsWith('http://') || fileOrUrl.startsWith('https://')) {
@@ -42,6 +44,20 @@ const getAudioSrc = (fileOrUrl: string) => {
         <media-theme-tailwind-audio style="width:100%">
           <audio slot="media" src={getAudioSrc(mp3)} playsinline></audio>
         </media-theme-tailwind-audio>
+      </div>
+    )}
+{/* Video Widget / Embed */}
+    {videoID && (
+      <div class="mb-10 mt-10 space-y-2">
+        <div class="relative w-full aspect-video border-2 border-black dark:border-white overflow-hidden bg-black">
+          <iframe 
+            src={`https://www.youtube-nocookie.com/embed/${videoID}`} 
+            title={post.data.title}
+            class="absolute top-0 left-0 w-full h-full"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
     )}
    <Content />
