@@ -1,0 +1,67 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const allFatwas = (await getCollection('fatwas')).sort(
+  (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const sermonPosts = allFatwas.filter((post: any) => 
+  post.data.category && 
+  post.data.category.map((c: string) => c.toLowerCase()).includes('sermon')
+);
+
+const getCleanUrl = (id: string) => {
+  const cleanId = id.includes('/') ? id.split('/').pop() : id;
+  return `/blog/fatwas/${cleanId}/`;
+};
+---
+
+<BaseLayout title="Sermons - Khutbahs & Addresses">
+  <div class="space-y-8">
+    <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
+      <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Archive</span>
+      <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif">
+        Sermons
+      </h1>
+      <p class="text-xs text-gray-500 font-bold uppercase tracking-wider">
+        Found {sermonPosts.length} sermon{sermonPosts.length === 1 ? '' : 's'}
+      </p>
+    </header>
+
+    {sermonPosts.length > 0 ? (
+      <ul class="divide-y divide-gray-100 dark:divide-zinc-800">
+        {sermonPosts.map((post: any) => (
+          <li class="py-6 space-y-2">
+            <div class="flex items-center gap-2">
+              <span class="bg-black text-white dark:bg-white dark:text-black text-[9px] font-black uppercase tracking-widest px-2 py-0.5 rounded">
+                Sermon
+              </span>
+              <span class="text-xs text-gray-400 font-bold">
+                {post.data.date.toISOString().split('T')[0]}
+              </span>
+            </div>
+
+            <a href={getCleanUrl(post.id)} class="text-xl font-bold text-blue-600 dark:text-blue-400 hover:underline block">
+              {post.data.title}
+            </a>
+            
+            {post.data.scholar && (
+              <p class="text-xs text-gray-400 font-serif italic">{post.data.scholar}</p>
+            )}
+            
+            <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">{post.data.summary}</p>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="text-sm text-gray-500 italic">No sermons found yet.</p>
+    )}
+
+    <div class="pt-4">
+      <a href="/" class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 hover:underline">
+        &larr; Back to Home
+      </a>
+    </div>
+  </div>
+</BaseLayout>
