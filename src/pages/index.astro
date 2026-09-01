@@ -7,6 +7,7 @@ const allFatwas = (await getCollection('fatwas')).sort(
 );
 
 const featuredFatwa = allFatwas.find((f: any) => f.data.featured) || allFatwas[0];
+const featuredMuqolat = allFatwas.find((f: any) => f.data.featured_muqolat) || allFatwas[0];
 const recentFatwas = allFatwas.filter((f: any) => f.id !== featuredFatwa?.id).slice(0, 5);
 
 const getCleanUrl = (id: string) => {
@@ -99,20 +100,23 @@ const getCleanUrl = (id: string) => {
           </div>
         </div>
 
+    {/* Featured Muqolat Widget */}
+    {featuredMuqolat && (
         <div class="col-span-1 flex flex-col space-y-6 lg:col-span-1">
           <div class="relative bg-cover bg-no-repeat bg-center flex flex-col justify-end min-h-[450px] overflow-hidden" style="background-image:url('https://alsalafiyyah.github.io/assets/images/illustration.jfif')">
            <span class="text-xs font-sans font-bold text-white absolute left-6 top-6 pb-2.5 border-b-2 border-red-500 z-10">Muqolat</span>
            <div class="flex flex-col items-start justify-end text-left pt-32 px-8 pb-8 bg-gradient-to-t from-black/90 via-black/40 to-transparent w-full">
             <h3 class="flex items-center font-sans font-bold text-xs text-white mb-3">
               <span class="w-2 h-2 rounded-full bg-red-500 flex-shrink-0 mr-2.5"></span>
-              Date
+               {featuredMuqolat.data.hijri} / {featuredMuqolat.data.date.toISOString().split('T')[0]}
             </h3>
-            <a class="text-white text-2xl font-bold hover:underline leading-snug">
-              
+            <a href={getCleanUrl(featuredMuqolat.id)} class="text-white text-2xl font-bold hover:underline leading-snug">
+              {featuredMuqolat.data.title}
             </a>
            </div>
           </div>
         </div>
+        )}
 
         {/* Recent Fatwas List */}
         <div class="col-span-1 flex flex-col space-y-6 lg:col-span-1">
