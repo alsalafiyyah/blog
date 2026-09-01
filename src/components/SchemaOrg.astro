@@ -17,7 +17,7 @@ const {
   videoID,
 } = Astro.props;
 
-const siteUrl = Astro.site ? Astro.site.href.replace(/\/$/, '') : 'https://alsalafiyyah.github.io/blog/';
+const siteUrl = Astro.site ? Astro.site.href.replace(/\/$/, '') : 'https://yourusername.github.io';
 const currentUrl = Astro.url.href;
 const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
 const hasDate = Boolean(publishDate);

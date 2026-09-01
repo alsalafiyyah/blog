@@ -29,7 +29,13 @@ const getAudioSrc = (fileOrUrl: string) => {
 };
 ---
 
-<BaseLayout title={post.data.title}>
+<BaseLayout title={post.data.title} 
+  description={post.data.summary} 
+  publishDate={formattedDate} 
+  ogType="article" 
+  mp3={mp3} 
+  videoID={videoID}
+>
 <div class="prose prose-xl prose-black">
       <header class="mb-6 border-b-4 border-black dark:border-white">
           <div class="max-w-full">
