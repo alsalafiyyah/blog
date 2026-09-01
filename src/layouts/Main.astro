@@ -3,6 +3,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 import '../styles/global.css';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+import SchemaOrg from '../components/SchemaOrg.astro';
 
 interface Props {
   title?: string;
@@ -86,7 +87,7 @@ const generator = Astro.generator;
       document.documentElement.classList.remove('dark');
     }
   </script>
-
+<SchemaOrg title={title} description={description} publishDate={publishDate} mp3={mp3} videoID={videoID} />
 </head>
   <body itemscope itemtype="https://schema.org/WebPage" class="bg-white dark:bg-zinc-950 dark:text-zinc-100 text-black antialiased selection:bg-black selection:text-white dark:selection:bg-white dark:selection:text-black transition-colors duration-300">
     <Navbar />
