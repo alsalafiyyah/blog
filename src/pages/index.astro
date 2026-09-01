@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { RECENT_FATWAS_COUNT_INDEX, RECENT_FATWAS_TITLE, VIEW_ALL_TITLE, SHOW_MORE_TITLE, READ_MORE_TITLE, SELECTED_FATWA_TITLE, VIEW_FULL_TITLE, PAGE_MUQOLAT_TITLE } from '../config';
+import { SITE_TITLE, RECENT_FATWAS_COUNT_INDEX, RECENT_FATWAS_TITLE, VIEW_ALL_TITLE, SHOW_MORE_TITLE, READ_MORE_TITLE, SELECTED_FATWA_TITLE, VIEW_FULL_TITLE, PAGE_MUQOLAT_TITLE } from '../config';
 import BaseLayout from '../layouts/Main.astro';
 import imgImam from '../assets/img.webp';
 import bgIllustration from '../assets/illustration.jfif';
@@ -19,7 +19,7 @@ const getCleanUrl = (id: string) => {
 };
 ---
 
-<BaseLayout title="Authentic Islamic Knowledge">
+<BaseLayout title="{SITE_TITLE}">
   <div class="space-y-12">
 
     {/* Featured Fatwa Widget */}
