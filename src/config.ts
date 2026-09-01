@@ -3,6 +3,7 @@ export const SITE_DESCRIPTION = "Sayings of the Salaf and Scholars of the Sunnah
 
 // Pagination
 export const POSTS_PER_PAGE = 2;
+export const RECENT_FATWAS_COUNT_INDEX = 2;
 
 // URLS settings
 export const SITE_URL = "https://alsalafiyyah.github.io/blog/";
