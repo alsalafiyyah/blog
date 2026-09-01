@@ -8,36 +8,7 @@ body { font-family: 'Inter', sans-serif; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: black; }
 .dark ::-webkit-scrollbar-thumb { background: white; }
-h3, h4, h5, h6 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: -0.05em;
-    line-height: 0.9;
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
-}
 
-h1 { font-size: 4rem; text-transform: none; font-family: 'Playfair Display', serif; }
-h2 { font-size: 3rem; padding-bottom: 0.5rem; font-weight: 900; }
-
-#question, #answer, .post h3, .post h2, .post h4, .page h3 {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.25rem;
-    line-height: 1.8;
-    margin-bottom: 1.5rem;
-    font-weight: bold;
-}
-
-hr { border: none; border-top: 0px solid black; margin: 4rem 0; }
-
-article ol { list-style-type: decimal !important; padding-bottom: 24px;list-style-position: inside;font-size: 1.125rem;line-height: 1.75;}
-article ul { list-style-type: circle !important;padding-bottom: 24px;list-style-position: inside;font-size: 1.125rem;line-height: 1.75;}
-article p {
-    margin-bottom: 1.5rem;
-    font-size: 1.125rem;
-    line-height: 1.75;
-}
 .post a {
     color: #ef4444 !important;
     text-decoration: none;
