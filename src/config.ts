@@ -10,6 +10,20 @@ export const PAGE_BIOGRAPHY_TITLE = "Scholars' Biographies";
 // Pagination Settings 
 export const POSTS_PER_PAGE = 5;
 
+// Site Elements
+export const SITE_LOGO = "/logo.svg";
+export const SITE_FAVICON = "/favicon.ico";
+export const NEXT_TITLE = "Next";
+export const PREV_TITLE = "Previous";
+export const NAVIGATION_TITLE = "Navigation";
+export const RECENT_FATWAS_TITLE = "Recent Fatwas";
+export const SEARCH_TITLE = "Search";
+export const SLOGAN_TITLE = "The Manhaj of the Salaf";
+export const READ_MORE_TITLE = "Read More";
+export const SHOW_MORE_TITLE = "Show More";
+export const VIEW_ALL_TITLE = "View All";
+export const SELECTED_FATWA_TITLE = "Selected Fatwa";
+
 // Index Widget Settings 
 export const RECENT_FATWAS_COUNT_INDEX = 5;
 
