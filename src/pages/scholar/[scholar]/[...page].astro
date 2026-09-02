@@ -40,7 +40,7 @@ export async function getStaticPaths({ paginate }: any) {
     return paginate(filteredPosts, {
       params: { scholar: scholarSlug },
       props: { scholarName: originalName },
-      pageSize: SCHOLAR_PER_PAGE || 10, // Uses your config value with a safe fallback
+      pageSize: SCHOLAR_PER_PAGE || 10,
     });
   });
 }
