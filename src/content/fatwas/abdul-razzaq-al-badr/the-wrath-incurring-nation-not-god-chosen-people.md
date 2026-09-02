@@ -2,7 +2,7 @@
 title: "The Wrath-Incurring Nation, Not God's Chosen People"
 date: 2026-08-01
 hijri: "1448-02-18"
-scholar: "Shaykh Abdul-Razzaq al-Badr"
+scholar: "abdul-razzaq-al-badr"
 featured_muqolat: true
 category:
   - muqolat
