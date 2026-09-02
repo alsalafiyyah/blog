@@ -6,7 +6,7 @@ scholar: alifta
 title: "True Respect for the Prophet Lies in Following His Shariah"
 source: "Fatawa Al-Lajnah Al-Da’imah, Fatwa no.3257, Question 1"
 summary: "Celebrating the birthday of the Prophet ﷺ is considered an innovation in the religion."
-tags: [mawlid, bidah]
+category: [mawlid, bidah]
 group: "group1"
 ---
 
