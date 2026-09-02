@@ -1,0 +1,74 @@
+---
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths, Page } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { PAGE_MUQOLAT_TITLE, POSTS_PER_PAGE, NEXT_TITLE, PREV_TITLE } from '../../config';
+
+export const getStaticPaths = (async ({ paginate }: any) => {
+  const allFatwas = (await getCollection('fatwas')).sort(
+    (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
+  );
+
+  const muqolatPosts = allFatwas.filter((post: any) => 
+    post.data.category && 
+    post.data.category.map((c: string) => c.toLowerCase()).includes('muqolat')
+  );
+
+  return paginate(muqolatPosts, { pageSize: POSTS_PER_PAGE || 10 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props as { page: Page<any> };
+const muqolatPosts = page.data as any[];
+
+const getCleanUrl = (id: string) => {
+  const cleanId = id.includes('/') ? id.split('/').pop() : id;
+  return `/fatwas/${cleanId}/`;
+};
+---
+
+<BaseLayout title={`${PAGE_MUQOLAT_TITLE} - Page ${page.currentPage} - Articles`}>
+  <div class="space-y-8">
+    <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
+      <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Page</span>
+      <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif">
+        {PAGE_MUQOLAT_TITLE}
+      </h1>
+      <p class="text-xs text-gray-500 font-bold uppercase tracking-wider">
+        Found {page.total} total article{page.total === 1 ? '' : 's'} (Page {page.currentPage} of {page.lastPage})
+      </p>
+    </header>
+
+    {muqolatPosts.length > 0 ? (
+      <ul class="divide-y divide-gray-100 dark:divide-zinc-800">
+        {muqolatPosts.map((post: any) => (
+          <li class="py-6 space-y-2">
+            <a href={getCleanUrl(post.id)} class="text-xl font-bold text-blue-600 dark:text-blue-400 hover:underline block">
+              {post.data.title}
+            </a>
+            {post.data.shaykh && (
+              <p class="text-xs text-gray-400 font-serif italic">{post.data.shaykh}</p>
+            )}
+            <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">{post.data.summary}</p>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="text-sm text-gray-500 italic">No {PAGE_MUQOLAT_TITLE} found yet.</p>
+    )}
+
+    {/* Pagination controls */}
+    <nav class="flex items-center justify-between border-t-4 border-black dark:border-white pt-12 mt-12 mb-24 transition-colors">
+      {page.url.prev ? (
+        <a href={page.url.prev} class="text-sm font-black uppercase tracking-widest hover:line-through">← {PREV_TITLE || 'Newer'}</a>
+      ) : <div />}
+      
+      <div class="text-sm font-black uppercase tracking-widest tabular-nums">
+       <span class="text-gray-600">{page.currentPage} / {page.lastPage}</span>
+      </div>
+
+      {page.url.next ? (
+        <a href={page.url.next} class="text-sm font-black uppercase tracking-widest hover:line-through">{NEXT_TITLE || 'Older'} →</a>
+      ) : <div />}
+    </nav>
+  </div>
+</BaseLayout>

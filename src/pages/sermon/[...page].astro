@@ -1,24 +1,32 @@
 ---
 import { getCollection } from 'astro:content';
+import type { GetStaticPaths, Page } from 'astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { PAGE_SERMONS_TITLE } from '../../config';
+import { PAGE_SERMONS_TITLE, POSTS_PER_PAGE, NEXT_TITLE, PREV_TITLE } from '../../config';
 
-const allFatwas = (await getCollection('fatwas')).sort(
-  (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
-);
+export const getStaticPaths = (async ({ paginate }: any) => {
+  const allFatwas = (await getCollection('fatwas')).sort(
+    (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
+  );
 
-const sermonPosts = allFatwas.filter((post: any) => 
-  post.data.category && 
-  post.data.category.map((c: string) => c.toLowerCase()).includes('sermon')
-);
+  const sermonPosts = allFatwas.filter((post: any) => 
+    post.data.category && 
+    post.data.category.map((c: string) => c.toLowerCase()).includes('sermon')
+  );
+
+  return paginate(sermonPosts, { pageSize: POSTS_PER_PAGE || 10 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props as { page: Page<any> };
+const sermonPosts = page.data as any[];
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/blog/fatwas/${cleanId}/`;
+  return `/fatwas/${cleanId}/`;
 };
 ---
 
-<BaseLayout title={`${PAGE_SERMONS_TITLE} - Khutbahs`}>
+<BaseLayout title={`${PAGE_SERMONS_TITLE} - Page ${page.currentPage} - Khutbahs`}>
   <div class="space-y-8">
     <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
       <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Archive</span>
@@ -26,7 +34,7 @@ const getCleanUrl = (id: string) => {
         {PAGE_SERMONS_TITLE}
       </h1>
       <p class="text-xs text-gray-500 font-bold uppercase tracking-wider">
-        Found {sermonPosts.length} sermon{sermonPosts.length === 1 ? '' : 's'}
+        Found {page.total} total sermon{page.total === 1 ? '' : 's'} (Page {page.currentPage} of {page.lastPage})
       </p>
     </header>
 
@@ -58,5 +66,20 @@ const getCleanUrl = (id: string) => {
     ) : (
       <p class="text-sm text-gray-500 italic">No {PAGE_SERMONS_TITLE} found yet.</p>
     )}
+
+    {/* Pagination controls */}
+    <nav class="flex items-center justify-between border-t-4 border-black dark:border-white pt-12 mt-12 mb-24 transition-colors">
+      {page.url.prev ? (
+        <a href={page.url.prev} class="text-sm font-black uppercase tracking-widest hover:line-through">← {PREV_TITLE || 'Newer'}</a>
+      ) : <div />}
+      
+      <div class="text-sm font-black uppercase tracking-widest tabular-nums">
+       <span class="text-gray-600">{page.currentPage} / {page.lastPage}</span>
+      </div>
+
+      {page.url.next ? (
+        <a href={page.url.next} class="text-sm font-black uppercase tracking-widest hover:line-through">{NEXT_TITLE || 'Older'} →</a>
+      ) : <div />}
+    </nav>
   </div>
 </BaseLayout>
