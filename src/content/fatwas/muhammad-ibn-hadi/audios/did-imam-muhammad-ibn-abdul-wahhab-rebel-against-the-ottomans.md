@@ -2,7 +2,7 @@
 publisher: alsalafiyyah.manhaj@gmail.com
 title: "Did Imam Muhammad ibn Abd al-Wahhab Rebel Against the Ottomans"
 date: 2026-08-19
-hijri: 1448-03-06
+hijri: "1448-03-06"
 lang: en
 scholar: muhammad-ibn-hadi
 shaykh: "Shaykh Muhammad ibn Hadi al-Madkhali"
