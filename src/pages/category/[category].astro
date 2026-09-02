@@ -27,7 +27,7 @@ const { fatwas, categoryName } = Astro.props;
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/blog/${cleanId}/`;
+  return `/blog/fatwas/${cleanId}/`;
 };
 ---
 
