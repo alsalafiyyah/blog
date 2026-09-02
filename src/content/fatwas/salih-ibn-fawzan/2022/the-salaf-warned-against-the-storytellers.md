@@ -2,6 +2,7 @@
 publisher: alsalafiyyah.manhaj@gmail.com
 title: "The Salaf warned against the story-tellers"
 hijri: '1443-07-12'
+date: 2022-02-14
 source: "Al-Ajwibah Al-Mufidah p. 224"
 lang: en
 scholar: salih-ibn-fawzan

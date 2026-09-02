@@ -2,6 +2,7 @@
 publisher: alsalafiyyah.manhaj@gmail.com
 title: Ruling on Islamic Anasheed
 hijri: '1443-07-13'
+date: 2022-02-14
 source: "Al-Khutab Al-Mimbariyyah 3/184-185"
 category: [music, bidah, sects]
 scholar: salih-ibn-fawzan
