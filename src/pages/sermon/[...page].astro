@@ -22,7 +22,7 @@ const sermonPosts = page.data as any[];
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/fatwas/${cleanId}/`;
+  return `/blog/fatwas/${cleanId}/`;
 };
 ---
 
