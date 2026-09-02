@@ -8,6 +8,8 @@ source: "Fatawa Arkan al-Islam p.21, Question 4"
 category:
   - mawlid
   - bidah
+  - audios
+  - muqolat
 mp3: "https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/ta3lqat_%20jame3_kabeer/7743.mp3"
 summary: "Indeed, love for the Messenger ﷺ is not shown through innovations; love for the Messenger is demonstrated by following him, walking upon his path, magnifying his commands and prohibitions, calling to his Sunnah, and refuting those who deny it."
 muftis:
