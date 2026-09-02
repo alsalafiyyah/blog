@@ -1,13 +1,21 @@
 ---
 import { getCollection } from 'astro:content';
+import type { GetStaticPaths, Page } from 'astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { PAGE_VIDEOS_TITLE } from '../../config';
+import { PAGE_VIDEOS_TITLE, POSTS_PER_PAGE, NEXT_TITLE, PREV_TITLE } from '../../config';
 
-const allFatwas = (await getCollection('fatwas')).sort(
-  (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
-);
+export const getStaticPaths = (async ({ paginate }: any) => {
+  const allFatwas = (await getCollection('fatwas')).sort(
+    (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
+  );
 
-const videoFatwas = allFatwas.filter((post: any) => post.data.videoID || post.data.videoURL);
+  const videoFatwas = allFatwas.filter((post: any) => post.data.videoID || post.data.videoURL);
+  
+  return paginate(videoFatwas, { pageSize: POSTS_PER_PAGE || 10 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props as { page: Page<any> };
+const videoFatwas = page.data as any[];
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
@@ -15,7 +23,7 @@ const getCleanUrl = (id: string) => {
 };
 ---
 
-<BaseLayout title={`${PAGE_VIDEOS_TITLE}`}>
+<BaseLayout title={`${PAGE_VIDEOS_TITLE} - Page ${page.currentPage}`}>
   <div class="space-y-8">
     <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
       <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Media Library</span>
@@ -23,7 +31,7 @@ const getCleanUrl = (id: string) => {
         {PAGE_VIDEOS_TITLE}
       </h1>
       <p class="text-xs text-gray-500 font-bold uppercase tracking-wider">
-        Found {videoFatwas.length} video recording{videoFatwas.length === 1 ? '' : 's'}
+        Found {page.total} total video recording{page.total === 1 ? '' : 's'} (Page {page.currentPage} of {page.lastPage})
       </p>
     </header>
 
@@ -39,9 +47,9 @@ const getCleanUrl = (id: string) => {
                   <img 
                     src={`https://img.youtube.com/vi/${post.data.videoID}/hqdefault.jpg`} 
                     alt={post.data.title}
-                    alt="Video Thumbnail" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-              
+                
                   <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors flex items-center justify-center">
                     <span class="bg-red-600 text-white p-2 rounded-full shadow-lg">
                       <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
@@ -51,9 +59,9 @@ const getCleanUrl = (id: string) => {
                 </a>
               )}
 
-                 <div class="space-y-1">
+                   <div class="space-y-1">
                         <span class="text-[10px] font-bold opacity-50 block">{post.data.hijri} / {post.data.date.toISOString().split('T')[0]}</span>
-                        <a href={getCleanUrl(post.id)} class="h3 text-xl md:text-2xl font-black uppercase tracking-tighter serif group-hover:underline leading-snug">
+                        <a href={getCleanUrl(post.id)} class="text-xl md:text-2xl font-black uppercase tracking-tighter serif group-hover:underline leading-snug block">
                            {post.data.title}
                         </a>
                         <p class="text-xs md:text-sm font-medium leading-relaxed opacity-80">
@@ -62,7 +70,7 @@ const getCleanUrl = (id: string) => {
               {post.data.shaykh && (
                 <p class="text-xs text-gray-400 font-serif italic">{post.data.shaykh}</p>
               )}
-                 </div>
+                   </div>
             </div>
           </article>
         ))}
@@ -70,5 +78,20 @@ const getCleanUrl = (id: string) => {
     ) : (
       <p class="text-sm text-gray-500 italic">No {PAGE_VIDEOS_TITLE} found yet.</p>
     )}
+
+    {/* Pagination controls */}
+    <nav class="flex items-center justify-between border-t-4 border-black dark:border-white pt-12 mt-12 mb-24 transition-colors">
+      {page.url.prev ? (
+        <a href={page.url.prev} class="text-sm font-black uppercase tracking-widest hover:line-through">← {PREV_TITLE || 'Newer'}</a>
+      ) : <div />}
+      
+      <div class="text-sm font-black uppercase tracking-widest tabular-nums">
+       <span class="text-gray-600">{page.currentPage} / {page.lastPage}</span>
+      </div>
+
+      {page.url.next ? (
+        <a href={page.url.next} class="text-sm font-black uppercase tracking-widest hover:line-through">{NEXT_TITLE || 'Older'} →</a>
+      ) : <div />}
+    </nav>
   </div>
 </BaseLayout>
