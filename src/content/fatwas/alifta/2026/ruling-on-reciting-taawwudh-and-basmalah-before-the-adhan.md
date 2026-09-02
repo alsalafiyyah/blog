@@ -7,6 +7,7 @@ group: "group1"
 lang: en
 translation: false
 scholar: alifta
+shaykh: "Alifta"
 category: [adhan, bidah]
 source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 6321, Question 4"
 summary: "We know of no basis that indicates the legality of seeking refuge in Allah and saying Bismillah before the Adhan."

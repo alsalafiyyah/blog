@@ -6,6 +6,7 @@ hijri: "1448-03-04"
 group: "group1"
 lang: en
 scholar: alifta
+shaykh: "Alifta"
 category: [salah, adhan, bidah]
 Source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 5008"
 summary: "These mentioned statements have no basis regarding their legitimacy, neither before nor after the Adhan."

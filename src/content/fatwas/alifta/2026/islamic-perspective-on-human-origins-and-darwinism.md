@@ -8,6 +8,7 @@ source: "Fatawa al-Lajnah ad-Da'imah, Fatwa no.8139, Question 3"
 category: [non-muslim, darwinism]
 group: "group1"
 scholar: alifta
+shaykh: "Alifta"
 summary: "The claim that the origin of man is a monkey is a lie and a fabrication against the law of Allah."
 ---
 

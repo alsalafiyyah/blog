@@ -7,6 +7,7 @@ hijri: "1448-03-04"
 group: "group4"
 lang: en
 scholar: alifta
+shaykh: "Alifta"
 category: [adhan, sects, shia, bidah]
 source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 220 "
 summary: "The Adhan is an act of worship, and the foundational rule regarding acts of worship is restriction to what has been legislated."

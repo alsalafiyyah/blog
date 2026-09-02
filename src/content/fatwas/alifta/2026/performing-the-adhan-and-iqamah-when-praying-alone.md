@@ -6,6 +6,7 @@ hijri: "1448-03-04"
 group: "group10"
 lang: en
 scholar: alifta
+shaykh: "Alifta"
 category: [salah, adhan]
 source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 5682, Question 4"
 summary: "Yes, it is permissible for him to pray without an Adhan. However, if he is in the open countryside, a remote farm, or a similar isolated place, it is legislated for him to give the Adhan even if he will be praying alone."

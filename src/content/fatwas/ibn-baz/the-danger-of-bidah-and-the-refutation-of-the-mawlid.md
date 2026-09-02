@@ -3,6 +3,7 @@ title: "The Danger of Bid'ah and the Refutation of the Mawlid"
 date: 2026-08-23
 hijri: "1448-03-10"
 scholar: "ibn-baz"
+shaykh: "Shaykh Abdul-Aziz ibn Baz"
 source: "Fatawa Arkan al-Islam p.21, Question 4"
 category:
   - mawlid

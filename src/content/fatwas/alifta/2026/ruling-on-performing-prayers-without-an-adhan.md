@@ -6,6 +6,7 @@ hijri: "1448-03-04"
 group: "group1"
 lang: en
 scholar: alifta
+shaykh: "Alifta"
 category: [salaf, adhan]
 source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 7645"
 summary: "It is not permissible for them to perform their prayers without an Adhan, because the Adhan is a communal obligation upon the Muslims in every town."

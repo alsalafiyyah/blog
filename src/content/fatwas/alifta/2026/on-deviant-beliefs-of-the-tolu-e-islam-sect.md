@@ -8,6 +8,7 @@ summary: Whoever follows this sect Tolu-e-Islam, advocates for it, or beautifies
   views to the people through any media is a disbeliever who has apostatized from
   the religion of Islam.
 scholar: alifta
+shaykh: "Alifta"
 category: [sects, quranism]
 title: "On the Deviant Beliefs of the Tolu-e-Islam Sect"
 hijri: '1448-01-16'

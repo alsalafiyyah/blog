@@ -3,6 +3,7 @@ title: "Ruling on the Sect Known as Quranism"
 date: 2026-08-24
 hijri: "1448-03-11"
 scholar: "salih-al-fawzan"
+shaykh: "Shaykh Salih ibn Fawzan al-Fawzan"
 category:
   - sects
   - videos

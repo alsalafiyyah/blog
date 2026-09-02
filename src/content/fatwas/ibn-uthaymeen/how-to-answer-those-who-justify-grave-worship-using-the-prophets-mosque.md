@@ -3,6 +3,7 @@ title: "How to Answer Those Who Justify Grave-Worship Using the Prophet's Mosque
 date: 2026-08-08
 hijri: "1448-03-15"
 scholar: "ibn-uthaymeen"
+shaykh: "Shaykh Muhammad ibn Salih al-Uthaymeen"
 source: "Fatawa Arkan al-Islam p.165, Question 80"
 category:
   - sects

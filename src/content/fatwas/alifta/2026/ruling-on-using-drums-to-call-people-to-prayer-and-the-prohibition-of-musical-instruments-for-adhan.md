@@ -7,6 +7,7 @@ hijri: "1448-03-04"
 group: "group9"
 lang: en
 scholar: alifta
+shaykh: "Alifta"
 category: [adhan, music, bidah]
 source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 2036, Question 4"
 summary: "Drums and similar musical instruments are instruments of amusement, so it is not permissible to use them to inform people when the time for prayer has entered or is approaching."

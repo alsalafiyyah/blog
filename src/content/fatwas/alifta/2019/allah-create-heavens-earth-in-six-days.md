@@ -3,6 +3,7 @@ title: "Period during which the heavens and earth were created"
 date: 2019-09-01
 hijri: "1441-01-02"
 scholar: alifta
+shaykh: "Alifta"
 group: "group2"
 category:
   - creed

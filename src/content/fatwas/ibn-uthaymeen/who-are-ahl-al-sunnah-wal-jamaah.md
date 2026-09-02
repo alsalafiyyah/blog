@@ -3,6 +3,7 @@ title: "Who are Ahl al-Sunnah wal-Jama'ah?"
 date: 2026-08-08
 hijri: "1448-03-15"
 scholar: "ibn-uthaymeen"
+shaykh: "Shaykh Muhammad ibn Salih al-Uthaymeen"
 source: "Fatawa Arkan al-Islam p.21, Question 4"
 category:
   - creed

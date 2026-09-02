@@ -12,6 +12,7 @@ summary: Sexual intercourse during pregnancy is permissible provided it does not
 category: [marriage, women]
 title: On Marital Relations During Pregnancy
 scholar: alifta
+shaykh: "Alifta"
 ---
 
 ### Question: 
