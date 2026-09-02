@@ -33,7 +33,7 @@ const scholarsList = Array.from(scholarMap.entries()).map(([slug, data]) => ({
   slug,
   name: data.name,
   count: data.count,
-  url: `/scholar/${slug}/`
+  url: `/blog/scholar/${slug}/`
 })).sort((a, b) => a.name.localeCompare(b.name));
 ---
 
