@@ -11,6 +11,30 @@ const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
   return `/blog/fatwas/${cleanId}/`;
 };
+
+// --- Scholar Dropdown Logic ---
+const scholarMap = new Map<string, { name: string; count: number }>();
+
+allPosts.forEach((post: any) => {
+  const scholarSlug = post.data.scholar;
+  if (!scholarSlug) return;
+
+  const slug = scholarSlug.toLowerCase().trim();
+  // Use frontmatter 'shaykh' if available, otherwise format the slug nicely
+  const displayName = post.data.shaykh || scholarSlug.replace(/-/g, ' ').toUpperCase();
+
+  if (!scholarMap.has(slug)) {
+    scholarMap.set(slug, { name: displayName, count: 0 });
+  }
+  scholarMap.get(slug)!.count++;
+});
+
+const scholarsList = Array.from(scholarMap.entries()).map(([slug, data]) => ({
+  slug,
+  name: data.name,
+  count: data.count,
+  url: `/scholar/${slug}/`
+})).sort((a, b) => a.name.localeCompare(b.name));
 ---
 
 <aside itemscope itemtype="https://schema.org/WPSideBar" class="hidden md:block md:col-span-3 space-y-12 sticky top-12 self-start">
@@ -28,5 +52,28 @@ const getCleanUrl = (id: string) => {
         </a>
       ))}
     </div>
+ </div>
+
+ {/* Scholar Dropdown Widget */}
+ <div class="border-t-2 border-black dark:border-white pt-4">
+   <span class="text-[10px] font-black uppercase tracking-widest text-gray-400 block mb-4">Scholars</span>
+   <div class="relative group">
+       <select 
+           onchange="window.location.href=this.value" 
+           class="w-full bg-transparent border-2 border-black dark:border-white px-4 py-3 text-[10px] font-black uppercase tracking-widest appearance-none cursor-pointer focus:bg-black focus:text-white dark:focus:bg-white dark:focus:text-black transition-all outline-none"
+       >
+           <option value="" disabled selected>Select a scholar</option>
+           {scholarsList.map((scholar) => (
+             <option value={scholar.url} class="bg-white text-black dark:bg-black dark:text-white">
+               {scholar.name} ({scholar.count})
+             </option>
+           ))}
+       </select>
+       <div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
+           <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7" />
+           </svg>
+       </div>
+   </div>
  </div>
 </aside>
