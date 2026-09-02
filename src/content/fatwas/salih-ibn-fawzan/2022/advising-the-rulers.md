@@ -2,7 +2,8 @@
 publisher: alsalafiyyah.manhaj@gmail.com
 title: "Correct methodology for advising the rulers"
 hijri: '1443-07-13'
-source: Al-Ajwibah Al-Mufidah p. 47-52
+date: 2022-02-14
+source: "Al-Ajwibah Al-Mufidah p. 47-52"
 category: [rulership]
 scholar: salih-ibn-fawzan
 shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
