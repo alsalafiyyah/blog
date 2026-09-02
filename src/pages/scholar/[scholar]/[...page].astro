@@ -3,23 +3,22 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import type { Page } from 'astro';
 
-// Helper function to turn any scholar string into a clean URL slug
-const slugify = (text: string) => {
-  return text
-    .toString()
-    .toLowerCase()
-    .trim()
-    .replace(/\s+/g, '-')     // Replace spaces with -
-    .replace(/[^\w-]+/g, '')  // Remove all non-word chars
-    .replace(/--+/g, '-');    // Replace multiple - with single -
-};
-
 export async function getStaticPaths({ paginate }: any) {
+  // Helper function moved inside getStaticPaths scope
+  const slugify = (text: string) => {
+    return text
+      .toString()
+      .toLowerCase()
+      .trim()
+      .replace(/\s+/g, '-')     
+      .replace(/[^\w-]+/g, '')  
+      .replace(/--+/g, '-');    
+  };
+
   const allFatwas = (await getCollection('fatwas')).sort(
     (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
   );
 
-  // Map to store original display names against their clean slugs
   const scholarMap = new Map<string, string>(); // slug -> Original Display Name
 
   allFatwas.forEach((post: any) => {
@@ -32,7 +31,6 @@ export async function getStaticPaths({ paginate }: any) {
     }
   });
 
-  // For each unique scholar slug, filter their posts and paginate
   return Array.from(scholarMap.entries()).flatMap(([scholarSlug, originalName]) => {
     const filteredPosts = allFatwas.filter((post: any) => {
       if (!post.data.scholar) return false;
@@ -41,7 +39,7 @@ export async function getStaticPaths({ paginate }: any) {
 
     return paginate(filteredPosts, {
       params: { scholar: scholarSlug },
-      props: { scholarName: originalName }, // Pass the clean display name as a prop
+      props: { scholarName: originalName },
       pageSize: 10, 
     });
   });
@@ -51,7 +49,6 @@ const { page } = Astro.props as { page: Page<any>; scholarName: string };
 const { scholarName } = Astro.props;
 const { scholar } = Astro.params;
 
-// Fallback display name if prop is missing
 const displayName = scholarName || (scholar ? scholar.toUpperCase() : 'Scholar');
 
 const getCleanUrl = (id: string) => {
