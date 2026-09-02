@@ -17,6 +17,7 @@ const fatwas = defineCollection({
     lang: z.string().optional(),
     locale: z.string().optional(),
     url: z.string().optional(),
+    link: z.string().optional(),
     active: z.string().optional(),
     publisher: z.string().optional(),
     img: z.string().optional(),
