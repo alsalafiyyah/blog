@@ -5,7 +5,6 @@ date: 2026-08-17
 hijri: "1448-03-04"
 group: "group6"
 lang: en
-scholar: alifta
 category: [salaf, adhan, iqamah]
 scholar: alifta
 Source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 12260"
