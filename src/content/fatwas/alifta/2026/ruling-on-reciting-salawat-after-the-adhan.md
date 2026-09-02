@@ -3,7 +3,7 @@ layout: post
 publisher: alsalafiyyah.manhaj@gmail.com
 title: "Ruling on Reciting Salawat After the Adhan"
 date: 2026-08-17
-hijri: 1448-03-04
+hijri: "1448-03-04"
 group: "group1"
 lang: en
 scholar: alifta

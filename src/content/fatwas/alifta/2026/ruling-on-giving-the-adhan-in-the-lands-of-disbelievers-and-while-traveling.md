@@ -2,7 +2,7 @@
 publisher: alsalafiyyah.manhaj@gmail.com
 title: "Ruling on Giving the Adhan in the Lands of Disbelievers and While Traveling"
 date: 2026-08-17
-hijri: 1448-03-04
+hijri: "1448-03-04"
 group: "group6"
 lang: en
 scholar: alifta

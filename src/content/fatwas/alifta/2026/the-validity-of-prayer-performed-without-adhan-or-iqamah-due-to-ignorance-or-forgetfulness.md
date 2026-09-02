@@ -3,7 +3,7 @@ layout: post
 publisher: alsalafiyyah.manhaj@gmail.com
 title: "The Validity of Prayer Performed Without Adhan or Iqamah Due to Ignorance or Forgetfulness"
 date: 2026-08-17
-hijri: 1448-03-04
+hijri: "1448-03-04"
 group: "group1"
 lang: en
 scholar: alifta

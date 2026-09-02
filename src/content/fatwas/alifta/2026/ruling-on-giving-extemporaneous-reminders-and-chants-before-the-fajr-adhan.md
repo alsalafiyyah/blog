@@ -2,7 +2,7 @@
 publisher: alsalafiyyah.manhaj@gmail.com
 title: "Ruling on Giving Extemporaneous Reminders and Chants Before the Fajr Adhan"
 date: 2026-08-17
-hijri: 1448-03-04
+hijri: "1448-03-04"
 group: "group1"
 lang: en
 scholar: alifta

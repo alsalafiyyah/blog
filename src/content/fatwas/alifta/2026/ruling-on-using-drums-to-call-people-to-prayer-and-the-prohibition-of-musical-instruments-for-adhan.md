@@ -3,7 +3,7 @@ layout: post
 publisher: alsalafiyyah.manhaj@gmail.com
 title: "Ruling on Using Drums to Call People to Prayer and the Prohibition of Musical Instruments for Adhan"
 date: 2026-08-17
-hijri: 1448-03-04
+hijri: "1448-03-04"
 group: "group9"
 lang: en
 scholar: alifta

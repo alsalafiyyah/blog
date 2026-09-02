@@ -3,7 +3,7 @@ layout: post
 publisher: alsalafiyyah.manhaj@gmail.com
 title: "The Established Wording of the Adhan and the Prohibition of Innovations"
 date: 2026-08-17
-hijri: 1448-03-04
+hijri: "1448-03-04"
 group: "group4"
 lang: en
 scholar: alifta
