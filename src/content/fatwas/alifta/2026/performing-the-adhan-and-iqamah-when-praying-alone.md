@@ -2,7 +2,7 @@
 publisher: alsalafiyyah.manhaj@gmail.com
 title: "Performing the Adhan and Iqamah When Praying Alone"
 date: 2026-08-17
-hijri: 1448-03-04
+hijri: "1448-03-04"
 group: "group10"
 lang: en
 scholar: alifta
