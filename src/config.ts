@@ -9,6 +9,15 @@ export const PAGE_BIOGRAPHY_TITLE = "Scholars' Biographies";
 
 // Pagination Settings 
 export const POSTS_PER_PAGE = 10;
+export const MUQOLAT_PER_PAGE = 10;
+export const AUDIOS_PER_PAGE = 10;
+export const VIDEOS_PER_PAGE = 10;
+export const SERMONS_PER_PAGE = 10;
+export const SCHOLAR_PER_PAGE = 10;
+export const CATEGORY_PER_PAGE = 10;
+export const BIOGRAPHY_PER_PAGE = 10;
+export const RECENT_FATWAS_COUNT_INDEX = 5;
+export const RECENT_FATWAS_COUNT_SIDEBAR = 4;
 
 // Site Elements
 export const SITE_LOGO = "/logo.svg";
@@ -29,10 +38,6 @@ export const VIEW_FULL_TITLE = "Click to View Full Image";
 export const PAGE_404_TITLE = "Page Not Found";
 export const PAGE_404_HEADER = "404";
 export const PAGE_404_TEXT = "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.";
-
-// Index Widget Settings 
-export const RECENT_FATWAS_COUNT_INDEX = 5;
-export const RECENT_FATWAS_COUNT_SIDEBAR = 4;
 
 // URLS settings
 export const SITE_URL = "https://alsalafiyyah.github.io/blog/";

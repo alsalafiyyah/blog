@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import type { GetStaticPaths, Page } from 'astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { PAGE_VIDEOS_TITLE, POSTS_PER_PAGE, NEXT_TITLE, PREV_TITLE } from '../../config';
+import { PAGE_VIDEOS_TITLE, VIDEOS_PER_PAGE, NEXT_TITLE, PREV_TITLE } from '../../config';
 
 export const getStaticPaths = (async ({ paginate }: any) => {
   const allFatwas = (await getCollection('fatwas')).sort(
@@ -11,7 +11,7 @@ export const getStaticPaths = (async ({ paginate }: any) => {
 
   const videoFatwas = allFatwas.filter((post: any) => post.data.videoID || post.data.videoURL);
   
-  return paginate(videoFatwas, { pageSize: POSTS_PER_PAGE || 10 });
+  return paginate(videoFatwas, { pageSize: VIDEOS_PER_PAGE });
 }) satisfies GetStaticPaths;
 
 const { page } = Astro.props as { page: Page<any> };

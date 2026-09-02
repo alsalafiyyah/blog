@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import type { GetStaticPaths, Page } from 'astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { PAGE_SERMONS_TITLE, POSTS_PER_PAGE, NEXT_TITLE, PREV_TITLE } from '../../config';
+import { PAGE_SERMONS_TITLE, SERMONS_PER_PAGE, NEXT_TITLE, PREV_TITLE } from '../../config';
 
 export const getStaticPaths = (async ({ paginate }: any) => {
   const allFatwas = (await getCollection('fatwas')).sort(
@@ -14,7 +14,7 @@ export const getStaticPaths = (async ({ paginate }: any) => {
     post.data.category.map((c: string) => c.toLowerCase()).includes('sermon')
   );
 
-  return paginate(sermonPosts, { pageSize: POSTS_PER_PAGE || 10 });
+  return paginate(sermonPosts, { pageSize: SERMONS_PER_PAGE });
 }) satisfies GetStaticPaths;
 
 const { page } = Astro.props as { page: Page<any> };

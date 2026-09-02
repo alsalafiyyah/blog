@@ -27,7 +27,7 @@ const { fatwas, categoryName } = Astro.props;
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/fatwas/${cleanId}/`;
+  return `/blog/${cleanId}/`;
 };
 ---
 
@@ -57,10 +57,5 @@ const getCleanUrl = (id: string) => {
       ))}
     </ul>
 
-    <div class="pt-4">
-      <a href="/fatwas/" class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 hover:underline">
-        &larr; Back to all fatwas
-      </a>
-    </div>
   </div>
 </BaseLayout>
