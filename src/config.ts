@@ -8,7 +8,7 @@ export const PAGE_SERMONS_TITLE = "Sermons";
 export const PAGE_BIOGRAPHY_TITLE = "Scholars' Biographies";
 
 // Pagination Settings 
-export const POSTS_PER_PAGE = 5;
+export const POSTS_PER_PAGE = 10;
 
 // Site Elements
 export const SITE_LOGO = "/logo.svg";
