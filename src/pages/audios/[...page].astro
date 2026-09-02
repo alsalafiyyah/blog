@@ -1,0 +1,98 @@
+---
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths, Page } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { PAGE_AUDIOS_TITLE, POSTS_PER_PAGE, NEXT_TITLE, PREV_TITLE } from '../../config';
+
+export const getStaticPaths = (async ({ paginate }: any) => {
+  const allFatwas = (await getCollection('fatwas')).sort(
+    (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
+  );
+
+  const audioFatwas = allFatwas.filter((post: any) => post.data.mp3);
+  
+  return paginate(audioFatwas, { pageSize: POSTS_PER_PAGE || 10 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props as { page: Page<any> };
+const audioFatwas = page.data as any[];
+
+const getCleanUrl = (id: string) => {
+  const cleanId = id.includes('/') ? id.split('/').pop() : id;
+  return `/fatwas/${cleanId}/`;
+};
+---
+
+<BaseLayout title={`${PAGE_AUDIOS_TITLE} - Page ${page.currentPage}`}>
+  <div class="space-y-8">
+    <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
+      <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Media Library</span>
+      <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif">
+        Audio Recordings
+      </h1>
+      <p class="text-xs text-gray-500 font-bold uppercase tracking-wider">
+        Found {page.total} total audio recording{page.total === 1 ? '' : 's'} (Page {page.currentPage} of {page.lastPage})
+      </p>
+    </header>
+
+    {audioFatwas.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {audioFatwas.map((post: any) => (
+          <article class="flex flex-col justify-between space-y-4 border-l-2 border-red-500 pl-4 py-1 group">
+
+                <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="text-[10px] font-bold opacity-50">{post.data.hijri} / {post.data.date.toISOString().split('T')[0]}</span>
+                        <span class="text-[10px] font-black uppercase tracking-widest bg-black/5 dark:bg-white/10 px-2 py-0.5 text-red-500">Audio</span>
+                    </div>
+                    <a href={getCleanUrl(post.id)} class="text-xl md:text-2xl font-black uppercase tracking-tighter serif group-hover:underline leading-snug block">
+                        {post.data.title}
+                    </a>
+                    <p class="text-xs md:text-sm font-medium leading-relaxed opacity-80">
+                        {post.data.summary}
+                    </p>
+                </div>
+
+            <div class="pt-2 flex items-center justify-between">
+              {/* Fixed Alpine.js Audio Player with correct prop injection */}
+              <div x-data={`{ playing: false, audio: new Audio('${post.data.mp3}') }`}>
+                <button 
+                  @click="playing ? audio.pause() : audio.play(); playing = !playing"
+                  class="flex items-center justify-center w-10 h-10 bg-red-600 hover:bg-red-700 text-white rounded-full shadow-lg transition focus:outline-none focus:ring-4 focus:ring-red-300"
+                  :aria-label="playing ? 'Pause' : 'Play'">
+                  <svg x-show="!playing" class="w-5 h-5 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                  <svg x-show="playing" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+                  </svg>
+                </button>
+              </div>
+
+              {post.data.shaykh && (
+                <span class="text-[10px] font-black uppercase tracking-widest text-black dark:text-white">{post.data.shaykh}</span>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <p class="text-sm text-gray-500 italic">No audio recordings found yet.</p>
+    )}
+
+    {/* Pagination controls */}
+    <nav class="flex items-center justify-between border-t-4 border-black dark:border-white pt-12 mt-12 mb-24 transition-colors">
+      {page.url.prev ? (
+        <a href={page.url.prev} class="text-sm font-black uppercase tracking-widest hover:line-through">← {PREV_TITLE || 'Newer'}</a>
+      ) : <div />}
+      
+      <div class="text-sm font-black uppercase tracking-widest tabular-nums">
+       <span class="text-gray-600">{page.currentPage} / {page.lastPage}</span>
+      </div>
+
+      {page.url.next ? (
+        <a href={page.url.next} class="text-sm font-black uppercase tracking-widest hover:line-through">{NEXT_TITLE || 'Older'} →</a>
+      ) : <div />}
+    </nav>
+  </div>
+</BaseLayout>
