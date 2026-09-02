@@ -3,13 +3,11 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import type { Page } from 'astro';
 
-// Explicitly type the parameter destructured from getStaticPaths
 export async function getStaticPaths({ paginate }: any) {
   const allFatwas = (await getCollection('fatwas')).sort(
     (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
   );
 
-  // Extract all unique scholars from frontmatter (case-insensitive & cleaned)
   const scholarSet = new Set<string>();
   allFatwas.forEach((post: any) => {
     if (post.data.scholar) {
@@ -17,7 +15,6 @@ export async function getStaticPaths({ paginate }: any) {
     }
   });
 
-  // For each scholar, filter their posts and paginate them (e.g., 10 per page)
   return Array.from(scholarSet).flatMap((scholarSlug) => {
     const filteredPosts = allFatwas.filter(
       (post: any) => post.data.scholar && post.data.scholar.toLowerCase().trim() === scholarSlug
@@ -33,12 +30,11 @@ export async function getStaticPaths({ paginate }: any) {
 const { page } = Astro.props as { page: Page<any> };
 const { scholar } = Astro.params;
 
-// Format scholar name nicely for display title (e.g., "alifta" -> "Alifta")
 const formattedScholarName = scholar ? scholar.toUpperCase() : 'Scholar';
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/blog/fatwas/${cleanId}/`;
+  return `/fatwas/${cleanId}/`;
 };
 ---
 
