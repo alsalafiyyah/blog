@@ -37,9 +37,9 @@ const getCleanUrl = (id: string) => {
                         <span class="text-[10px] font-bold opacity-50">{post.data.date.toISOString().split('T')[0]}</span>
                         <span class="text-[10px] font-black uppercase tracking-widest bg-black/5 dark:bg-white/10 px-2 py-0.5 text-red-500">Audio</span>
                     </div>
-                    <h3 class="text-xl md:text-2xl font-black uppercase tracking-tighter serif group-hover:underline leading-snug">
+                    <a href={getCleanUrl(post.id)} class="h3 text-xl md:text-2xl font-black uppercase tracking-tighter serif group-hover:underline leading-snug">
                         {post.data.title}
-                    </h3>
+                    </a>
                     <p class="text-xs md:text-sm font-medium leading-relaxed opacity-80">
                         {post.data.summary}
                     </p>
