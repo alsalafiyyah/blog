@@ -32,7 +32,7 @@ export const PAGE_404_TEXT = "The page you are looking for might have been remov
 
 // Index Widget Settings 
 export const RECENT_FATWAS_COUNT_INDEX = 5;
-export const RECENT_FATWAS_COUNT_SIDEBAR = 3;
+export const RECENT_FATWAS_COUNT_SIDEBAR = 4;
 
 // URLS settings
 export const SITE_URL = "https://alsalafiyyah.github.io/blog/";
