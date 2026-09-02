@@ -28,59 +28,47 @@ const getCleanUrl = (id: string) => {
     </header>
 
     {videoFatwas.length > 0 ? (
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         {videoFatwas.map((post: any) => (
-          <div class="border-2 border-black dark:border-white p-4 space-y-3 bg-zinc-50 dark:bg-zinc-900 rounded flex flex-col justify-between">
+          <article class="flex flex-col justify-between space-y-4 border-l-2 border-red-500 pl-4 py-1 group cursor-pointer">
             <div class="space-y-3">
               {/* YouTube Thumbnail Preview */}
               {post.data.videoID && (
                 <a href={getCleanUrl(post.id)} class="block aspect-video overflow-hidden border border-black dark:border-white relative group">
+                  <div class="relative bg-gray-100 dark:bg-zinc-900 border border-black/10 dark:border-white/10 aspect-video overflow-hidden flex items-center justify-center">
                   <img 
                     src={`https://img.youtube.com/vi/${post.data.videoID}/hqdefault.jpg`} 
                     alt={post.data.title}
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    alt="Video Thumbnail" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
+              
                   <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors flex items-center justify-center">
                     <span class="bg-red-600 text-white p-2 rounded-full shadow-lg">
                       <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                     </span>
                   </div>
+                 </div>
                 </a>
               )}
 
-              <div class="flex items-center gap-2">
-                <span class="text-[9px] font-black uppercase tracking-widest text-gray-400">
-                  {post.data.date.toISOString().split('T')[0]}
-                </span>
-              </div>
-              
-              <a href={getCleanUrl(post.id)} class="text-lg font-bold text-blue-600 dark:text-blue-400 hover:underline block leading-snug">
-                {post.data.title}
-              </a>
-              
+                 <div class="space-y-1">
+                        <span class="text-[10px] font-bold opacity-50 block">{post.data.hijri} / {post.data.date.toISOString().split('T')[0]}</span>
+                        <h3 class="text-xl md:text-2xl font-black uppercase tracking-tighter serif group-hover:underline leading-snug">
+                           {post.data.title}
+                        </h3>
+                        <p class="text-xs md:text-sm font-medium leading-relaxed opacity-80">
+                           {post.data.summary}
+                        </p>
               {post.data.shaykh && (
                 <p class="text-xs text-gray-400 font-serif italic">{post.data.shaykh}</p>
               )}
-              
-              <p class="text-xs text-gray-600 dark:text-gray-300 line-clamp-2">{post.data.summary}</p>
+                 </div>
             </div>
-
-            <div class="pt-2 border-t border-gray-200 dark:border-zinc-800">
-              <a href={getCleanUrl(post.id)} class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 hover:underline">
-                Watch & Read Fatwa &rarr;
-              </a>
-            </div>
-          </div>
+          </article>
         ))}
       </div>
     ) : (
       <p class="text-sm text-gray-500 italic">No {PAGE_VIDEOS_TITLE} found yet.</p>
     )}
-
-    <div class="pt-4">
-      <a href="/" class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 hover:underline">
-        &larr; Back to Home
-      </a>
-    </div>
   </div>
 </BaseLayout>
