@@ -18,7 +18,7 @@ export const GET: APIRoute = async (context) => {
         description: post.data.summary,
         pubDate: post.data.date,
         link: `/blog/fatwas/${cleanId}/`,
-        author: post.data.scholar || undefined,
+        author: post.data.shaykh || undefined,
         categories: post.data.category || [],
       };
     }),

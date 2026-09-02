@@ -38,8 +38,8 @@ const getCleanUrl = (id: string) => {
             <a href={getCleanUrl(post.id)} class="text-xl font-bold text-blue-600 dark:text-blue-400 hover:underline block">
               {post.data.title}
             </a>
-            {post.data.scholar && (
-              <p class="text-xs text-gray-400 font-serif italic">{post.data.scholar}</p>
+            {post.data.shaykh && (
+              <p class="text-xs text-gray-400 font-serif italic">{post.data.shaykh}</p>
             )}
             <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">{post.data.summary}</p>
           </li>

@@ -13,7 +13,7 @@ const searchIndex = allPosts.map((post: any) => ({
   summary: post.data.summary,
   date: post.data.date.toISOString().split('T')[0],
   category: post.data.category || [],
-  scholar: post.data.scholar || '',
+  scholar: post.data.shaykh || '',
 }));
 ---
 
