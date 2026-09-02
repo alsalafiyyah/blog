@@ -1,0 +1,100 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import type { Page } from 'astro';
+
+// Explicitly type the parameter destructured from getStaticPaths
+export async function getStaticPaths({ paginate }: any) {
+  const allFatwas = (await getCollection('fatwas')).sort(
+    (a: any, b: any) => b.data.date.valueOf() - a.data.date.valueOf()
+  );
+
+  // Extract all unique scholars from frontmatter (case-insensitive & cleaned)
+  const scholarSet = new Set<string>();
+  allFatwas.forEach((post: any) => {
+    if (post.data.scholar) {
+      scholarSet.add(post.data.scholar.toLowerCase().trim());
+    }
+  });
+
+  // For each scholar, filter their posts and paginate them (e.g., 10 per page)
+  return Array.from(scholarSet).flatMap((scholarSlug) => {
+    const filteredPosts = allFatwas.filter(
+      (post: any) => post.data.scholar && post.data.scholar.toLowerCase().trim() === scholarSlug
+    );
+
+    return paginate(filteredPosts, {
+      params: { scholar: scholarSlug },
+      pageSize: 10, 
+    });
+  });
+}
+
+const { page } = Astro.props as { page: Page<any> };
+const { scholar } = Astro.params;
+
+// Format scholar name nicely for display title (e.g., "alifta" -> "Alifta")
+const formattedScholarName = scholar ? scholar.toUpperCase() : 'Scholar';
+
+const getCleanUrl = (id: string) => {
+  const cleanId = id.includes('/') ? id.split('/').pop() : id;
+  return `/blog/fatwas/${cleanId}/`;
+};
+---
+
+<BaseLayout title={`Fatwas by ${formattedScholarName} - Page ${page.currentPage}`}>
+  <div class="space-y-8">
+    <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
+      <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Scholar Archive</span>
+      <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif">
+        {formattedScholarName}
+      </h1>
+      <p class="text-xs text-gray-500 font-bold uppercase tracking-wider">
+        Showing page {page.currentPage} of {page.lastPage} ({page.total} total fatwas)
+      </p>
+    </header>
+
+    {page.data.length > 0 ? (
+      <ul class="divide-y divide-gray-100 dark:divide-zinc-800">
+        {page.data.map((post: any) => (
+          <li class="py-6 space-y-2">
+            <div class="flex items-center gap-2">
+              <span class="text-xs text-gray-400 font-bold">
+                {post.data.date.toISOString().split('T')[0]}
+              </span>
+            </div>
+            
+            <a href={getCleanUrl(post.id)} class="text-xl font-bold text-blue-600 dark:text-blue-400 hover:underline block">
+              {post.data.title}
+            </a>
+            
+            <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">{post.data.summary}</p>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="text-sm text-gray-500 italic">No fatwas found for this scholar.</p>
+    )}
+
+    {/* Pagination Controls */}
+    <div class="flex items-center justify-between pt-8 border-t border-gray-200 dark:border-zinc-800">
+      {page.url.prev ? (
+        <a href={page.url.prev} class="text-xs font-black uppercase tracking-wider text-black dark:text-white border-2 border-black dark:border-white px-4 py-2 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors">
+          &larr; Newer Posts
+        </a>
+      ) : <div />}
+
+      {page.url.next ? (
+        <a href={page.url.next} class="text-xs font-black uppercase tracking-wider text-black dark:text-white border-2 border-black dark:border-white px-4 py-2 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors">
+          Older Posts &rarr;
+        </a>
+      ) : <div />}
+    </div>
+
+    <div class="pt-4">
+      <a href="/" class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 hover:underline">
+        &larr; Back to Home
+      </a>
+    </div>
+  </div>
+</BaseLayout>
