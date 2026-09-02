@@ -12,6 +12,7 @@ const fatwas = defineCollection({
     shaykh: z.string().optional(),
     source: z.string().optional(),
     mp3: z.string().optional(),
+    layout: z.string().optional(),
     lang: z.string().optional(),
     link: z.string().optional(),
     locale: z.string().optional(),

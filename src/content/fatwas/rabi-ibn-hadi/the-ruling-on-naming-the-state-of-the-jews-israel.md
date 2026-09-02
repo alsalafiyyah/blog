@@ -8,8 +8,8 @@ summary: The Jews have plotted a grand plot by claiming a legitimate right to es
   a state in the heart of the Muslim lands under the name of the heritage of Abraham
   and Israel!
 category: [palestine, non-muslim]
-scholar: muhammad-ibn-hadi
-shaykh: "Shaykh Muhammad ibn Hadi al-Madkhali"
+scholar: rabi-ibn-hadi
+shaykh: "Shaykh Rabi' ibn Hadi al-Madkhali"
 source: "Sidq al-Nadhr fi Aqwal wa Ta'wilat al-Shaykh Safar 207/112"
 muftis:
   shaykh:
