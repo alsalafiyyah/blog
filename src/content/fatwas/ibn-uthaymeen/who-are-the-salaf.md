@@ -2,7 +2,7 @@
 title: "Who are the Salaf"
 date: 2019-11-19
 hijri: "1441-03-22"
-scholar: ibn-uthaymeen
+scholar: "ibn-uthaymeen"
 source: "Fatawa Nur ala Ad-Darb, Tape no. 175"
 featured: true
 category:
