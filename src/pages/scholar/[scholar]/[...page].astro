@@ -40,7 +40,7 @@ export async function getStaticPaths({ paginate }: any) {
     return paginate(filteredPosts, {
       params: { scholar: scholarSlug },
       props: { scholarName: originalName },
-      pageSize: 10,
+      pageSize: SCHOLAR_PER_PAGE || 10, // Uses your config value with a safe fallback
     });
   });
 }
@@ -51,9 +51,10 @@ const { scholar } = Astro.params;
 
 const displayName = scholarName || (scholar ? scholar.toUpperCase() : 'Scholar');
 
+const base = import.meta.env.BASE_URL;
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/blog/${cleanId}/`;
+  return `${base.replace(/\/$/, '')}/fatwas/${cleanId}/`;
 };
 ---
 
