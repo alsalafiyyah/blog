@@ -7,7 +7,7 @@ group: "group1"
 lang: en
 scholar: alifta
 category: [adhan, bidah]
-Source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 6756, Question 3"
+source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 6756, Question 3"
 summary: "As far as we know, it has not been established from the Prophet that the thumbs should be kissed upon hearing the muezzin."
 ---
 

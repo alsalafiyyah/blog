@@ -8,7 +8,7 @@ group: "group1"
 lang: en
 scholar: alifta
 category: [adhan, iqamah, sects, bidah, sia]
-Source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 8941, Question 5"
+source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 8941, Question 5"
 summary: "Neither during the era of the Messenger of Allah nor during the era of the Rightly Guided Caliphs was the name of Ali mentioned in the Adhan or the Iqamah"
 ---
 

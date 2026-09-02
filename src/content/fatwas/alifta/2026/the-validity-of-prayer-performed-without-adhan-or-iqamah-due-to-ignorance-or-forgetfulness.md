@@ -8,7 +8,7 @@ group: "group1"
 lang: en
 scholar: alifta
 category: [salah, adhan, iqamah]
-Source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 7335, Question 1"
+source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 7335, Question 1"
 summary: "If someone enters into the prayer without an Adhan or an Iqamah—due to forgetfulness, ignorance, or any other reason—their prayer is valid."
 ---
 
