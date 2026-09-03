@@ -49,7 +49,7 @@ const biography = defineCollection({
   loader: glob({ pattern: '**/[^_]*.md', base: './src/content/biography' }),
   schema: z.object({
     name: z.string().optional(),
-    title: z.string().optional(),
+    title: z.string(),
     official_web: z.string().optional(),
     publisher: z.string().optional(),
     summary: z.string(),
