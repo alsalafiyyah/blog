@@ -1,7 +1,7 @@
 ---
 name: "Shaykh Abdul-Aziz Ibn Baz"
 title: "Biography of Shaykh Ibn Baz"
-died: "1420 AH (1999 CE)"
+official_web: https://binbaz.org.sa/
 summary: "The former Grand Mufti of the Kingdom of Saudi Arabia and prominent scholar of tawhid and sunnah."
 ---
 
