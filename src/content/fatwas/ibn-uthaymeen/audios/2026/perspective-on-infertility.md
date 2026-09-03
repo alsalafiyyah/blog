@@ -10,10 +10,6 @@ mp3: https://www.alathar.net//files/sound/alothaymeen/nooralaaldarb/split-324a-1
 summary: Thus, for whomever Allah has decreed to be barren, it is not possible for
   them to give birth. But for whomever Allah has decreed a delay in childbearing or
   conception.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---

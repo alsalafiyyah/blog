@@ -11,14 +11,9 @@ category: [audios, marriage, women]
 summary: ​By Allah! My brother, to Allah we complain. One should not be surprised
   that foreign media outlets broadcast what corrupts beliefs, thoughts, and morals,
   because they are enemies.
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Salih Al-Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Many Muslim homes in our area have been afflicted with the presence of televisions inside the house, under the pretext of knowing international news, events in Muslim countries, and what is happening among others—yet it contains the evils that it contains. Now, satellite dishes have also entered [the homes] with the intention of expanding coverage of world news and other things. This individual is eager to uproot the television from his home, but inevitably, his children and wife might watch it at their parents', grandfather's, uncle's, or maternal uncle's house. So, what is the best course of action in this matter? May Allah reward you with goodness, O Shaykh.

@@ -9,15 +9,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_229_05.mp3
 summary: The story of the spider and the dove having occurred when the Prophet ﷺ hid
   in the Cave of Thawr is unauthentic.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-02'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Is the story of the spider's web and the two doves authentically reported regarding the day the Prophet ﷺ hid in the Cave of Thawr?

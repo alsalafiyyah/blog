@@ -10,14 +10,9 @@ link: https://binothaimeen.net/s/VeEKa8Jv
 mp3: https://salafimanhaj.github.io/assets/ibn-uthaymeen/the-concept-of-equality-between-men-and-women.mp3
 summary: 'Since we are on the topic of the question about equality, I would like to
   say: Equality has never been commanded in either the Qur''an or the Sunnah.'
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Salih Al-Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 The third question asks: What is the concept of equality between women and men in Islam? Does a girl working alongside a man in an atmosphere charged with corruption fall under this concept? If so, what is the meaning of the Almighty's saying: **"And stay in your houses, and do not display yourselves like that of the times of ignorance,..."** [Al-Ahzab: 33]? Is this command specific to the wives of the Prophet, peace and blessings be upon him, or is it general for all Muslim women until the Day of Resurrection?

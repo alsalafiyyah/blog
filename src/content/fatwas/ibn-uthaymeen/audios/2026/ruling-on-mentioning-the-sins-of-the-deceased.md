@@ -9,15 +9,10 @@ link: https://binothaimeen.net/s/8sIWahO8
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_306_08.mp3
 summary: Mentioning the dead for their bad deeds has been forbidden by the Messenger,
   peace and blessings be upon him​.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-02-23'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah reward you with good. The questioner A. M. M., a resident of Riyadh, asks: Is mentioning deceased individuals by their evil deeds—such as usury and others—and [mentioning] Allah's retribution against them, given that **"Allah Almighty grants respite to the wrongdoer but does not let [them escape]"**, remembering them to take heed, and expressing anger toward them—does mentioning them by name constitute backbiting or is it unlawful?

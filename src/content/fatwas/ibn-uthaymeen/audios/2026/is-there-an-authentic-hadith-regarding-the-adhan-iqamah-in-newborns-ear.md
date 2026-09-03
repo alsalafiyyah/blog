@@ -10,15 +10,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_339_23.mp3
 summary: As for the narrations (Hadiths) regarding the Iqamah in the left ear, they
   are weak.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-01'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah be good to you. Muhammad Hassan from Yemen asks: Is performing the Adhan in the newborn’s ear and the Iqamah in the other ear a Sunnah or not, and what is the authenticity of the narrations (Hadiths) regarding this matter?

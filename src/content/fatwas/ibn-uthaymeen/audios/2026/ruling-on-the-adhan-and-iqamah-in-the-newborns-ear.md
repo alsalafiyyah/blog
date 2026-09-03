@@ -9,15 +9,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_060_13.mp3
 summary: Is this practice legislated or not? Because the source narrations regarding
   this are not particularly strong, especially concerning the Iqamah.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-01'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Is the Adhan (call to prayer) in the newborn's right ear and the Iqamah (second call to prayer) in their left ear performed on the seventh day, the first day, or when exactly should it be done—may Allah bless you?

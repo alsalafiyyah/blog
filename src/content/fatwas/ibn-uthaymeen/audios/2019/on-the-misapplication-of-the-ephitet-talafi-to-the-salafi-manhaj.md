@@ -2,23 +2,18 @@
 publisher: alsalafiyyah.manhaj@gmail.com
 date: 2019-11-19
 hijri: '1441-03-22'
-title: "On the Misapplication of the Epithet Talafi to the Salafi Manhaj"
-source: "Liqa'a al-Bab al-Maftuh, Tape 235 no.12"
-category: [audios, creed]
-shaykh: "Shaykh Muhammad Ibn Salih al-Uthaymeen"
+title: On the Misapplication of the Epithet Talafi to the Salafi Manhaj
+source: Liqa'a al-Bab al-Maftuh, Tape 235 no.12
+category: [audios, creed, salafism]
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 scholar: ibn-uthaymeen
 url: https://binothaimeen.net/s/Wb4zEmcB
-mp3: "https://salafimanhaj.github.io/assets/ibn-uthaymeen/on-the-misapplication-of-the-epithet-talafi-to-the-salafi-manhaj.mp3"
+mp3: https://salafimanhaj.github.io/assets/ibn-uthaymeen/on-the-misapplication-of-the-epithet-talafi-to-the-salafi-manhaj.mp3
 lang: en
 summary: Its ruling is that he himself is the one who is Talif (ruined). You should
   not find it strange, my brother, that the people of goodness are given pejorative
   epithets.
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Salih al-Uthaymeen
-    url: /biography/uthaymeen/
 ---
-
 ### Question: 
 
 What is the ruling regarding one who refers to the Salafi manhaj (methodology) as the Talafi (destructive) manhaj— I seek refuge is sought with Allah?

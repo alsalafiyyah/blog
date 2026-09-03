@@ -9,10 +9,6 @@ link: https://binothaimeen.net/s/96lshzp3
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_110_07.mp3
 summary: Our view is that a believer must make the Messenger of Allah (peace and blessings
   of Allah be upon him) the one followed above all else.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---

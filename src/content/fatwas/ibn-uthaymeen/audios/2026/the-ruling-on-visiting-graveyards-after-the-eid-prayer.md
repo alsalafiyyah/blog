@@ -9,15 +9,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_216_23.mp3
 summary: This practice is a bid’ah (religious innovation). It was not the practice
   during the era of the Messenger, peace and blessings of Allah be upon him.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-11-30'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah bless you. In his final question, the listener Hamid also says: We have a widespread phenomenon, which is that many people head to the graveyards right after completing the Eid prayer. What is the Sharia ruling, in your view, regarding this practice?

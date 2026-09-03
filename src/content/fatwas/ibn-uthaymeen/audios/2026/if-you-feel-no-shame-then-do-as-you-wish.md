@@ -9,15 +9,10 @@ link: https://binothaimeen.net/s/mUy0XyxF
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_193_02.mp3
 summary: A person who lacks shame is found doing everything, completely unconcerned
   by people's blame or criticism because they have no shame.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-01-06'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah bless you. This listener, Sabir 'Ubayd from Sudan, asks about the meaning of the hadith in which the Messenger of Allah ﷺ said: **"Among the words that the people obtained from the early prophecy is: 'If you feel no shame, then do as you wish.'"**?

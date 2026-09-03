@@ -9,15 +9,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_339_36.mp3
 summary: The Prophet did not use to go out on the day of Eid to visit the graves,
   nor did he command his nation to go out to visit them on that day.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-11-30'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah reward you with goodness. Ibrahim Abu Hamid says: There are people who go to the graveyards immediately upon the conclusion of the Eid prayer with the intention of greeting their deceased relatives, and they do this consistently every Eid. What is the ruling on that practice? May you be rewarded.

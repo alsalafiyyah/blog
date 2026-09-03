@@ -1,21 +1,17 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "The Ruling on Claiming Knowledge of the Unseen"
+title: The Ruling on Claiming Knowledge of the Unseen
 date: 2026-08-27
-hijri: "1448-03-14"
+hijri: '1448-03-14'
 lang: en
 scholar: ibn-uthaymeen
-shaykh: "Shaykh Muhammad Ibn Salih al-Uthaymeen"
-source: "Fatawa Arkan al-Islam p.40, Question 14"
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
+source: Fatawa Arkan al-Islam p.40, Question 14
 link: https://shamela.ws/book/9924/35
 category: [creed]
-summary: "The ruling regarding one who claims knowledge of the unseen is that he is a kafir (disbeliever), because he is denying Almighty Allah."
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Salih Al-Uthaymeen 
-    url: /biography/uthaymeen/
+summary: The ruling regarding one who claims knowledge of the unseen is that he is
+  a kafir (disbeliever), because he is denying Almighty Allah.
 ---
-
 ### Question: 
 
 What is the ruling on someone who claims knowledge of the unseen?
@@ -31,4 +27,3 @@ Furthermore, Almighty Allah says regarding Himself: **"(He Alone) the All-Knower
 This is a second verse indicating the disbelief of one who claims knowledge of the unseen. 
 
 Moreover, Almighty Allah commanded His Prophet (peace be upon him) to announce to the public: **"Say (O Muhammad ﷺ): 'I don't tell you that with me are the treasures of Allah, nor (that) I know the unseen; nor I tell you that I am an angel. I but follow what is revealed to me by inspiration.'"** [Al-An'am: 50].
-

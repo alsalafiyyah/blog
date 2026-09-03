@@ -9,14 +9,9 @@ url: https://binothaimeen.net/s/xTsqFCZv
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_375_20.mp3
 summary: It appeared in the fourth century [AH]. Its foundation and its standing in
   the Sharia has no basis in the law of Allah
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 When did the innovation (bid’ah) of the Mawlid (Prophet's birthday) first appear?

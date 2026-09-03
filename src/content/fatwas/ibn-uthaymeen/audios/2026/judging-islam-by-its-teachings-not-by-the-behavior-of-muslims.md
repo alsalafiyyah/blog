@@ -9,15 +9,10 @@ link: https://binothaimeen.net/s/NN46tl5b
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_120_10.mp3
 summary: The duty of anyone who truly desires Islam—with a sincere intent—is to look
   into the teachings and guidance of Islam itself, not at the actions of Muslims.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-26'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 A non-Muslim man hears about Islam and knows that it calls to monotheism and that there is only one God. However, from what appears to him regarding Muslims—based on the information that reaches him—he perceives them to be fierce and combative, and that their Prophet was like that as well. Nevertheless, he believes that there is only one God. What is the recompense for this person on the Day of Resurrection?

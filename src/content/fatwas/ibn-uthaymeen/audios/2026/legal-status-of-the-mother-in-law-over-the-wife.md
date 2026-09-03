@@ -9,14 +9,9 @@ link: https://binothaimeen.net/s/qnEKCDqm
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_068_15.mp3
 summary: As for it being an obligation, then no; because the consorting with kindness
   is specifically between the husband and the wife.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Does the husband's mother have any rights over the wife?

@@ -10,15 +10,10 @@ summary: The matter of a wife is not like any other; indeed, the separation of s
   from one another carries its own dangers, especially if there are children between
   them.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-16'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Also from the questions of the listener, Ahmad Al-Masri, residing in Riyadh, who asks: Is a person sinful if they detest their wife—meaning, they do not love her?

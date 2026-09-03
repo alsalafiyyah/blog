@@ -9,14 +9,9 @@ link: https://binothaimeen.net/s/eCpNHx3h
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/mm_020_11.mp3
 summary: The ruling on this is prohibition. It is not permissible for a woman to wear
   anything except loose, wide, and ample clothing.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 In women's wedding gatherings and celebrations, certain styles of dress have become widespread that cause other women to feel disgusted upon seeing them. For example: a woman wears a dress that reveals part of her chest, while the area above it remains bare with nothing to cover it. What is the ruling on this? And what should my stance be if I see such clothing?

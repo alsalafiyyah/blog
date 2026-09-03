@@ -1,21 +1,18 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Is the Forehead Mark of Prostration considered one of the signs of the righteous?"
+title: Is the Forehead Mark of Prostration considered one of the signs of the righteous?
 date: 2026-08-27
-hijri: "1448-03-14"
+hijri: '1448-03-14'
 lang: en
 scholar: ibn-uthaymeen
-shaykh: "Shaykh Muhammad Ibn Salih al-Uthaymeen"
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 category: [myths, salah]
-source: "Fatawa Arkan al-Islam p.329, Question 251"
+source: Fatawa Arkan al-Islam p.329, Question 251
 link: https://shamela.ws/book/9924/323
-summary: "This is not among the signs of the righteous. Rather, the signs are the light that appears on the face, openness of the chest (inner peace), good character, and similar traits."
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Salih Al-Uthaymeen 
-    url: /biography/uthaymeen/
+summary: This is not among the signs of the righteous. Rather, the signs are the light
+  that appears on the face, openness of the chest (inner peace), good character, and
+  similar traits.
 ---
-
 ### Question: 
 
 Is the mark on the forehead caused by prostration considered one of the signs of the righteous?

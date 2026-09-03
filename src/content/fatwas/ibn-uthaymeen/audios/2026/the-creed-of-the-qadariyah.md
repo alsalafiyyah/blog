@@ -9,10 +9,6 @@ url: https://binothaimeen.net/s/dRK8Mfpd
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_233_04.mp3
 summary: The Qadariyah means those who deny Divine Decree. They are attributed to
   Qadar even though they do not believe in it.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---

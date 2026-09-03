@@ -8,10 +8,6 @@ category: [sects, sufism]
 url: https://binothaimeen.net/s/WE2q1Z1X
 summary: What I advise you to do is to seek out a scholar from among the scholars
   of the Sunnah, who are known for following the Pious Predecessors (Al-Salaf al-Salih).
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---

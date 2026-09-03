@@ -9,14 +9,9 @@ link: https://binothaimeen.net/s/SoIolUpU
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_277_17.mp3
 summary: If she looks at a man with pleasure or desire, then that is forbidden for
   her. In that case, she must divert her gaze.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah bless you. This questioner is a student at the Faculty of Medicine, Cairo University, Egypt. She asks: What are the limits of lowering the gaze? And must I avoid looking at any man specifically if circumstances require me to deal with a man? I hope for your guidance, virtuous Shaykh.

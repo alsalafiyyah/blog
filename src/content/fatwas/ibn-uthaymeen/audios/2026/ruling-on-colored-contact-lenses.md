@@ -10,15 +10,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_232_04.mp3
 summary: It is not permissible for a woman to wear these lenses if doctors determine
   that they are harmful to her eyes. However, even if there is no harm, my advice
   to women is not to wear them.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-01-23'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 A woman asks in her question: Honorable Shaykh, regarding colored contact lenses: Is it permissible to use contact lenses that change the eye color from black to green or blue, for the purpose of beautifying oneself for one's husband?

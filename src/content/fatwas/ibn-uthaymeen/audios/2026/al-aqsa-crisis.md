@@ -10,10 +10,6 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/mm_038_09.mp3
 summary: These are the characteristics of the Jews; it is no surprise that they break
   treaties and betray. They even betrayed the one most faithful to covenants, the
   Messenger of Allah ﷺ.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-01-01'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen

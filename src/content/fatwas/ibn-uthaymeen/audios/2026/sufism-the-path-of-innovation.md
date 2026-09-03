@@ -10,10 +10,6 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_200_08.mp3
 summary: The Sufi path is an innovated path for which Allah has sent down no authority.
   Neither the Messenger of Allah ﷺ, nor his Rightly Guided Caliphs, nor the guided
   Imams followed it.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---

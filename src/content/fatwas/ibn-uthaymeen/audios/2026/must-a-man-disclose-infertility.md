@@ -9,14 +9,9 @@ link: https://binothaimeen.net/s/JoS9t1sg
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_007_27.mp3
 summary: Anyone who has a physical defect or condition must disclose it to those from
   whom he is seeking marriage, especially such a significant matter as infertility.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 We have a colleague at work who is not yet married. Every now and then, we remind him of the virtues of marriage and urge him to take that step, to which he replies, "In Shaa Allah" One day, I pressed him on the matter and said, "I don't think there is any reason for your reluctance to get married." He responded, "There is a reason," and then revealed, "I am infertile and cannot have children. When I want to propose, should I inform them of this, or not?"

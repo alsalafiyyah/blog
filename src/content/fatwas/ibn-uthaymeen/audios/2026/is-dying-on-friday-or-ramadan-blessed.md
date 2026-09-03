@@ -9,15 +9,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_207_14.mp3
 summary: The punishment of the grave is established for everyone who deserves it,
   whether they die on Friday, in Ramadan, or at any other time.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-11-29'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 The listener also asks in his second question: Do the dead see one another after death?

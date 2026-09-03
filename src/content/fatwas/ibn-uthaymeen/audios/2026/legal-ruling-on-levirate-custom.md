@@ -9,14 +9,9 @@ link: https://binothaimeen.net/s/qTdr366b
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/mm_029_10.mp3
 summary: Having the man’s children under the care of their uncle is better than having
   them under the care of a stranger.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 It has become common practice among us that when a husband passes away, his brother marries the widow as if he has inherited her, without seeking her consent. They justify this by claiming it prevents the children from losing someone to care for them. Does this practice have any basis in religion?

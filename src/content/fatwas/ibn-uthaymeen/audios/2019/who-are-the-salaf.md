@@ -1,22 +1,17 @@
 ---
-title: "Who are the Salaf"
+title: Who are the Salaf
 date: 2019-11-19
-hijri: "1441-03-22"
-scholar: "ibn-uthaymeen"
-shaykh: "Shaykh Muhammad ibn Salih al-Uthaymeen"
-source: "Fatawa Nur ala Ad-Darb, Tape no. 175"
+hijri: '1441-03-22'
+scholar: ibn-uthaymeen
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
+source: Fatawa Nur ala Ad-Darb, Tape no. 175
 featured: true
-category:
-  - creed
-  - audios
-mp3: "https://salafimanhaj.github.io/assets/ibn-uthaymeen/who-are-the-salaf.mp3"
-summary: "The Righteous Salaf are the Sahabah (Companions of the Prophet ﷺ) and those who followed their path among the Tabi’un (Successors), and the Atba’ al-Tabi’un (Successors of the Successors)."
-muftis:
-  shaykh:
-  - name: "Shaykh Muhammad ibn al-Uthaymeen"
-    url: "/biography/ibn-uthaymeen/"
+category: [creed, audios, salafism, history]
+mp3: https://salafimanhaj.github.io/assets/ibn-uthaymeen/who-are-the-salaf.mp3
+summary: The Righteous Salaf are the Sahabah (Companions of the Prophet ﷺ) and those
+  who followed their path among the Tabi’un (Successors), and the Atba’ al-Tabi’un
+  (Successors of the Successors).
 ---
-
 ### Question: 
 
 This is a female listener from Riyadh with a group of questions. In her first question, she asks: "I hear about the Salaf; who are the Salaf, O virtuous Shaykh?

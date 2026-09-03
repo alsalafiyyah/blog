@@ -1,23 +1,18 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "The Purposes of the Believer's Trial"
+title: The Purposes of the Believer's Trial
 date: 2025-08-07
 hijri: '1447-02-13'
-source: "Fatawa Islamiyah pg. 177-180"
+source: Fatawa Islamiyah pg. 177-180
 category: [creed]
 scholar: ibn-uthaymeen
-shaykh: "Shaykh Muhammad Ibn Salih al-Uthaymeen"
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 lang: en
 summary: Allah, the Almighty, the Majestic is Wiser, Greater, More Powerful and More
   Able; thus it is incumbent upon us to accept His Decree with a complete acceptance,
   both those which He allows to happen without necessitating His approval, and those
   which happen with His liking and approval.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 ---
-
 ### Question: 
 
 Why does Allah burden the believers, who perform many acts of worship, with illnesses and trials, while the disobedient ones enjoy the good things in life?
@@ -49,4 +44,3 @@ So they are given these good things as advance compensation for their good in th
 In brief, this world is for the disbelievers, by which they are lured to destruction, after which, they go on from this life in which they were blessed, to the afterlife, where they find punishment we seek refuge with Allah from that and the punishment will be worse for them because they will find therein torment and suffering, in addition to which, they will suffer the loss of the things dear to them in the life of this world, its blessings and its luxuries. This is a third purpose which we might add to the above-mentioned two, concerning the harm and illness the believer endures, for he transfers to an abode of goodness from this world, so he will have gone from a painful situation to one of ease and comfort, and his happiness at the felicity given to him will be doubled, because he has found ease and comfort in place of the pains and calamities he previously suffered.
 
 [^1]: Muslim 2956
-

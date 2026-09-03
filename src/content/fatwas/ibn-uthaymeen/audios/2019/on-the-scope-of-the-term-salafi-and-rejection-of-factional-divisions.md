@@ -2,23 +2,18 @@
 publisher: alsalafiyyah.manhaj@gmail.com
 date: 2019-11-19
 hijri: '1441-03-22'
-title: "On the Scope of the Term 'Salafi' and the Rejection of Factional Divisions"
-source: "Liqa' al-Bab al-Maftuh 220, Question 11"
-category: [creed]
-shaykh: "Shaykh Muhammad Ibn Salih al-Uthaymeen"
+title: On the Scope of the Term 'Salafi' and the Rejection of Factional Divisions
+source: Liqa' al-Bab al-Maftuh 220, Question 11
+category: [creed, salafism, history]
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 scholar: ibn-uthaymeen
 url: https://alathar.net/home/esound/index.php?op=codevi&coid=65983
-mp3: "https://salafimanhaj.github.io/assets/ibn-uthaymeen/on-the-scope-of-the-term-salafi-and-the-rejection-of-factional-divisions.mp3"
+mp3: https://salafimanhaj.github.io/assets/ibn-uthaymeen/on-the-scope-of-the-term-salafi-and-the-rejection-of-factional-divisions.mp3
 lang: en
 summary: We must know that the term 'Salafi' is not confined to a specific group.
   Anyone who adheres to the methodology (madhhab) of the Salaf is a Salafi—that is
   the definition of a Salafi
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 ---
-
 Questioner: It has become customary to describe a specific group of Muslims as Salafis...
 
 The Sheikh: A what group?

@@ -9,15 +9,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_340_04.mp3
 summary: As for him being alive, no, he is not alive. If he were alive, it would have
   been obligatory for him to believe in the Prophet Muhammad.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-11-29'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah be good to you. Are the hadiths narrated concerning Al-Khidr (peace be upon him) authentic up to this day, and is he still alive?

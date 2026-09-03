@@ -9,15 +9,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_369_27.mp3
 summary: I strongly advise those who drive a wedge between a man and his wife, and
   I say Their action is like the action of sorcerers—and refuge is sought with Allah.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-16'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah reward you with goodness. In his second question, this listener asks: My wife's family is causing distress for me and my wife. What is the ruling on shunning them and stopping visits to them?

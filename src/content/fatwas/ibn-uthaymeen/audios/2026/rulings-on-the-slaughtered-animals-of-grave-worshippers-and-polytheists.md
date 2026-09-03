@@ -9,15 +9,10 @@ link: https://www.alathar.net/home/esound/index.php?op=codevi&coid=54439
 mp3: https://www.alathar.net//files/sound/alothaymeen/nooralaaldarb/split-066a-2.mp3
 summary: ​"As for labeling the people of monotheism among them as 'Wahhabis,' this
   label was in reality fabricated to distort the call to monotheism."
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-03-07'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 The questioner asks: There are Islamic lands where "polytheism" (Shirk) prevails and people of "monotheism" (Tawhid) are few, to the extent that those few are called "Wahhabis" due to the scarcity of monotheists. Are their slaughtered animals permissible to eat, knowing that they mention the name of Allah over them and do not acknowledge their polytheism, as is the case with grave-worshippers?

@@ -10,14 +10,9 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_183_15.mp3
 category: [history]
 summary: ​A man in the middle of the sea, experiencing punishment—how could anyone
   have dared to retrieve this body from the sea?
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Salih Al-Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 Some people say regarding the statement of Allah Almighty: **“So this day We shall deliver your (dead) body (out from the sea) that you may be a sign to those who come after you! ”** [Yunus: 92], that this verse indicates Pharaoh's corpse is still present in the pyramids. Some people visit and say, "We saw the corpse," and even some scholars say this. Does this claim of theirs have any basis?

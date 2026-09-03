@@ -9,15 +9,10 @@ link: https://binothaimeen.net/s/FewP2Rh3
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_292_24.mp3
 summary: Yes. There is no harm if a questioner asks you about something you do not
   like to tell them.​
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-02-23'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah bless you, Your Eminence Shaykh. This female questioner asks: If someone asks me about something I do not wish to discuss, is it permissible for me to say, "Allah knows best"?

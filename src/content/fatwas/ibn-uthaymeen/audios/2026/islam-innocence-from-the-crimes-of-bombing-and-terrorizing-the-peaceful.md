@@ -10,15 +10,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_129_02.mp3
 summary: By Allah, there is no doubt that this act is something no one approves of.
   Every sane person, let alone a believer, rejects it, because it goes against the
   Qur'an and the Sunnah.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-25'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question
 
 The bombing incident that previously occurred in al-Ulya is not unknown to you, resulting in the loss of lives among the covenanted (non-Muslim residents under protection) and others. It was carried out by those who are young in age and foolish in mind. You are well aware of the gravity of this act, how it violates the command of Allah and His Messenger, disregards Sharia evidence, dismisses the opinions of senior and deeply-grounded scholars, and constitutes defiance and rebellion against the ruler. Now, another bombing has occurred in Al-Khobar. Is there a word from you to clarify the religion of Allah Almighty regarding this, and to warn against this dangerous slope taken by a group of youth—who are few, praise be to Allah? Their actions are derived from the behavior of the Kharijites (members of the deviant al-Khawarij sect), though they themselves may not know that what they are doing matches the actions of the Kharijites. Could you please clarify the religion of Allah, the Glorified and Exalted, on this matter?

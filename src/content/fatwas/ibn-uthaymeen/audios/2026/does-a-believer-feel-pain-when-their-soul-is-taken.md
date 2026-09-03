@@ -9,15 +9,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_339_17.mp3
 summary: The extraction—meaning the extraction of the soul from the body—is severe.
   However, it is eased for one person and intensified for another.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-11-29'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 This questioner, M. 'A. from Jordan, says: Virtuous Sheikh, does a believer experience pain at the time when the soul is extracted?

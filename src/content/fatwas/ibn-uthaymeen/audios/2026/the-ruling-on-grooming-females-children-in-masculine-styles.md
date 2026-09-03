@@ -10,14 +10,9 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/mm_031_10.mp3
 summary: She is sinful for this act, and this is the crux of the matter. It is a sin
   to cut her daughter’s hair so that it resembles a male’s hair, because the Prophet
   cursed women who imitate men.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 A female enquirer asks: I cut the hair of my five-year-old daughter in a style that resembles a boy’s haircut. The reason for this is that she refuses to let me tie her hair back, which makes it look unkempt and untidy. Am I sinful for doing this? And is the prohibition of 'resembling the opposite sex' exclusive to adult women, or does it apply to children as well?

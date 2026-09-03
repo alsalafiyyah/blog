@@ -10,15 +10,10 @@ summary: He must never obey his wife, his mother, his father, nor his superiors 
   committing a sin, for there is no obedience to a created being if it involves disobedience
   to the Creator.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-11-27'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 It is well known that growing a beard for men is a Sunnah Mu'akkadah (confirmed Sunnah). However, what if a man’s wife says: "You must shave your beard, otherwise I will not allow you to be intimate with me"? I hope you will discuss this topic thoroughly, keeping in mind that I am someone currently experiencing this situation with my wife. I have tried to convince her, but she remains unpersuaded—to the point that she says: "I am prepared to take you to court over this." With my sincere thanks and appreciation.

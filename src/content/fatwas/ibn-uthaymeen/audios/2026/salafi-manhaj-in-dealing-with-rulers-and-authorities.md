@@ -9,14 +9,9 @@ mp3: https://salafimanhaj.github.io/assets/ibn-uthaymeen/the-salafi-methodology-
 summary: There is no doubt that the manhaj (methodology) of the Salaf is to be patient
   with the harm of the rulers, to supplicate for them, and to establish the Friday
   and Eid prayers with them.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 You mentioned in your speech regarding Salafism. The question is: if there is a man who outwardly appears to follow the Salaf, his creed (’aqidah) is sound, and he possesses many good deeds, yet he contradicts the Salaf in the methodology of dealing with the ruler—does he [then] exit the fold of Salafism and is he to be declared an innovator (a mubtadi')?

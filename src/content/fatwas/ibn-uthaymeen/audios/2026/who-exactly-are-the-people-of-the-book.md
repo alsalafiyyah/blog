@@ -9,10 +9,6 @@ url: https://binothaimeen.net/s/RgOLg223
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_134_06.mp3
 summary: Jesus’s announcement of the glad tidings of the Prophet Muhammad proves that
   it is obligatory for his followers to follow him.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---

@@ -9,15 +9,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_331_23.mp3
 summary: This statement is batil (false). Muhammad, peace and blessings of Allah be
   upon him, is from the children of Adam
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-02'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah be good to you, O Sheikh, and bless you. A questioner to the program says in his question—the questioner is Sudanese: 'Virtuous Sheikh, people say that the Messenger was created from light ($nur$). Is this statement correct?

@@ -9,15 +9,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_143_02.mp3
 summary: In the case of a difficult labor, a person may write verses in a vessel that
   indicate the relieving or bringing forth of things
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-01'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Virtuous Sheikh, what is your advice for a woman during childbirth, and what should she read from the Quran?

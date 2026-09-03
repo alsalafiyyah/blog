@@ -9,15 +9,10 @@ link: https://binothaimeen.net/s/htmIo9HB
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_172_18.mp3
 summary: ​Some contemporary scholars, may Allah grant them success, have stated that
   the origin of this practice is taken from the Christians.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-02-27'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 What is the ruling on slaughtering sacrificial animals and bringing them to the family of the deceased? Does this fall under the saying of the Messenger ﷺ: **"Prepare food for the family of Ja'far,"** especially since people do this in a rotating schedule among themselves for lunch and dinner?

@@ -9,14 +9,9 @@ link: https://binothaimeen.net/s/kS8LJowD
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_342_16.mp3
 summary: It is not allowed for a woman to let anyone who is not her mahram into her
   husband’s house.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah bestow His generosity upon you. The petitioner from Yemen asks: Is it permissible for a woman, while her husband is away, to allow non-mahram relatives to enter and stay overnight in the house?

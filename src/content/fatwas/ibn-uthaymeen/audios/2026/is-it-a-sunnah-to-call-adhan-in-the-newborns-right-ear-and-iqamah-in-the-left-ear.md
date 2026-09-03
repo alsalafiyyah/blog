@@ -10,15 +10,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_183_05.mp3
 summary: As for the Adhan, it has an established basis, and the narration concerning
   it is good (Hasan) and acceptable.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-01'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Regarding the Adhan in the newborn’s right ear and the Iqamah in the left, is it a Sunnah and does it have an authentic basis?

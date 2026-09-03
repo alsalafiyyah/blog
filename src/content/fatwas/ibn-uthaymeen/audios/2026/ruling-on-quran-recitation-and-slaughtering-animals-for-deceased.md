@@ -9,14 +9,9 @@ url: https://binothaimeen.net/s/2glEvvFh
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_370_14.mp3
 summary: This is among the innovations (bid’ah)—the forbidden innovations—and it is
   a waste of money and a renewal of grief.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 Finally, he asks about reciting the Quran for three days in the house of the deceased and slaughtering animals on the day of death?

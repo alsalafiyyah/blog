@@ -9,15 +9,10 @@ link: https://binothaimeen.net/s/HAvslsoR
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_165_11.mp3
 summary: This is because the believer looks forward to a bliss that is far better,
   more perfect, and loftier in the Hereafter.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-01-06'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah bless you. This listener, your brother in faith Ibrahim, asks about the meaning of the hadith narrated by Abu Hurayrah from the Messenger of Allah ﷺ: **"The world is a prison for the believer and a paradise for the disbeliever."** He asks: What is the meaning of this hadith?

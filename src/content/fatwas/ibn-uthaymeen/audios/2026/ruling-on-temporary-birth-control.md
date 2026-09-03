@@ -9,14 +9,9 @@ link: https://binothaimeen.net/s/FZvuCALb
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_203_01.mp3
 summary: If a person possessed strong faith and trust (in Allah), they would know
   that Allah does not create a soul except that He has guaranteed its provision
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 With the blessing of Allah, we begin this week's episode with a letter received from a listener, Muhammad Ibrahim from Egypt. He sent a message asking: What is the Islamic legal ruling, in your view, Your Eminence, regarding birth control for a temporary period without an urgent necessity, other than the woman simply wanting to rest from the exhaustion of annual pregnancies? He also asks about the claim made by the enemies of Islam regarding the population explosion.

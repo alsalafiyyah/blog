@@ -13,15 +13,10 @@ summary: They can neither benefit nor harm anyone, and no one is permitted to at
   them, or the like—while it is known they died upon disbelief, this is merely from
   the deception and delusion of Iblis (Satan) to test and tempt people through these
   graves.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-02-13'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Some Sufis claim that the occupants of graves possess miracles (karamat), citing as evidence the statement of the Almighty in Surah Al-Kahf: **“And as for the wall, it belonged to two orphan boys”** [Al-Kahf: 82]. They also say: "Had their father not been a righteous man, the treasure would not have emerged," counting this as one of his miracles after his death. 

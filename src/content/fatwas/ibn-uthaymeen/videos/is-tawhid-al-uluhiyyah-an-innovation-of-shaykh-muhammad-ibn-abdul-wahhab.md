@@ -1,23 +1,19 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
 date: 2026-06-14
-title: "Is Tawhid al-Uluhiyyah an Innovation of Shaykh Muhammad ibn Abd al-Wahhab?"
-source: "Liqa' al-Bab al-Maftuh, Tape 52"
+title: Is Tawhid al-Uluhiyyah an Innovation of Shaykh Muhammad ibn Abd al-Wahhab?
+source: Liqa' al-Bab al-Maftuh, Tape 52
 category: [videos, creed, wahhabism]
 scholar: ibn-uthaymeen
-shaykh: "Shaykh Muhammad ibn Salih al-Uthaymeen"
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 lang: en
 videoURL: https://youtu.be/5uRKFxkjnqA
 videoID: 5uRKFxkjnqA
 link: https://fatawapedia.com/%D9%87%D9%84-%D8%AA%D9%88%D8%AD%D9%8A%D8%AF-%D8%A7%D9%84%D8%A3%D9%84%D9%88%D9%87%D9%8A%D8%A9-%D9%85%D9%85%D8%A7-%D8%A3%D8%AD%D8%AF%D8%AB%D9%87-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%88%D9%87%D8%A7%D8%A8-11754
-summary: "We respond to him by asking, Did Muhammad ibn Abd al-Wahhab al-Najdi come before the Quran or after the Quran?"
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad ibn Salih al-Uthaymeen
-    url: /biography/uthaymeen/
+summary: We respond to him by asking, Did Muhammad ibn Abd al-Wahhab al-Najdi come
+  before the Quran or after the Quran?
 hijri: '1447-12-28'
 ---
-
 ### Question:
 
 If this man is a Sufi and hates this Tawhid [al-Uluhiyyah (Oneness of Divinity in worship)], saying, 'This is something innovated by Muhammad ibn Abd al-Wahhab al-Najdi,' how do we respond to him and what arguments do we use against him?

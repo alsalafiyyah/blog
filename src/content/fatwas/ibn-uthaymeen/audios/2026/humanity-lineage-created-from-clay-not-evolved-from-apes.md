@@ -10,14 +10,9 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_055_05.mp3
 summary: This statement is incorrect — I mean the claim that the origin of man is
   an ape—rather, the one who says it is, in reality, an ape whose intellect and insight
   have been distorted.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 This is a message we received from the sender Muhammad Omar Sultan from Iraq, Nineveh Governorate. He says: "I am the student Muhammad Sultan, a student in the second year of intermediate school. Last year, I studied the origin of man in a history textbook, and the book asserts that man's origin is an ape and that he transformed over time into a human. Is this correct, or does it conflict with what is mentioned in the Holy Qur’an regarding the origin of apes? Please guide us, may Allah grant you success, so that we may follow the right path. Thank you."

@@ -9,14 +9,9 @@ category: [audios, history, prophets]
 link: https://binothaimeen.net/s/EBugvAmx
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_047_10.mp3
 summary: The children of the Prophet ﷺ are considered Sahabah (Companions)
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Salih Al-Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Were the children of the Prophet Muhammad ﷺ considered Sahabah (Companions) or Prophets? May Allah reward you with goodness.

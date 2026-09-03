@@ -9,15 +9,10 @@ link: https://binothaimeen.net/s/0zMJcPcH
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_029_01.mp3
 summary: Anyone who involves themselves in bid'ah (an innovation)—whether initiating
   it or continuing it—incurs sin.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-24'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 Questioner:  Welcome, Your Eminence, Shaykh Muhammad.
 
 Shaykh: May Allah preserve you.

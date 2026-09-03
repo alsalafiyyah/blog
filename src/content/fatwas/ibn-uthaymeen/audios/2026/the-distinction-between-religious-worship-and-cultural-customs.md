@@ -9,15 +9,10 @@ link: https://binothaimeen.net/s/yaovVjBk
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_210_09.mp3
 summary: ​There is no doubt that this is a deeply erroneous statement. Hijab is not
   a custom; rather, it is an act of worship commanded by Allah.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-02-23'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Your Eminence Shaykh Muhammad, the phrase "This is from our traditions" or "This is from our customs" is frequently on the lips of many people. Perhaps you have some guidance regarding these phrases, O Sheikh?

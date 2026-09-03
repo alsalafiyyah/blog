@@ -10,15 +10,10 @@ link: https://binothaimeen.net/s/Ds7cfUrT
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_134_03.mp3
 summary: It is well known that when a person dies, their actions come to an end because
   they have passed away, and actions only take place during life.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-01-05'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 This is a letter from Jasim Ali Hashim Al-Asadi, who asks in his letter: What is the meaning of the Noble Hadith: **“When a son of Adam dies, his deeds come to an end except for three: a ongoing charity, knowledge by which others benefit, or a righteous child who prays for him.”** Please enlighten us, and may Allah bless you.

@@ -1,21 +1,17 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "How to Answer Those Who Justify Grave-Worship Using the Prophet's Mosque"
+title: How to Answer Those Who Justify Grave-Worship Using the Prophet's Mosque
 date: 2026-08-28
-hijri: "1448-03-15"
+hijri: '1448-03-15'
 lang: en
 scholar: ibn-uthaymeen
-shaykh: "Shaykh Muhammad Ibn Salih al-Uthaymeen"
-source: "Fatawa Arkan al-Islam p.165, Question 80"
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
+source: Fatawa Arkan al-Islam p.165, Question 80
 link: https://shamela.ws/book/9924/160
 category: [creed, sects, sufism, shia]
-summary: "The mosque was not built over the grave; rather, the mosque was built during the lifetime of the Prophet (peace be upon him)"
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Salih Al-Uthaymeen 
-    url: /biography/uthaymeen/
+summary: The mosque was not built over the grave; rather, the mosque was built during
+  the lifetime of the Prophet (peace be upon him)
 ---
-
 ### Question: 
 
 How do we respond to grave-worshippers who use the burial of the Prophet (peace be upon him) in the Prophet's Mosque as an argument?
@@ -33,4 +29,3 @@ Third: The inclusion of the Prophet's houses—including the house of Aisha—in
 Fourth: The grave is not inside the mosque even after its inclusion, because it is in a separate chamber independent of the mosque. The mosque was not built over it; for this reason, this area was preserved and enclosed by three walls. The wall was constructed at an oblique angle relative to the qiblah—meaning it is triangular—with the corner in the northern angle so that a person does not face it when praying, as it is angled away. 
 
 Thus, the argument used by grave-worshippers based on this misconception is completely invalidated.
-

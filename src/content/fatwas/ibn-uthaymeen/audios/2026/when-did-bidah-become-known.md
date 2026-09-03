@@ -9,14 +9,9 @@ url: https://binothaimeen.net/s/guEyzXjr
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_287_02.mp3
 summary: Bid'ah appeared toward the end of the era of the Companions (may Allah be
   pleased with them), but you would find them as innovations regarding specific issues.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 When did innovation (bid'ah) first appear? And when did it become known?

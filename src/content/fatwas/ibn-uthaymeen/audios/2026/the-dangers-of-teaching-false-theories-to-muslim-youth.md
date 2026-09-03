@@ -9,14 +9,9 @@ link: https://binothaimeen.net/s/T7hNBnEO
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_055_06.mp3
 summary: This man’s admission regarding himself—that he is among the apes—is accepted.
   However, his claim that others are apes is rejected.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 This message is also related to the previous one, sent by a student who says: "I am the student Saad Saud." In fact, the letter is very long, but perhaps summarizing it would be more appropriate. He says: "My classmates and I are complaining to you about our teacher, who enters our classroom and says to us, 'Peace be upon the apes.' When we protest against him, he brings up the story of Freud and says, 'This is your origin and mine, and there is no escape for us from this origin.' Note that our teacher appears arrogant, wears long clothes, and has long hair and long nails. What should our stance be toward this teacher, may Allah grant you success? Note that he did not specify his country, village, or anything of that sort."

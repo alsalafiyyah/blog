@@ -1,22 +1,19 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Defining True Salafism vs. Partisan Affiliation"
+title: Defining True Salafism vs. Partisan Affiliation
 date: 2024-08-23
 hijri: '1446-02-19'
 lang: en
-shaykh: "Shaykh Muhammad Ibn Salih al-Uthaymeen"
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 scholar: ibn-uthaymeen
-category: [creed, audios]
-source: "Liqa' al-Bab al-Maftuh Tape No. 57"
+category: [creed, audios, salafism]
+source: Liqa' al-Bab al-Maftuh Tape No. 57
 link: https://binothaimeen.net/s/gManIOBk
-mp3: "https://salafimanhaj.github.io/assets/ibn-uthaymeen/defining-true-salafism-vs-partisan-affiliation.mp3"
-summary: "Salafism is following the methodology of the Prophet — peace and blessings be upon him — and his Companions; because they are the ones who preceded us and went before us, and following them is Salafism."
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen
+mp3: https://salafimanhaj.github.io/assets/ibn-uthaymeen/defining-true-salafism-vs-partisan-affiliation.mp3
+summary: Salafism is following the methodology of the Prophet — peace and blessings
+  be upon him — and his Companions; because they are the ones who preceded us and
+  went before us, and following them is Salafism.
 ---
-
 ### Question:
 
 We want to know what Salafiyyah (Salafism) is as a methodology (manhaj), and is it permissible for us to affiliate ourselves with it? Is it permissible for us to criticize someone who does not affiliate with it, or someone who objects to the word "Salafi," or similar matters?
@@ -36,4 +33,3 @@ Therefore, Salafism in the sense of being a distinct party with its own characte
 As for Salafism: it is following the methodology of the Salaf in creed, word, deed, unity, disagreement, agreement, mutual mercy, and mutual affection. As the Prophet — peace and blessings be upon him — said: **"The parable of the believers in their mutual affection, mercy, and compassion is that of a single body: when one limb aches, the rest of the body responds with wakefulness and fever."** 
 
 This is true Salafism.
-

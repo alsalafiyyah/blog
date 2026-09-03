@@ -10,14 +10,9 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/mm_011_07.mp3
 summary: My advice to my sisters among women is to avoid these garments and ensure
   their clothing is concealing. My advice to their guardians is to not permit women
   to wear clothing that contradicts the requirements of the Sharia.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Is it permissible for a woman to uncover parts of her body, such as her legs, chest, or similar areas, in the presence of her Mahrams, such as her sons, brothers, and others? Furthermore, is there a distinction in this regard between male and female Mahrams, considering that exposing such parts of the ‘Awrah (private areas) may trigger latent instincts, especially among adolescents?

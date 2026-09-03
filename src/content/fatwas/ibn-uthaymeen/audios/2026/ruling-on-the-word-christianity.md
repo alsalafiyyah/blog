@@ -10,10 +10,6 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_043_09.mp3
 summary: Our view is that we should call the Nasara (Nazarenes) by the name 'Nasara,'
   just as Allah named them, and as is well-known in the books of the scholars of the
   past; they used to refer to them as 'The Jews and the Nasara.'
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---

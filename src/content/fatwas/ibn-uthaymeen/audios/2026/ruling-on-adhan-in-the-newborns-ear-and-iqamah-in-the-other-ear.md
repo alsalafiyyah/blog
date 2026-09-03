@@ -9,15 +9,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_307_15.mp3
 summary: The Adhan at the time of the newborn’s birth is a Sunnah. As for the Iqamah,
   the narration concerning it is weak, so it is not a Sunnah.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-01'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah reward you with goodness. The questioner, who signed using the initials A. A., asks: What is the authenticity of performing the Adhan in the newborn’s ear and the Iqamah in the other [ear]? May Allah reward you with goodness.

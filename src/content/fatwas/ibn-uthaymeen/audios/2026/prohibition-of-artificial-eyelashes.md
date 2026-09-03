@@ -10,14 +10,9 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_330_12.mp3
 summary: Artificial eyelashes are not permissible because they resemble hair extensions.
   The Prophet ﷺ cursed the woman who joins hair extensions to her own and the woman
   who requests to have them joined.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah be good to you and bless you, O virtuous Shaykh. The questioner, Umm Mu'adh from Riyadh, asks: What is the ruling on using artificial eyelashes to beautify oneself for one's husband?

@@ -1,21 +1,17 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Does the sun revolve around the earth?"
+title: Does the sun revolve around the earth?
 date: 2026-08-28
-hijri: "1448-03-15"
+hijri: '1448-03-15'
 lang: en
 scholar: ibn-uthaymeen
-shaykh: "Shaykh Muhammad Ibn Salih al-Uthaymeen"
-source: "Fatawa Arkan al-Islam p.43, Question 16"
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
+source: Fatawa Arkan al-Islam p.43, Question 16
 link: https://shamela.ws/book/9924/38
 category: [creed]
-summary: "We are not permitted to depart from the apparent meaning of these texts except by a stronger proof that justifies interpreting them other than literally."
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Salih Al-Uthaymeen 
-    url: /biography/uthaymeen/
+summary: We are not permitted to depart from the apparent meaning of these texts except
+  by a stronger proof that justifies interpreting them other than literally.
 ---
-
 ### Question: 
 
 Does the sun revolve around the earth?
@@ -45,4 +41,3 @@ The apparent meaning of the textual proofs establishes that it is the sun that r
 10. The numerous traditions attributing rising, setting, and midday declension to the sun are clear that these occurrences emanate from the sun itself, not from the earth moving relative to it.
 
 Perhaps there are other proofs that do not come to mind right now, but what has been mentioned opens the door and is sufficient for what I intend. And Allah is the Grantor of success.
-

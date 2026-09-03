@@ -9,15 +9,10 @@ link: https://binothaimeen.net/s/V3sCBFrw
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_087_03.mp3
 summary: It is well-known that rejecting the authentic, established Sunnah of the
   Messenger ﷺ is exactly like rejecting the Qur'an.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-01-06'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 The Prophet ﷺ said: **"Let none of you sit reclining on his couch saying: 'This is the Book of Allah; whatever we find in it to be permissible, we permit, and whatever we find in it to be forbidden, we forbid.' Behold! I have been given the Qur'an and something like it with it."** What is the meaning of his saying: "reclining on his couch" ? Does this Hadith serve as proof for the obligation of following the Messenger ﷺ? If that is the case, what is the meaning of the statement made by the scholars of Islamic jurisprudence: "The Sunnah is that which rewards its doer and does not punish its abandoner"?

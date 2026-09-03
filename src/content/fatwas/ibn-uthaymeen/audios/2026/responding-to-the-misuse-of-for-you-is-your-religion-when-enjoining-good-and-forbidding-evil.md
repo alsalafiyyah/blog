@@ -11,15 +11,10 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_072_07.mp3
 summary: Yes, for you is your religion and for me is my religion, but my religion
   commands me to command you to do good and forbid you from evil, so that is part
   of my religion.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-02-23'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Rashid Ghanem Al-Abd Al-Ghaffar also says: Some people—may Allah guide them—when you command them to fulfill a religious duty, say: **'For you is your religion, and for me is my religion.'** [al-Kafirun: 6] What is the Muslim's stance on this?

@@ -1,21 +1,17 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Is Embracing Islam Obligatory for Non-Muslims?"
+title: Is Embracing Islam Obligatory for Non-Muslims?
 date: 2026-08-27
-hijri: "1448-03-14"
+hijri: '1448-03-14'
 lang: en
 scholar: ibn-uthaymeen
-shaykh: "Shaykh Muhammad Ibn Salih al-Uthaymeen"
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 category: [non-muslim]
-source: "Fatawa Arkan al-Islam p.39, Question 13"
+source: Fatawa Arkan al-Islam p.39, Question 13
 link: https://shamela.ws/book/9924/34
-summary: "Every disbeliever is obligated to embrace the religion of Islam, even if they are Christian or Jewish."
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Salih Al-Uthaymeen 
-    url: /biography/uthaymeen/
+summary: Every disbeliever is obligated to embrace the religion of Islam, even if
+  they are Christian or Jewish.
 ---
-
 ### Question: 
 
 Is a Kafir (disbeliever, Non-Muslim) obligated to embrace Islam?
@@ -31,4 +27,3 @@ Furthermore, in Sahih Muslim, on the authority of Buraydah, whenever the Prophet
 Therefore, the most correct opinion among the scholarly views is that the jizyah can be accepted from non-Muslims other than Jews and Christians as well.
 
 In conclusion, non-Muslims are obligated either to enter into Islam or to submit to the rulings of Islam, and Allah is the Grantor of success.
-

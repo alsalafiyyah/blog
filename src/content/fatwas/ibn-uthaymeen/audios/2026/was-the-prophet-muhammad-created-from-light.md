@@ -10,14 +10,9 @@ link: https://binothaimeen.net/s/YCjVzKWp
 mp3: https://salafimanhaj.github.io/assets/ibn-uthaymeen/was-the-prophet-muhammad-created-from-light.mp3
 summary: This statement is batil (false). Muhammad ﷺ is from the children of Adam;
   the lineage of his fathers and grandfathers is well-known.
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Salih Al-Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah be good to you, O Shaykh, and bless you. A questioner to the program says in his question—the questioner is Sudanese: Virtuous Shaykh, people say that the Messenger was created from light. Is this statement correct?

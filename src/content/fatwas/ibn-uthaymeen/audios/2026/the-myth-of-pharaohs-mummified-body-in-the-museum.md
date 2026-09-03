@@ -10,14 +10,9 @@ link: https://binothaimeen.net/s/qfJh7LoK
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_186_24.mp3
 summary: Do you really think Pharaoh's body would remain intact while the Children
   of Israel inherited his land, only for them to turn him into a museum exhibit?
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Al-Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 They say that the Pharaoh whom Allah drowned is currently present among the antiquities (mummified/on display), and people now visit him—meaning for a certain fee—in the museum. I think the name written under his statue is Ramesses II. They claim that this is the one whom Allah drowned in the sea and whom Allah made a lesson for those after him, citing the verse: **“So this day We shall deliver your (dead) body (out from the sea) that you may be a sign to those who come after you!”** [Yunus: 92].

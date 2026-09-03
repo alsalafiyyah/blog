@@ -1,20 +1,16 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Are the Stories of Moses' Burning Coal and the Cave Spider True?"
+title: Are the Stories of Moses' Burning Coal and the Cave Spider True?
 date: 2026-08-22
-hijri: "1448-03-09"
+hijri: '1448-03-09'
 lang: en
 scholar: ibn-uthaymeen
-shaykh: "Shaykh Muhammad Ibn Salih al-Uthaymeen"
-source: "Fatawa al-Haram al-Makki by Shaykh Ibn al-Uthaymeen 1414"
-category: [history]
-summary: "It is from the Isra'iliyyat (Judeo-Christian traditions) that are neither to be believed nor disbelieved."
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Ibn Salih Al-Uthaymeen 
-    url: /biography/uthaymeen/
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
+source: Fatawa al-Haram al-Makki by Shaykh Ibn al-Uthaymeen 1414
+category: [history, prophets]
+summary: It is from the Isra'iliyyat (Judeo-Christian traditions) that are neither
+  to be believed nor disbelieved.
 ---
-
 ### Question: 
 
 Is it true that Moses put the burning coal in his mouth or not? And is it true that the spider spun its web over the Prophet ﷺ and his companion in the cave or not?

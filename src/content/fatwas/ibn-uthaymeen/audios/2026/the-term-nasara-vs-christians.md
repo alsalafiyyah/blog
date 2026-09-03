@@ -9,14 +9,9 @@ url: https://binothaimeen.net/s/RhTs9Io3
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/mm_030_09.mp3
 summary: This is a term commonly used today. However, Allah named them in His Book
   as the Nasara.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Is it permissible to refer to the Nasara (Nazarenes) as 'Christians' (Masihiyyun)?

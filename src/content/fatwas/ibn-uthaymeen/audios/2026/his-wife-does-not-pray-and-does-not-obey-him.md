@@ -10,14 +10,9 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_008_02.mp3
 summary: If your wife does not pray, neglects the prayer, and is persistent in abandoning
   it, then she is a disbeliever—we seek refuge in Allah from that.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 This message is from Mr. Khader al-Khalifa al-Ali from the Syrian Arab Republic, Deir ez-Zur Governorate. He has several questions, and says: I am married and have three children. I practice the Islamic religion, Allah's willing. My wife is Muslim and fasts Ramadan, but she does not pray and does not obey me or submit to performing the prayer. Is it my right to divorce her according to Sharia if she does not obey me or not? Please advise us, if you would be so kind.

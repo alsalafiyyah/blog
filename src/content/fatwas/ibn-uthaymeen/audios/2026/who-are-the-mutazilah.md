@@ -9,10 +9,6 @@ url: https://binothaimeen.net/s/9Y4Pm6y0
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_284_20.mp3
 summary: The Mu'tazilah are an innovated sect. Regarding Allah, His Speech, and His
   Actions, they hold views that contradict the creed of Ahl al-Sunnah wal-Jama'ah.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---

@@ -8,14 +8,9 @@ category: [funerals, audios]
 link: https://binothaimeen.net/s/6qjLGmuf
 mp3: https://www.alathar.net//files/sound/alothaymeen/leqamaftooh/split-131b-9.mp3
 summary: This is procrastination; undoubtedly, he bears a sin for it.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 Questioner: Following the father’s death, some photos remained...
 
 Shaykh: Yes.

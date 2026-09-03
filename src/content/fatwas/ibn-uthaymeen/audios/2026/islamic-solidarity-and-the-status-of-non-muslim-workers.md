@@ -9,15 +9,10 @@ link: https://binothaimeen.net/s/9GUwzRNo
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/mm_006_06.mp3
 summary: There is no doubt that the enmity of the disbelievers toward Muslims is ancient
   and deep-rooted.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-01-01'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question:
 
 You are aware—may Allah preserve you—of what happened a few days ago regarding the demolition of the Islamic mosque in India, which was carried out by the Hindus. I hope you can clarify what our role is in this regard. Is it only to deport the Hindu workers we employ? Is this sufficient? 

@@ -8,10 +8,6 @@ category: [creed, sects, audios]
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_033_05.mp3
 summary: I believe it is the duty of everyone to be brothers for the sake of Allah
   and to follow the path of the Salaf.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---

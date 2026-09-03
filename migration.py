@@ -130,5 +130,5 @@ def clean_and_format_posts(directory_path):
 
 if __name__ == "__main__":
   # Change target path to point to the specific scholar folder
-  target_path = "src/content/fatwas/ibn-baz/"
+  target_path = "src/content/fatwas/ibn-uthaymeen/"
   clean_and_format_posts(target_path)

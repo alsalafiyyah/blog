@@ -10,15 +10,10 @@ summary: This hadith narrated regarding the virtue of dying on Friday is not Sah
   (authentic). This is because a person is only rewarded for an action they performed
   themselves and in which they had a choice.
 lang: en
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-11-29'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah bless you. This inquirer, who signs his name with the initials A. A. R. from the Eastern Province, says: I have heard and read that any Muslim who dies on Friday or during the night before it will have a good status [with Allah]. What is your opinion on this? May you be rewarded.

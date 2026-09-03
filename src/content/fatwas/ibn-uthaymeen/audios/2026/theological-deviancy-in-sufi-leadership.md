@@ -9,15 +9,10 @@ link: https://binothaimeen.net/s/eMTUJrR4
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_131_08.mp3
 summary: Know that whoever calls to misguidance will bear the sin of that call, as
   well as the sins of those who act upon it until the Day of Resurrection.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-01-17'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah be good to you. This listener, Abu Hudhayfah from Makkah Al-Mukarramah, sent this question in which he says: 

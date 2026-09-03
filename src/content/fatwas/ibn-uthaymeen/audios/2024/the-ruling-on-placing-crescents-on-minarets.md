@@ -1,23 +1,18 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "The Ruling on Placing Crescents on Minarets"
+title: The Ruling on Placing Crescents on Minarets
 date: 2024-08-23
 lang: en
-shaykh: "Shaykh Muhammad Ibn Salih al-Uthaymeen"
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 scholar: ibn-uthaymeen
 category: [audios, creed]
-source: "Fatawa Nur ala ad-Darb, tape no.258"
+source: Fatawa Nur ala ad-Darb, tape no.258
 link: https://binothaimeen.net/s/h1KCxuef
-mp3: "https://salafimanhaj.github.io/assets/ibn-uthaymeen/the-ruling-on-placing-crescents-on-minarets.mp3"
+mp3: https://salafimanhaj.github.io/assets/ibn-uthaymeen/the-ruling-on-placing-crescents-on-minarets.mp3
 summary: It is not proper to place crescents atop minarets due to this resemblance,
   and because of the waste of wealth and time it entails.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen
 hijri: '1446-02-19'
 ---
-
 ### Question: 
 
 May Allah bless you. The listener Muhammad A. A. says: Virtuous Sheikh, what is the ruling on placing the crescent on minarets, as I have heard that this is an innovated matter?
@@ -40,5 +35,4 @@ I said: As for placing the crescent on Christian places of worship, it is not fa
 
 #### Also read:
 
-[Is the Crescent a Religious Symbol?](/audios/is-the-crescent-a-religious-symbol) — Shaykh Salih al-Fawzan 
-
+[Is the Crescent a Religious Symbol?](/audios/is-the-crescent-a-religious-symbol) — Shaykh Salih al-Fawzan

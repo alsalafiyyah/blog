@@ -9,15 +9,10 @@ link: https://binothaimeen.net/s/1I3rol6c
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/Lw_360_29.mp3
 summary: ​The legislated Islamic greeting is for a person to say, As-salamu alaykum
   (Peace be upon you).
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1448-02-23'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 May Allah reward you with good. Among the questions of this questioner, O Shaykh: If a Muslim begins a greeting by saying "Good evening" or "Good morning," is this a pre-Islamic (Jahiliyyah) greeting?

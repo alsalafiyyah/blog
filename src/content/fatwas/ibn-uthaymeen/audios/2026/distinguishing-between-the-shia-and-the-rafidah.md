@@ -8,10 +8,6 @@ link: https://binothaimeen.net/s/WrBC10tH
 mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_077_10.mp3
 summary: The Rafidah are the Shia; rather, the term Shia is more general than Rafidah.
   This is because the term Shia is applied to anyone who venerates Ahl al-Bayt
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 hijri: '1447-12-23'
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen

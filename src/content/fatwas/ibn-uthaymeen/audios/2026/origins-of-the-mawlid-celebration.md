@@ -10,14 +10,9 @@ mp3: https://sounds.binothaimeen.net/storage/uploads/ftawamp3/od_210_08.mp3
 summary: The first to introduce it were the Fatimids in Egypt during the 4th century
   AH. In the 7th century, it was introduced by the King of Erbil in Iraq, and subsequently
   spread among Muslims.
-muftis:
-  shaykh:
-  - name: Shaykh Ibn Uthaymeen
-    url: /biography/uthaymeen/
 scholar: ibn-uthaymeen
 shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
 ---
-
 ### Question: 
 
 Who were the first to introduce this innovation (the innovation of the Mawlid), what were their justifications, and how did it come about?

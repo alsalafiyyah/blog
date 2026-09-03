@@ -1,21 +1,18 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Who are Ahl al-Sunnah wal-Jama'ah?"
+title: Who are Ahl al-Sunnah wal-Jama'ah?
 date: 2026-08-28
-hijri: "1448-03-15"
+hijri: '1448-03-15'
 lang: en
 scholar: ibn-uthaymeen
-shaykh: "Shaykh Muhammad Ibn Salih al-Uthaymeen"
-source: "Fatawa Arkan al-Islam p.21, Question 4"
+shaykh: Shaykh Muhammad ibn Salih al-Uthaymeen
+source: Fatawa Arkan al-Islam p.21, Question 4
 link: https://shamela.ws/book/9924/16
 category: [creed]
-summary: "Ahl al-Sunnah wal-Jama'ah are those who adhered strictly to the Sunnah, united upon it, and turned away from anything else—neither in matters of creed and knowledge, nor in matters of practice and rulings."
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad ibn Salih Al-Uthaymeen 
-    url: /biography/uthaymeen/
+summary: Ahl al-Sunnah wal-Jama'ah are those who adhered strictly to the Sunnah, united
+  upon it, and turned away from anything else—neither in matters of creed and knowledge,
+  nor in matters of practice and rulings.
 ---
-
 ### Question: 
 
 Who are Ahl al-Sunnah wal-Jama'ah (The People of the Sunnah and the Muslim Community)?
