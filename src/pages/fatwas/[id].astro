@@ -18,6 +18,8 @@ const { post } = Astro.props as any;
 const { Content } = await render(post);
 const formattedDate = post.data.date.toISOString().split('T')[0];
 const mp3 = post.data.mp3;
+const shaykh = post.data.shaykh;
+const scholar = post.data.scholar;
 const videoID = post.data.videoID;
 const videoURL = post.data.videoURL;
 
@@ -72,7 +74,7 @@ const getAudioSrc = (fileOrUrl: string) => {
   date={formattedDate} 
   hijri={post.data.hijri} 
   scholar={post.data.shaykh} 
-  shaykh={frontmatter.shaykh} 
+  shaykh={post.data.shaykh} 
   source={post.data.source} 
   group={post.data.group}
   muftis={post.data.muftis}
