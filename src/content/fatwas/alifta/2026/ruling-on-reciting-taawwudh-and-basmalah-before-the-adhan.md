@@ -1,18 +1,17 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Ruling on Reciting Ta'awwudh and Basmalah Before the Adhan"
+title: Ruling on Reciting Ta'awwudh and Basmalah Before the Adhan
 date: 2026-08-17
-hijri: "1448-03-04"
-group: "group1"
+hijri: '1448-03-04'
+group: group1
 lang: en
-translation: false
 scholar: alifta
-shaykh: "Alifta"
+shaykh: The Permanent Committee for Scholarly Research and Ifta
 category: [adhan, bidah]
-source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 6321, Question 4"
-summary: "We know of no basis that indicates the legality of seeking refuge in Allah and saying Bismillah before the Adhan."
+source: Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 6321, Question 4
+summary: We know of no basis that indicates the legality of seeking refuge in Allah
+  and saying Bismillah before the Adhan.
 ---
-
 ### Question: 
 
 Seeking refuge in Allah (ta'awwudh) and saying Bismillah (basmalah) before the Adhan—is there any basis for it?

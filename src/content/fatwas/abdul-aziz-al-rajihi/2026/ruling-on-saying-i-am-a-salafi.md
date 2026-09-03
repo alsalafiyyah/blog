@@ -7,15 +7,10 @@ category: [creed, salafism]
 source: Kitab Sharh Al-Wasiyyah Al-Kubra li Ibn Taymiyyah of Al-Rajhi, 13/12
 summary: The Salaf (predecessors) of this Ummah are the Companions, the Successors
   (Tabi'in), the leading imams, and the scholars.
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz al-Rajihi
-    url: /biography/abdul-aziz-al-rajihi
 hijri: '1448-02-22'
 scholar: abdul-aziz-al-rajihi
 shaykh: Shaykh Abdul-Aziz al-Rajihi
 ---
-
 ### Question:
 
 May a person say, "I am a Salafi"?

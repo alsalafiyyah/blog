@@ -1,18 +1,17 @@
 ---
-layout: post
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "The Established Wording of the Adhan and the Prohibition of Innovations"
+title: The Established Wording of the Adhan and the Prohibition of Innovations
 date: 2026-08-17
-hijri: "1448-03-04"
-group: "group4"
+hijri: '1448-03-04'
+group: group4
 lang: en
 scholar: alifta
-shaykh: "Alifta"
+shaykh: The Permanent Committee for Scholarly Research and Ifta
 category: [adhan, sects, shia, bidah]
-source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 220 "
-summary: "The Adhan is an act of worship, and the foundational rule regarding acts of worship is restriction to what has been legislated."
+source: 'Fatawa Al-Lajnah Al-Da''imah, Fatwa No. 220 '
+summary: The Adhan is an act of worship, and the foundational rule regarding acts
+  of worship is restriction to what has been legislated.
 ---
-
 ### Question: 
 
 What is the ruling on the muezzin saying "Hayya 'ala khayr al-'amal" (Come to the best of deeds) in his Adhan?

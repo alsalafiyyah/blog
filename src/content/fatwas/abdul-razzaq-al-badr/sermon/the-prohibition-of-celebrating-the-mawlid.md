@@ -1,22 +1,20 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "The Prohibition of Celebrating the Mawlid"
+title: The Prohibition of Celebrating the Mawlid
 date: 2026-08-23
 lang: en
-scholar: "abdul-razzaq-al-badr"
-shaykh: "Shaykh Abdul Razzaq al-Badr"
-source: "​Friday Khutbah dated 9-3-1435 AH"
-summary: "Abu Bakr, Umar, Uthman, Ali, and the rest of the Companions, did not celebrate, nor did the people of the preferred generations celebrate the birth of the Prophet. Could anyone possibly say that this is a good thing that the Companions were deprived of, while those who came after them were guided to it?!"
+scholar: abdul-razzaq-al-badr
+shaykh: Shaykh Abdul-Razzaq al-Badr
+source: ​Friday Khutbah dated 9-3-1435 AH
+summary: Abu Bakr, Umar, Uthman, Ali, and the rest of the Companions, did not celebrate,
+  nor did the people of the preferred generations celebrate the birth of the Prophet.
+  Could anyone possibly say that this is a good thing that the Companions were deprived
+  of, while those who came after them were guided to it?!
 category: [audios, muqolat, sermon, mawlid]
 link: https://al-badr.net/detail/74UbgLMmkxNf
 mp3: https://salafimanhaj.github.io/assets/abdul-razzaq-al-badr/the-prohibition-of-celebrating-the-mawlid.mp3
-muftis:
-  shaykh:
-  - name: Shaykh Abdul Razzaq al-Badr
-    url: /biography/abdul-razzaq-al-badr
 hijri: '1448-03-10'
 ---
-
 ​All praise is due to Allah, the Generous, the Bestower; He blessed us with Islam, and made us from the nation of the best of mankind. I bear witness that there is no deity worthy of worship except Allah alone, without partner, the Sovereign, the All-Knowing. And I bear witness that Muhammad is His servant and His messenger, the leader of mankind and the role model of the noble virtuous. May Allah's prayers and peace be upon him, his family, and all his companions.
 
 To proceed: 
@@ -150,4 +148,3 @@ O believers, servants of Allah, it is incumbent upon us, the community of believ
 ​Servants of Allah, remember Allah, and He will remember you; be grateful to Him for His blessings, and He will increase you. 
 
 **"And the remembering (praising) of (you by) Allah (in front of the angels) is greater indeed [than your remembering (praising) of Allah in prayers. And Allah knows what you do."** [Al-Ankabut: 45]
-

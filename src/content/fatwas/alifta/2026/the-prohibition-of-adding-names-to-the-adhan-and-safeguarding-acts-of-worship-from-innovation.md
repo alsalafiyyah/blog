@@ -1,18 +1,18 @@
 ---
-layout: post
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "The Prohibition of Adding Names to the Adhan and Safeguarding Acts of Worship from Innovation"
+title: The Prohibition of Adding Names to the Adhan and Safeguarding Acts of Worship
+  from Innovation
 date: 2026-08-17
-hijri: "1448-03-04"
-group: "group1"
+hijri: '1448-03-04'
+group: group1
 lang: en
 scholar: alifta
-shaykh: "Alifta"
+shaykh: The Permanent Committee for Scholarly Research and Ifta
 category: [adhan, iqamah, sects, bidah, sia]
-source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 8941, Question 5"
-summary: "Neither during the era of the Messenger of Allah nor during the era of the Rightly Guided Caliphs was the name of Ali mentioned in the Adhan or the Iqamah"
+source: Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 8941, Question 5
+summary: Neither during the era of the Messenger of Allah nor during the era of the
+  Rightly Guided Caliphs was the name of Ali mentioned in the Adhan or the Iqamah
 ---
-
 ### Question: 
 
 How do some Muslims place the name of Ali ibn Abi Talib (may Allah be pleased with him) into the Adhan and Iqamah, and did the Messenger of Allah (peace and blessings be upon him) or his Companions ever do that?

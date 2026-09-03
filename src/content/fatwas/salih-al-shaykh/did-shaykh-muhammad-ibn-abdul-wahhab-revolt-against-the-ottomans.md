@@ -1,19 +1,15 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Did Shaykh Muhammad ibn Abd al-Wahhab Revolt Against the Ottomans?"
+title: Did Shaykh Muhammad ibn Abd al-Wahhab Revolt Against the Ottomans?
 date: 2026-08-19
 hijri: '1448-03-06'
 category: [wahhabism, creed]
 scholar: salih-al-shaykh
-shaykh: "Shaykh Salih Al al-Shaykh"
-source: "As'ilah Kashf al-Shubhat, vol. 1, p. 4, Question 2"
-summary: "The answer is that this is not correct. This is because Najd, since the year 256 AH, had already broken away from the rule of the Abbasid State."
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al al-Shaykh
-    url: /biography/salih-al-shaykh
+shaykh: Shaykh Salih Aal al-Shaykh
+source: As'ilah Kashf al-Shubhat, vol. 1, p. 4, Question 2
+summary: The answer is that this is not correct. This is because Najd, since the year
+  256 AH, had already broken away from the rule of the Abbasid State.
 ---
-
 ### Question: 
 
 The statement by some people that Shaykh Muhammad ibn Abd al-Wahhab rebelled against the Ottoman Empire—is this correct?

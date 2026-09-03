@@ -1,17 +1,18 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Performing the Adhan and Iqamah When Praying Alone"
+title: Performing the Adhan and Iqamah When Praying Alone
 date: 2026-08-17
-hijri: "1448-03-04"
-group: "group10"
+hijri: '1448-03-04'
+group: group10
 lang: en
 scholar: alifta
-shaykh: "Alifta"
+shaykh: The Permanent Committee for Scholarly Research and Ifta
 category: [salah, adhan]
-source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 5682, Question 4"
-summary: "Yes, it is permissible for him to pray without an Adhan. However, if he is in the open countryside, a remote farm, or a similar isolated place, it is legislated for him to give the Adhan even if he will be praying alone."
+source: Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 5682, Question 4
+summary: Yes, it is permissible for him to pray without an Adhan. However, if he is
+  in the open countryside, a remote farm, or a similar isolated place, it is legislated
+  for him to give the Adhan even if he will be praying alone.
 ---
-
 ### Question: 
 
 Is it permissible for a person praying alone to pray without an Adhan?

@@ -9,14 +9,9 @@ link: https://shrajhi.com.sa/fatawa/67
 mp3: https://salafimanhaj.github.io/assets/abdul-aziz-al-rajihi/the-prohibition-of-forcing-a-woman-in-marriage.mp3
 summary: This is a great evil and an injustice, and one fears punishment for the person
   who does it.
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz al-Rajhi
-    url: /biography/abdul-aziz-al-rajihi/
 scholar: abdul-aziz-al-rajihi
 shaykh: Shaykh Abdul-Aziz al-Rajihi
 ---
-
 ### Question: 
 
 What is the ruling on a cousin's claim (or forcing/blocking) over his paternal cousin's daughter regarding marriage, stipulating that she cannot marry anyone other than him?

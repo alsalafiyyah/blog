@@ -3,15 +3,14 @@ publisher: alsalafiyyah.manhaj@gmail.com
 title: Ruling on disbelieving in Salafiyyah
 hijri: '1446-01-16'
 date: 2024-07-22
-summary: "If he means by that statement that he disbelieves in the methodology of the Salaf, their way, and the truth they were upon, then this is disbelief in the Book [of Allah] (Quran) and the Sunnah, and in what the Salaf of this Ummah (nation) were upon."
+summary: If he means by that statement that he disbelieves in the methodology of the
+  Salaf, their way, and the truth they were upon, then this is disbelief in the Book
+  [of Allah] (Quran) and the Sunnah, and in what the Salaf of this Ummah (nation)
+  were upon.
 category: [creed, salafism]
 scholar: abdul-muhsin
-shaykh: "Shaykh Abdul-Muhsin ibn Hamad Al-Abbad Al-Badr"
-mp3: "https://salafimanhaj.github.io/assets/abdul-muhsin/rule-on-saying-disbelieve-in-salafiyyah.mp3"
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Muhsin ibn Hamad Al-Abbad Al-Badr
-    url: /biography/abdul-muhsin-al-abbad
+shaykh: Shaykh Abdul-Muhsin ibn Hamad al-Abbad al-Badr
+mp3: https://salafimanhaj.github.io/assets/abdul-muhsin/rule-on-saying-disbelieve-in-salafiyyah.mp3
 ---
 
 ### Question: 

@@ -3,19 +3,14 @@ publisher: alsalafiyyah.manhaj@gmail.com
 title: The Future of Occupied Jerusalem
 date: 2024-08-23
 hijri: '1446-02-19'
-active: audios
 category: [audios, palestine]
 scholar: albani
-shaykh: "Shaykh Muhammad Nasiruddin al-Albani"
-summary: "There is no peace. There is no peace except through Islam. The day you see Islam governing all of creation, then announce peace."
-mp3: "https://salafimanhaj.github.io/assets/albani/the-future-of-occupied-jerusalem.mp3"
+shaykh: Shaykh Muhammad Nasiruddin al-Albani
+summary: There is no peace. There is no peace except through Islam. The day you see
+  Islam governing all of creation, then announce peace.
+mp3: https://salafimanhaj.github.io/assets/albani/the-future-of-occupied-jerusalem.mp3
 link: https://www.al-albany.com/audios/content/145532/
-muftis:
-  shaykh:
-  - name: Shaykh Al-Albani
-    url: /biography/albani
 ---
-
 ### Questioner: 
 A fundamental point: what is the future and fate of occupied Jerusalem after entering into a peace agreement with the Jews?
 

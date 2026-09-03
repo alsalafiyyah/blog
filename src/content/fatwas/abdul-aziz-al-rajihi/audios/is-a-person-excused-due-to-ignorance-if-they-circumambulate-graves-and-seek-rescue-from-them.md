@@ -11,14 +11,9 @@ link: https://shrajhi.com.sa/fatawa/42/%D9%87%D9%84-%D9%8A%D8%B9%D8%B0%D8%B1-%D8
 summary: The one who circumambulates graves, worships graves, and calls upon them
   besides Allah is not excused while living among Muslims after the revelation of
   the Qur'an.
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz al-Rajhi
-    url: /biography/abdul-aziz-al-rajihi/
 scholar: abdul-aziz-al-rajihi
 shaykh: Shaykh Abdul-Aziz al-Rajihi
 ---
-
 ### Question
 
 May Allah be good to you. He (the questioner) said—may Allah pardon you and may He be good to you, our esteemed Shaykh—regarding the issue of the excuse of ignorance, we have people here who worship graves and seek rescue from them—is this an excuse for them?

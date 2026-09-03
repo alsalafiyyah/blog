@@ -7,15 +7,10 @@ summary: This is a misconception. Rather, Salafism is an authentic, legitimate I
   designation intended to refer to Ahl al-Sunnah wal-Jama'ah...
 category: [creed, wahhabism, salafism]
 source: Kitab Sharh Al-Wasiyyah Al-Kubra li Ibn Taymiyyah of Al-Rajhi, 13/13
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz al-Rajihi
-    url: /biography/abdul-aziz-al-rajihi
 hijri: '1448-02-22'
 scholar: abdul-aziz-al-rajihi
 shaykh: Shaykh Abdul-Aziz al-Rajihi
 ---
-
 ### Question: 
 
 Is Salafism a partisan group like the Muslim Brotherhood, the Sururi movement, or the Tablighi Jamaat?

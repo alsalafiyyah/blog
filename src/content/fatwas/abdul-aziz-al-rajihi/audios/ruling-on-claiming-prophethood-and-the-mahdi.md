@@ -10,14 +10,9 @@ link: https://shrajhi.com.sa/fatawa/49/%D8%B1%D8%AC%D9%84-%D9%8A%D8%AF%D8%B9%D9%
 summary: It is incumbent upon the questioner and others to prove this and refer the
   matter to the court so that he may be brought in and investigated, and if it is
   proven that he claimed prophethood, he is executed.
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz al-Rajhi
-    url: /biography/abdul-aziz-al-rajihi/
 scholar: abdul-aziz-al-rajihi
 shaykh: Shaykh Abdul-Aziz al-Rajihi
 ---
-
 ### Question:
 
 A man appeared in one of the Gulf countries claiming to be the awaited Mahdi, and now he claims to be the Messenger, and he has many followers who even believe in him to the point of absolute certainty. What is the ruling regarding this man and his followers, given that books and publications by him have been distributed within that country and abroad?

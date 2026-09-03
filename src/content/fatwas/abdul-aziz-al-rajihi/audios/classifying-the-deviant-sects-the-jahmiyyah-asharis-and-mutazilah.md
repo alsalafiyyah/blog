@@ -9,14 +9,9 @@ link: https://shrajhi.com.sa/fatawa/75
 mp3: https://salafimanhaj.github.io/assets/abdul-aziz-al-rajihi/classifying-the-deviant-sects-the-jahmiyyah-asharis-and-mutazilah.mp3
 summary: The Ash'aris are Jahmiyyah and the Mu'tazilah are Jahmiyyah because they
   contain a type of Tajham (Jahmi-leaning theology).
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz al-Rajhi
-    url: /biography/abdul-aziz-al-rajihi/
 scholar: abdul-aziz-al-rajihi
 shaykh: Shaykh Abdul-Aziz al-Rajihi
 ---
-
 ### Question: 
 
 May Allah reward you well. The questioner asks: Are the Jahmiyyah limited to three tiers, as mentioned by Shaykh al-Islam Ibn Taymiyyah regarding the extremist Jahmiyyah, the Mu'tazilah, and the Ash'aris, or are there other sects that branch off from them?

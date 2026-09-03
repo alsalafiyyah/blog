@@ -5,7 +5,7 @@ hijri: '1446-02-29'
 source: Gharatul Ashritah 2/291
 date: 2024-09-02
 category: [creed, audios]
-shaykh: "Shaykh Muqbil Ibn Hadi Al-Wadi'i"
+shaykh: Shaykh Muqbil ibn Hadi al-Wadi'i
 scholar: muqbil-ibn-hadi
 lang: en
 summary: Regarding declaring a specific individual a disbeliever when they commit
@@ -13,12 +13,7 @@ summary: Regarding declaring a specific individual a disbeliever when they commi
   a forbidden matter as permissible—there is no harm in doing so
 mp3: https://www.muqbel.net/files/fatwa/muqbel-fatwa4337.mp3
 link: https://www.muqbel.net/fatwa.php?fatwa_id=4337
-muftis:
-  shaykh:
-  - name: "Shaykh Muqbil Ibn Hadi Al-Wadi'i"
-    url: /biography/muqbil/
 ---
-
 ### Question: 
 
 Is it permissible to declare a specific individual a disbeliever, and did the Salaf declare specific individuals as disbelievers in the past?

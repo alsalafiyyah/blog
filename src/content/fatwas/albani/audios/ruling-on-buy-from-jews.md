@@ -5,17 +5,15 @@ hijri: '1446-02-14'
 date: 2024-08-18
 category: [audios, palestine, non-muslim]
 scholar: albani
-shaykh: "Shaykh Muhammad Nasiruddin al-Albani"
+shaykh: Shaykh Muhammad Nasiruddin al-Albani
 source: Silsilah Al-Huda wa an-Nur 623
-summary: "However, if they are combatants at war, it is not permissible to deal with them at all—whether in the land they have occupied, such as the Jews in the land of Palestine, or in their own lands, so long as they are actively waging war against us."
-mp3: "https://salafimanhaj.github.io/assets/albani/ruling-on-trade-and-labor-with-the-jews-in-times-of-war.mp3"
+summary: However, if they are combatants at war, it is not permissible to deal with
+  them at all—whether in the land they have occupied, such as the Jews in the land
+  of Palestine, or in their own lands, so long as they are actively waging war against
+  us.
+mp3: https://salafimanhaj.github.io/assets/albani/ruling-on-trade-and-labor-with-the-jews-in-times-of-war.mp3
 link: https://alathar.net/home/esound/index.php?op=codevi&coid=5496
-muftis:
-  shaykh:
-  - name: Shaykh Al-Albani
-    url: /biography/albani/
 ---
-
 ### Questioner: 
 The second question, our Shaykh: Given that war is currently ongoing between us and the Jews, is it permissible to buy from Jews and work for them in a European country?
 

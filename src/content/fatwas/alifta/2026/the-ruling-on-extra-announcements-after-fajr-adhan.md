@@ -1,18 +1,17 @@
 ---
-layout: post
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "The Ruling on Extra Announcements After The Fajr Adhan"
+title: The Ruling on Extra Announcements After The Fajr Adhan
 date: 2026-08-17
-hijri: "1448-03-04"
-group: "group3"
+hijri: '1448-03-04'
+group: group3
 lang: en
 scholar: alifta
-shaykh: "Alifta"
+shaykh: The Permanent Committee for Scholarly Research and Ifta
 category: [adhan, bidah]
-source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 1382, Question 1"
-summary: "One should restrict the adhan to what is legally established in its form, and any additions to it are considered bid'ah (an innovation)."
+source: Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 1382, Question 1
+summary: One should restrict the adhan to what is legally established in its form,
+  and any additions to it are considered bid'ah (an innovation).
 ---
-
 ### Question:
 
 Some muadhins, upon finishing the Fajr "call to prayer" (adhan) and reciting the prescribed supplication, say over the microphone: ***"Pray, may Allah guide you."*** Some people object to this, while others pray for him. What is the ruling regarding this matter?

@@ -1,6 +1,6 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "The ruling on naming the state of the Jews 'Israel'?"
+title: The ruling on naming the state of the Jews 'Israel'?
 date: 2026-08-05
 hijri: '1448-02-22'
 lang: en
@@ -9,12 +9,8 @@ summary: The Jews have plotted a grand plot by claiming a legitimate right to es
   and Israel!
 category: [palestine, non-muslim]
 scholar: rabi-ibn-hadi
-shaykh: "Shaykh Rabi' ibn Hadi al-Madkhali"
-source: "Sidq al-Nadhr fi Aqwal wa Ta'wilat al-Shaykh Safar 207/112"
-muftis:
-  shaykh:
-  - name: Shaykh Rabi' ibn Hadi al-Madkhali
-    url: /scholar/rabi-ibn-hadi
+shaykh: Shaykh Rabi' ibn Hadi al-Madkhali
+source: Sidq al-Nadhr fi Aqwal wa Ta'wilat al-Shaykh Safar 207/112
 ---
 
 Praise be to Allah, and peace and blessings be upon the Messenger of Allah, his family, his companions, and those who follow his guidance. To proceed:

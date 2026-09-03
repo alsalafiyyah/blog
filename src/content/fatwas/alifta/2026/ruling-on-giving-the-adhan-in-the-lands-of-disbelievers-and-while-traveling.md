@@ -1,17 +1,18 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Ruling on Giving the Adhan in the Lands of Disbelievers and While Traveling"
+title: Ruling on Giving the Adhan in the Lands of Disbelievers and While Traveling
 date: 2026-08-17
-hijri: "1448-03-04"
-group: "group6"
+hijri: '1448-03-04'
+group: group6
 lang: en
 category: [salaf, adhan, iqamah]
 scholar: alifta
-shaykh: "Alifta"
-source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 12260"
-summary: "It is legislated for a Muslim to make the Adhan and Iqamah when the time for prayer arrives, whether he is in Muslim lands, in the lands of the disbelievers, or traveling."
+shaykh: The Permanent Committee for Scholarly Research and Ifta
+source: Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 12260
+summary: It is legislated for a Muslim to make the Adhan and Iqamah when the time
+  for prayer arrives, whether he is in Muslim lands, in the lands of the disbelievers,
+  or traveling.
 ---
-
 ### Question: 
 
 What is the ruling on the Adhan (call to prayer) in the lands of the disbelievers? Likewise, should the Adhan be given in every place where prayer is performed? Furthermore, does the statement of the Messenger of Allah (peace and blessings be upon him), **"Allah the Exalted marvels at a sheep-herder on a mountain peak who gives the Adhan, performs the Iqamah, and prays,"** support what some of the brothers there claim—namely, that the Adhan is primarily a devotional act (amr ta'abbudi)?

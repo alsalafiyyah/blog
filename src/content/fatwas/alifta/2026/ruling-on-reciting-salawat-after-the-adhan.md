@@ -1,18 +1,17 @@
 ---
-layout: post
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Ruling on Reciting Salawat After the Adhan"
+title: Ruling on Reciting Salawat After the Adhan
 date: 2026-08-17
-hijri: "1448-03-04"
-group: "group1"
+hijri: '1448-03-04'
+group: group1
 lang: en
 scholar: alifta
-shaykh: "Alifta"
+shaykh: The Permanent Committee for Scholarly Research and Ifta
 category: [adhan, bidah]
-source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 1814"
-summary: "We know of no evidence from the Quran or the Sunnah that indicates the legitimacy of this supplication after the Adhan."
+source: Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 1814
+summary: We know of no evidence from the Quran or the Sunnah that indicates the legitimacy
+  of this supplication after the Adhan.
 ---
-
 ### Question: 
 
 What is the ruling on the muezzin saying this phrase after the legal Adhan: "As-salamu wa as-salamu 'alayka ya awwala khalqi Allah wa khatama rusulih" (Blessings and peace be upon you, O first of Allah's creation and finality of His messengers)?

@@ -5,16 +5,11 @@ date: 2026-08-03
 hijri: '1448-02-20'
 category: [palestine]
 scholar: albani
-shaykh: "Shaykh Muhammad Nasiruddin al-Albani"
+shaykh: Shaykh Muhammad Nasiruddin al-Albani
 source: 'Fatawa ''abra al-hatif wal-sayyarah, Tape: 135'
 link: https://www.al-albany.com/audios/content/146688/
 summary: We are upon certainty that the Jews will not have permanency in Palestine.
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad Nasiruddin al-Albani
-    url: /biography/al-albani
 ---
-
 Questioner: Is it known when the Al-Aqsa Mosque was built?
 
 Shaykh: Yes, indeed. The one who built it is Sulaiman (Solomon), peace be upon him. Could it be [otherwise]?! This is explicitly stated in Sahih al-Bukhari.

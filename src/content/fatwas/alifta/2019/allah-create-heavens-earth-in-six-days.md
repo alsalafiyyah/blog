@@ -1,16 +1,18 @@
 ---
-title: "Period during which the heavens and earth were created"
+title: Period during which the heavens and earth were created
 date: 2019-09-01
-hijri: "1441-01-02"
+hijri: '1441-01-02'
 scholar: alifta
-shaykh: "Alifta"
-group: "group2"
-category:
-  - creed
-source: "Fatawa Al-lajnah Al-Da'imah of KSA, Fatwa no. 20164"
-summary: "Allah created the Earth on Saturday, He created the mountains on Sunday, He created the trees on Monday, He created the things entailing labor on Tuesday, He created light on Wednesday, He spread out the animals on Thursday, and He created Adam (peace be upon him) after 'Asr (Afternoon) on Friday. It is the last of creation in the last hour of the day, between `Asr and the night"
+shaykh: The Permanent Committee for Scholarly Research and Ifta
+group: group2
+category: [creed]
+source: Fatawa Al-lajnah Al-Da'imah of KSA, Fatwa no. 20164
+summary: Allah created the Earth on Saturday, He created the mountains on Sunday,
+  He created the trees on Monday, He created the things entailing labor on Tuesday,
+  He created light on Wednesday, He spread out the animals on Thursday, and He created
+  Adam (peace be upon him) after 'Asr (Afternoon) on Friday. It is the last of creation
+  in the last hour of the day, between `Asr and the night
 ---
-
 ### Question: 
 
 It is known that Allah (Glorified and Exalted be He) created the heavens and the earth in six days. This is proven in the Qur'an and the Sunnah. However, there is a Hadith recorded in Sahih Muslim mentioning that the heavens, the earth, and Adam were created in seven days. How do we reconcile the Hadith recorded in Sahih Muslim and the Ayah? Please, explain. May Allah reward you.

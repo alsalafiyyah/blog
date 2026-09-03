@@ -3,14 +3,14 @@ date: 2026-08-23
 hijri: '1448-03-10'
 publisher: alsalafiyyah.manhaj@gmail.com
 scholar: alifta
-shaykh: "Alifta"
-title: "True Respect for the Prophet Lies in Following His Shariah"
-source: "Fatawa Al-Lajnah Al-Da’imah, Fatwa no.3257, Question 1"
-summary: "Celebrating the birthday of the Prophet ﷺ is considered an innovation in the religion."
+shaykh: The Permanent Committee for Scholarly Research and Ifta
+title: True Respect for the Prophet Lies in Following His Shariah
+source: Fatawa Al-Lajnah Al-Da’imah, Fatwa no.3257, Question 1
+summary: Celebrating the birthday of the Prophet ﷺ is considered an innovation in
+  the religion.
 category: [mawlid, bidah]
-group: "group1"
+group: group1
 ---
-
 ### Question: 
 
 What is the ruling on celebrating the birthday of the Prophet (peace be upon him) in the month of Rabi' al-Awwal out of reverence for him, peace and blessings be upon him?

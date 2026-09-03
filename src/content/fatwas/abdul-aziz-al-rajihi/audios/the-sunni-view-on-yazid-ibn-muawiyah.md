@@ -9,14 +9,9 @@ link: https://shrajhi.com.sa/fatawa/13/
 mp3: https://salafimanhaj.github.io/assets/abdul-aziz-al-rajihi/the-sunni-view-on-yazid-ibn-muawiyah.mp3
 summary: The creed of Ahl al-Sunnah regarding Yazid ibn Muawiyah is that he was one
   of the Muslim kings; he had good deeds and he had bad deeds.
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz al-Rajhi
-    url: /biography/abdul-aziz-al-rajihi/
 scholar: abdul-aziz-al-rajihi
 shaykh: Shaykh Abdul-Aziz al-Rajihi
 ---
-
 ### Question: 
 
 May Allah reward you well. The questioner asks: What is the aqeedah (creed) of "Ahl al-Sunnah" (Sunnis) regarding Yazid ibn Muawiyah?

@@ -1,9 +1,9 @@
 ---
 date: 2026-05-11
-group: "group2"
+group: group2
 hijri: '1447-11-24'
 lang: en
-link: "https://fatawapedia.com/حكم-جماع-الحامل-22870"
+link: https://fatawapedia.com/حكم-جماع-الحامل-22870
 publisher: alsalafiyyah.manhaj@gmail.com
 source: Fatawa al-Lajnah ad-Da'imah 19/353, Fatwa no.18371, Question 2
 summary: Sexual intercourse during pregnancy is permissible provided it does not cause
@@ -12,9 +12,8 @@ summary: Sexual intercourse during pregnancy is permissible provided it does not
 category: [marriage, women]
 title: On Marital Relations During Pregnancy
 scholar: alifta
-shaykh: "Alifta"
+shaykh: The Permanent Committee for Scholarly Research and Ifta
 ---
-
 ### Question: 
 
 When is it incumbent upon a man to abstain from sexual intercourse with his wife during pregnancy, and does coitus—specifically during the first trimester—pose any potential harm to the fetus?

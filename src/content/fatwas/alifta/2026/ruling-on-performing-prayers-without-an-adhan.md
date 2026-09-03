@@ -1,17 +1,17 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Ruling on Performing Prayers Without an Adhan"
+title: Ruling on Performing Prayers Without an Adhan
 date: 2026-08-17
-hijri: "1448-03-04"
-group: "group1"
+hijri: '1448-03-04'
+group: group1
 lang: en
 scholar: alifta
-shaykh: "Alifta"
+shaykh: The Permanent Committee for Scholarly Research and Ifta
 category: [salaf, adhan]
-source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 7645"
-summary: "It is not permissible for them to perform their prayers without an Adhan, because the Adhan is a communal obligation upon the Muslims in every town."
+source: Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 7645
+summary: It is not permissible for them to perform their prayers without an Adhan,
+  because the Adhan is a communal obligation upon the Muslims in every town.
 ---
-
 ### Question: 
 
 They perform their prayers without the Adhan; what is the ruling?

@@ -1,17 +1,17 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Ruling on Kissing the Thumbs Upon Hearing the Name of the Prophet in the Adhan"
+title: Ruling on Kissing the Thumbs Upon Hearing the Name of the Prophet in the Adhan
 date: 2026-08-17
-hijri: "1448-03-04"
-group: "group1"
+hijri: '1448-03-04'
+group: group1
 lang: en
 scholar: alifta
-shaykh: "Alifta"
+shaykh: The Permanent Committee for Scholarly Research and Ifta
 category: [adhan, bidah]
-source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 6756, Question 3"
-summary: "As far as we know, it has not been established from the Prophet that the thumbs should be kissed upon hearing the muezzin."
+source: Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 6756, Question 3
+summary: As far as we know, it has not been established from the Prophet that the
+  thumbs should be kissed upon hearing the muezzin.
 ---
-
 ### Question: 
 
 Is there any basis for kissing the two thumbs when the muezzin says **"Ashhadu anna Muhammadan Rasulullah"** (I bear witness that Muhammad is the Messenger of Allah)?

@@ -10,14 +10,9 @@ link: https://shrajhi.com.sa/fatawa/34/%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D8%
 summary: It is well known that the Ismailis are Batinis (esoteric sects) and that
   their beliefs are matters of disbelief (kufr), and likewise the Rafida. Therefore,
   praying behind them is not valid.
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz al-Rajhi
-    url: /biography/abdul-aziz-al-rajihi/
 scholar: abdul-aziz-al-rajihi
 shaykh: Shaykh Abdul-Aziz al-Rajihi
 ---
-
 ### Question:
 
 The questioner says, may Allah reward you well: What is the ruling on an Ismaili praying with Ahl al-Sunnah (the People of the Sunnah)?

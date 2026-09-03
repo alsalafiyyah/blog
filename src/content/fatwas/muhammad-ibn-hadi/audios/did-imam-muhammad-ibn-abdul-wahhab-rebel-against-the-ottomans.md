@@ -1,20 +1,16 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Did Imam Muhammad ibn Abd al-Wahhab Rebel Against the Ottomans"
+title: Did Imam Muhammad ibn Abd al-Wahhab Rebel Against the Ottomans
 date: 2026-08-19
-hijri: "1448-03-06"
+hijri: '1448-03-06'
 lang: en
 scholar: muhammad-ibn-hadi
-shaykh: "Shaykh Muhammad ibn Hadi al-Madkhali"
+shaykh: Shaykh Muhammad ibn Hadi al-Madkhali
 category: [audios, wahhabism]
-mp3: "https://salafimanhaj.github.io/assets/muhammad-ibn-hadi/did-muhammad-ibn-abdul-wahhab-rebel-against-the-ottomans.mp3"
-summary: "This is a lie. History proves it—as we said earlier, when narrators resort to lies, we resort to history."
-muftis:
-  shaykh:
-  - name: Shaykh Muhammad ibn Hadi al-Madkhali
-    url: /biography/muhammad-ibn-hadi/
+mp3: https://salafimanhaj.github.io/assets/muhammad-ibn-hadi/did-muhammad-ibn-abdul-wahhab-rebel-against-the-ottomans.mp3
+summary: This is a lie. History proves it—as we said earlier, when narrators resort
+  to lies, we resort to history.
 ---
-
 ### Question:
 
 Some say that Imam Muhammad ibn Abd al-Wahhab rebelled against the Ottoman Empire. What is your response to this claim?

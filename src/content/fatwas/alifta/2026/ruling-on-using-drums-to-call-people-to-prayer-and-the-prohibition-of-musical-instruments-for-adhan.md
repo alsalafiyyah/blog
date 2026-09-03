@@ -1,18 +1,19 @@
 ---
-layout: post
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Ruling on Using Drums to Call People to Prayer and the Prohibition of Musical Instruments for Adhan"
+title: Ruling on Using Drums to Call People to Prayer and the Prohibition of Musical
+  Instruments for Adhan
 date: 2026-08-17
-hijri: "1448-03-04"
-group: "group9"
+hijri: '1448-03-04'
+group: group9
 lang: en
 scholar: alifta
-shaykh: "Alifta"
+shaykh: The Permanent Committee for Scholarly Research and Ifta
 category: [adhan, music, bidah]
-source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 2036, Question 4"
-summary: "Drums and similar musical instruments are instruments of amusement, so it is not permissible to use them to inform people when the time for prayer has entered or is approaching."
+source: Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 2036, Question 4
+summary: Drums and similar musical instruments are instruments of amusement, so it
+  is not permissible to use them to inform people when the time for prayer has entered
+  or is approaching.
 ---
-
 ### Question: 
 
 In some mosques in the Philippines and elsewhere, drums are used to call people to prayer, followed by the Adhan afterwards. Is this permissible in Islam?

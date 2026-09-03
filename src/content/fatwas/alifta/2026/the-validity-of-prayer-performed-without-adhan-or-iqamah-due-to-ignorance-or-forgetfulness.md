@@ -1,18 +1,18 @@
 ---
-layout: post
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "The Validity of Prayer Performed Without Adhan or Iqamah Due to Ignorance or Forgetfulness"
+title: The Validity of Prayer Performed Without Adhan or Iqamah Due to Ignorance or
+  Forgetfulness
 date: 2026-08-17
-hijri: "1448-03-04"
-group: "group1"
+hijri: '1448-03-04'
+group: group1
 lang: en
 scholar: alifta
-shaykh: "Alifta"
+shaykh: The Permanent Committee for Scholarly Research and Ifta
 category: [salah, adhan, iqamah]
-source: "Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 7335, Question 1"
-summary: "If someone enters into the prayer without an Adhan or an Iqamah—due to forgetfulness, ignorance, or any other reason—their prayer is valid."
+source: Fatawa Al-Lajnah Al-Da'imah, Fatwa No. 7335, Question 1
+summary: If someone enters into the prayer without an Adhan or an Iqamah—due to forgetfulness,
+  ignorance, or any other reason—their prayer is valid.
 ---
-
 ### Question:
 
 If a town has a mosque where Friday and congregational prayers are held, is it permissible to perform the prayer without the Adhan (call to prayer) and Iqamah (second call to prayer)? If someone omits the phrase **"As-salatu khayrun min an-nawm" (Prayer is better than sleep)** in the Fajr Adhan due to a lack of knowledge, is the prayer valid without a legitimate excuse, provided the time for the prayer has not elapsed? Furthermore, if someone performs the Iqamah in the exact manner of the Adhan, or recites the Iqamah only once due to a lack of knowledge, is the prayer valid without it and without a legitimate excuse?
