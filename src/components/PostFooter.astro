@@ -45,20 +45,6 @@ const encodedUrl = encodeURIComponent(currentUrl);
     </div>
   )}
 
-{/* Individual Mufti/Shaykh */}
-  {muftis?.shaykh && muftis.shaykh.length > 0 && (
-    <div class="md:col-span-3 space-y-4 hidden">
-      <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Scholar</h5>
-      <div class="flex flex-wrap gap-x-8 gap-y-2">
-        {muftis.shaykh.map((item) => (
-          <a href={item.url} class="text-lg font-black italic font-serif hover:line-through">
-            {item.name}
-          </a>
-        ))}
-      </div>
-    </div>
-  )}
-
 {/* Group Muftis/Shaykhs */}
     {activeGroup && (
       <div class="md:col-span-3 space-y-6">
@@ -112,14 +98,14 @@ const encodedUrl = encodeURIComponent(currentUrl);
   <div class="space-y-6">
     <div>
       <span class="text-gray-400 block mb-1">Published:</span>
-      <p class="leading-relaxed">
+      <p class="leading-relaxed text-lg">
         {hijri ? `${hijri} | ` : ''}{date}
       </p>
     </div>
     {source && (
       <div>
         <span class="text-gray-400 block mb-1">Source:</span>
-        <p class="leading-relaxed">
+        <p class="leading-relaxed text-lg">
           {source}
         </p>
       </div>
