@@ -35,13 +35,11 @@ const encodedUrl = encodeURIComponent(currentUrl);
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
   
   {scholar && (
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
-      <div class="space-y-1 text-lg font-black italic font-serif">
-       <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Scholar</h5>
-       <a href="/biography/{scholar}" class="text-lg font-black italic font-serif hover:line-through">
+    <div class="space-y-1 text-lg font-black italic font-serif">
+      <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Scholar</h5>
+      <a href={`/biography/${scholar}`} class="text-lg font-black italic font-serif hover:line-through">
         {shaykh}
-       </a>
-      </div>
+      </a>
     </div>
   )}
 
