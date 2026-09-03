@@ -1,6 +1,6 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-date: 2026-05-18-
+date: 2026-05-18
 title: Is There an Authentic Hadith Regarding the Adhan and Iqamah in the Newborn's
   Ears?
 source: Fatawa Nur 'ala al-Darb, Tape no. 339
