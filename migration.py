@@ -31,11 +31,11 @@ def clean_and_format_posts(directory_path):
   # Extract folder name as fallback scholar (e.g., 'ibn-uthaymeen' from 'src/content/fatwas/ibn-uthaymeen')
   folder_scholar_slug = target_dir.name.lower()
 
-  keys_to_remove = ["layout", "active", "note", "published", "translation", "locale", "translated"]
+  keys_to_remove = ["layout", "active", "note", "published", "translation", "locale", "translated", "article_taken_from", "permalink", "mass_edited"]
 
   scholar_mapping = {
       "ibn-uthaymeen": "Shaykh Muhammad ibn Salih al-Uthaymeen",
-      "binbaz": "Shaykh Abdul-Aziz ibn Baz",
+      "ibn-baz": "Shaykh Abdul-Aziz ibn Baz",
       "al-albani": "Shaykh Muhammad Nasiruddin al-Albani",
       "salih-ibn-fawzan": ( 
         "Shaykh Salih ibn Fawzan al-Fawzan"
@@ -130,5 +130,5 @@ def clean_and_format_posts(directory_path):
 
 if __name__ == "__main__":
   # Change target path to point to the specific scholar folder
-  target_path = "src/content/fatwas/abdul-aziz-al-rajihi"
+  target_path = "src/content/fatwas/ibn-baz"
   clean_and_format_posts(target_path)
