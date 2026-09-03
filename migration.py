@@ -28,6 +28,9 @@ def clean_and_format_posts(directory_path):
     print(f"Error: Directory not found -> {target_dir}")
     return
 
+  # Extract folder name as fallback scholar (e.g., 'ibn-uthaymeen' from 'src/content/fatwas/ibn-uthaymeen')
+  folder_scholar_slug = target_dir.name.lower()
+
   keys_to_remove = ["layout", "active", "note", "published"]
 
   scholar_mapping = {
@@ -67,24 +70,28 @@ def clean_and_format_posts(directory_path):
         if isinstance(cat, list):
           post.metadata["category"] = FlowList(cat)
 
-      # 5. Convert 'tags' to 'scholar' and add 'shaykh'
+      # 5. Handle 'tags' -> 'scholar' & 'shaykh' conversion
+      scholar_slug = None
+
       if "tags" in post.metadata:
         tags = post.metadata.pop("tags")
         if isinstance(tags, list) and len(tags) > 0:
-          primary_tag = tags[0]
-          post.metadata["scholar"] = primary_tag
-
-          if primary_tag in scholar_mapping:
-            post.metadata["shaykh"] = scholar_mapping[primary_tag]
-          else:
-            post.metadata["shaykh"] = (
-                f"Shaykh {primary_tag.replace('-', ' ').title()}"
-            )
+          scholar_slug = tags[0]
         elif isinstance(tags, str):
-          post.metadata["scholar"] = tags
-          post.metadata["shaykh"] = (
-              f"Shaykh {tags.replace('-', ' ').title()}"
-          )
+          scholar_slug = tags
+
+      # If no tags exist in the file, fallback to using the folder name slug
+      if not scholar_slug:
+        scholar_slug = folder_scholar_slug
+
+      # Set scholar and map to full shaykh name
+      post.metadata["scholar"] = scholar_slug
+      if scholar_slug in scholar_mapping:
+        post.metadata["shaykh"] = scholar_mapping[scholar_slug]
+      else:
+        post.metadata["shaykh"] = (
+            f"Shaykh {scholar_slug.replace('-', ' ').title()}"
+        )
 
       # 6. Write back using direct safe_dump to respect custom styles
       yaml_header = yaml.safe_dump(
@@ -116,5 +123,6 @@ def clean_and_format_posts(directory_path):
 
 
 if __name__ == "__main__":
-  target_path = "src/content/fatwas"
+  # Change target path to point to the specific scholar folder
+  target_path = "src/content/fatwas/ibn-uthaymeen"
   clean_and_format_posts(target_path)
