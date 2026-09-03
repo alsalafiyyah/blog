@@ -37,7 +37,8 @@ const encodedUrl = encodeURIComponent(currentUrl);
   {shaykh && (
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
       <div class="space-y-1 text-lg font-black italic font-serif">
-       <a href={shaykh} class="text-lg font-black italic font-serif hover:line-through">
+       <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Scholar</h5>
+       <a href="/biography/{shaykh}" class="text-lg font-black italic font-serif hover:line-through">
         {shaykh}
        </a>
       </div>
@@ -46,7 +47,7 @@ const encodedUrl = encodeURIComponent(currentUrl);
 
 {/* Individual Mufti/Shaykh */}
   {muftis?.shaykh && muftis.shaykh.length > 0 && (
-    <div class="md:col-span-3 space-y-4">
+    <div class="md:col-span-3 space-y-4 hidden">
       <h5 class="text-[10px] font-black uppercase tracking-widest text-gray-400">Scholar</h5>
       <div class="flex flex-wrap gap-x-8 gap-y-2">
         {muftis.shaykh.map((item) => (
