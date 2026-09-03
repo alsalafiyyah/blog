@@ -1,0 +1,68 @@
+---
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths, Page } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { PAGE_BIOGRAPHY_TITLE, POSTS_PER_PAGE, NEXT_TITLE, PREV_TITLE } from '../../config';
+
+export const getStaticPaths = (async ({ paginate }: any) => {
+  const scholars = (await getCollection('biography')).sort(
+    (a: any, b: any) => (a.data.name || '').localeCompare(b.data.name || '')
+  );
+
+  return paginate(scholars, { pageSize: POSTS_PER_PAGE || 10 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props as { page: Page<any> };
+const scholars = page.data as any[];
+
+const base = import.meta.env.BASE_URL;
+const getCleanUrl = (id: string) => {
+  const cleanId = id.includes('/') ? id.split('/').pop() : id;
+  return `${base.replace(/\/$/, '')}/biography/${cleanId}/`;
+};
+---
+
+<BaseLayout title={`${PAGE_BIOGRAPHY_TITLE} - Page ${page.currentPage}`}>
+  <div class="space-y-8">
+    <header class="border-b-4 border-black dark:border-white pb-6 space-y-2">
+      <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">Directory</span>
+      <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tight serif">{PAGE_BIOGRAPHY_TITLE}</h1>
+      <p class="text-xs text-gray-500 font-bold uppercase tracking-wider">
+        Showing page {page.currentPage} of {page.lastPage} ({page.total} total biographies)
+      </p>
+    </header>
+
+    {scholars.length > 0 ? (
+      <ul class="divide-y divide-gray-100 dark:divide-zinc-800">
+        {scholars.map((scholar: any) => (
+          <li class="py-6 space-y-2">
+            <a href={getCleanUrl(scholar.id)} class="text-xl font-bold text-blue-600 dark:text-blue-400 hover:underline block">
+              {scholar.data.name}
+            </a>
+            {scholar.data.title && (
+              <p class="text-xs text-gray-400 font-serif italic">{scholar.data.title}</p>
+            )}
+            <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">{scholar.data.summary}</p>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="text-sm text-gray-500 italic">No biographies found yet.</p>
+    )}
+
+    {/* Pagination controls */}
+    <nav class="flex items-center justify-between border-t-4 border-black dark:border-white pt-12 mt-12 mb-24 transition-colors">
+      {page.url.prev ? (
+        <a href={page.url.prev} class="text-sm font-black uppercase tracking-widest hover:line-through">← {PREV_TITLE || 'Newer'}</a>
+      ) : <div />}
+      
+      <div class="text-sm font-black uppercase tracking-widest tabular-nums">
+       <span class="text-gray-600">{page.currentPage} / {page.lastPage}</span>
+      </div>
+
+      {page.url.next ? (
+        <a href={page.url.next} class="text-sm font-black uppercase tracking-widest hover:line-through">{NEXT_TITLE || 'Older'} →</a>
+      ) : <div />}
+    </nav>
+  </div>
+</BaseLayout>
