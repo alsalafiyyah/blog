@@ -3,10 +3,6 @@ date: 2020-09-09
 hijri: '1442-01-21'
 lang: en
 category: [wahhabism, creed]
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz ibn Baz
-    url: /biography/binbaz/
 publisher: alsalafiyyah.manhaj@gmail.com
 source: Majmu' Fatawa 1/376, Fatawa Al-Lajnah Ad-Da'imah, Fatwa No.9420, Question
   2

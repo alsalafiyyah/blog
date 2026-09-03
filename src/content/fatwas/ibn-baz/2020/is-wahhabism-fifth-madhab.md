@@ -10,10 +10,6 @@ category: [creed, wahhabism]
 summary: This term is used by many people to refer to the call of the Imam and Shaykh
   Muhammad ibn Abd al-Wahhab ibn Sulayman at-Tamimi al-Hanbali, and they call him
   and his followers Wahhabis.
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz ibn Baz
-    url: /biography/binbaz/
 scholar: ibn-baz
 shaykh: Shaykh Abdul-Aziz ibn Baz
 ---

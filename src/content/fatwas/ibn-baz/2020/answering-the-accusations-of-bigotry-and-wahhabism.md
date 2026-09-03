@@ -8,10 +8,6 @@ summary: The ignorant people and the enemies of Allah accused the prophets and t
   Salaf of more than this.
 title: Answering the Accusations of Bigotry and Wahhabism
 category: [wahhabism]
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz ibn Baz
-    url: /biography/binbaz/
 scholar: ibn-baz
 shaykh: Shaykh Abdul-Aziz ibn Baz
 ---

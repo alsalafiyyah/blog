@@ -9,10 +9,6 @@ url: https://binbaz.org.sa/discussions/99/%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D9%85
 category: [wahhabism, creed]
 summary: Wahhabism is attributed to the Imam and Sheikh Muhammad ibn Abd al-Wahhab
   (may Allah have mercy on him), who passed away in the year 1206 AH.
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz ibn Baz
-    url: /biography/binbaz/
 scholar: ibn-baz
 shaykh: Shaykh Abdul-Aziz ibn Baz
 ---

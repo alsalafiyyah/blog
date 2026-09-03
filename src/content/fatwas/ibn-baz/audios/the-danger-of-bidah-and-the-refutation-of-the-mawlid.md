@@ -1,23 +1,17 @@
 ---
-title: "The Danger of Bid'ah and the Refutation of the Mawlid"
+title: The Danger of Bid'ah and the Refutation of the Mawlid
 date: 2026-08-23
-hijri: "1448-03-10"
-scholar: "ibn-baz"
-shaykh: "Shaykh Abdul-Aziz ibn Baz"
-source: "Fatawa Arkan al-Islam p.21, Question 4"
-category:
-  - mawlid
-  - bidah
-  - audios
-  - muqolat
-mp3: "https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/ta3lqat_%20jame3_kabeer/7743.mp3"
-summary: "Indeed, love for the Messenger ﷺ is not shown through innovations; love for the Messenger is demonstrated by following him, walking upon his path, magnifying his commands and prohibitions, calling to his Sunnah, and refuting those who deny it."
-muftis:
-  shaykh:
-  - name: Shaykh Abdul-Aziz ibn Baz
-    url: /biography/binbaz/
+hijri: '1448-03-10'
+scholar: ibn-baz
+shaykh: Shaykh Abdul-Aziz ibn Baz
+source: Fatawa Arkan al-Islam p.21, Question 4
+category: [mawlid, bidah, audios, muqolat]
+mp3: https://files.zadapps.info/binbaz.org.sa/sawtyaat/dros%26mohadrat/ta3lqat_%20jame3_kabeer/7743.mp3
+summary: Indeed, love for the Messenger ﷺ is not shown through innovations; love for
+  the Messenger is demonstrated by following him, walking upon his path, magnifying
+  his commands and prohibitions, calling to his Sunnah, and refuting those who deny
+  it.
 ---
-
 People wrote about this when the innovation occurred. Among those who wrote about it was Abu al-Abbas Ibn Taymiyyah (may Allah have mercy on him), Shaykh al-Islam Ibn Taymiyyah, who discussed it in *Iqtida' al-Sirat al-Mustaqim*. He clarified that it is an innovation (bid'ah), and that people practicing it or claiming love for the Messenger does not make it a Sunnah nor justify it.
 
 Indeed, love for the Messenger ﷺ is not shown through innovations; love for the Messenger is demonstrated by following him, walking upon his path, magnifying his commands and prohibitions, calling to his Sunnah, and refuting those who deny it. This is how love for the Messenger ﷺ is manifested, just as love for Allah is shown by following the Messenger ﷺ—not through grand, empty claims. Glorified be He, He says: **"Say (O Muhammad ﷺ to mankind): "If you (really) love Allah then follow me (i.e. accept Islamic Monotheism, follow the Quran and the Sunnah), Allah will love you..."** [Aal 'Imran: 31].
@@ -76,4 +70,3 @@ The point is that the obligation is to manifest the truth—this is the duty—a
 Even if someone is attributed to knowledge, once his errors and mistakes become apparent, it is mandatory to prevent him and to put a stop to his actions, so that he does not spread innovations and evils that are impermissible to publish or display.
 
 We ask Allah to grant guidance to us and to everyone who has fallen into falsehood. We ask Allah to guide us and them, and to return us to what is right.
-
