@@ -35,8 +35,14 @@ def clean_and_format_posts(directory_path):
 
   scholar_mapping = {
       "ibn-uthaymeen": "Shaykh Muhammad ibn Salih al-Uthaymeen",
-      "bin-baz": "Shaykh Abdul-Aziz ibn Baz",
+      "binbaz": "Shaykh Abdul-Aziz ibn Baz",
       "al-albani": "Shaykh Muhammad Nasiruddin al-Albani",
+      "salih-ibn-fawzan": ( 
+        "Shaykh Salih ibn Fawzan al-Fawzan"
+      ),
+      "abdul-aziz-al-rajihi": ( 
+        "Shaykh Abdul-Aziz al-Rajihi"
+      ),
   }
 
   date_prefix_regex = re.compile(r"^\d{4}-\d{2}-\d{2}-(.*\.md)$")
@@ -124,5 +130,5 @@ def clean_and_format_posts(directory_path):
 
 if __name__ == "__main__":
   # Change target path to point to the specific scholar folder
-  target_path = "src/content/fatwas/ibn-uthaymeen"
+  target_path = "src/content/fatwas/abdul-aziz-al-rajihi"
   clean_and_format_posts(target_path)
