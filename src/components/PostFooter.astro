@@ -10,6 +10,7 @@ interface Props {
   date: string;
   hijri?: string;
   scholar?: string;
+  shaykh?: string;
   source?: string;
   group?: string;
   mp3?: string;
@@ -20,7 +21,7 @@ interface Props {
   };
 }
 
-const { date, hijri, scholar, source, group, muftis, title, category } = Astro.props;
+const { date, hijri, scholar, shaykh, source, group, muftis, title, category } = Astro.props;
 
 // Fix: Cast SCHOLAR_GROUPS as any to allow dynamic string indexing
 const activeGroup = group && (SCHOLAR_GROUPS as any)[group] ? (SCHOLAR_GROUPS as any)[group] : null;
@@ -33,10 +34,12 @@ const encodedUrl = encodeURIComponent(currentUrl);
 <footer class="mt-10 border-t-4 border-black dark:border-white pt-10 space-y-12 transition-colors">
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
   
-  {scholar && (
-    <div class="hidden grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
+  {shaykh && (
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-100 dark:border-zinc-800 pb-12 transition-colors">
       <div class="space-y-1 text-lg font-black italic font-serif">
-        {scholar}
+       <a href={shaykh} class="text-lg font-black italic font-serif hover:line-through">
+        {shaykh}
+       </a>
       </div>
     </div>
   )}
