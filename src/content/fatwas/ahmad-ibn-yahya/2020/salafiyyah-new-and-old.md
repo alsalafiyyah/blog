@@ -1,0 +1,19 @@
+---
+publisher: alsalafiyyah.manhaj@gmail.com
+title: Ruling on the Categorization of Salafism into 'Old' and 'New'
+date: 2020-09-05
+lang: en
+summary: Salafism is a single Salafism, and whoever claims that there is an old Salafism
+  and a new Salafism has lied.
+category: [salafism, creed]
+hijri: '1442-01-17'
+scholar: ahmad-ibn-yahya
+shaykh: Shaykh Ahmad Ibn Yahya An-Najmi
+---
+### Question:
+
+Is there an old al-Salafiyyah (Salafism) and a new Salafism, or is it a single Salafism?
+
+### Answer:
+
+Salafism is a single Salafism, and whoever claims that there is an old Salafism and a new Salafism has lied. If we contemplate the creed ('aqīdah) of the Salaf, from the era of the Companions until this day of ours, we find it to be a single creed; they do not differ concerning it. Even if they differed in the subsidiary rulings that are not part of the fundamentals and creeds—for they do differ in this, and none blames another—this was the way of the Companions, may Allah be pleased with them. As for creeds, their methodology (manhaj) regarding them has been one, from the era of the Companions until now.
