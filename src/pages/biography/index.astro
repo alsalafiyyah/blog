@@ -9,7 +9,7 @@ const scholars = (await getCollection('biography')).sort(
 
 const getCleanUrl = (id: string) => {
   const cleanId = id.includes('/') ? id.split('/').pop() : id;
-  return `/biography/${cleanId}/`;
+  return `/blog/biography/${cleanId}/`;
 };
 ---
 

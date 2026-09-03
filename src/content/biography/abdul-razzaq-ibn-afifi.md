@@ -1,5 +1,6 @@
 ---
 publisher: "alsalafiyyah@icloud.com"
+name: "Shaykh Abdul Razzaq Afifi"
 title: "Shaykh Abdul Razzaq Afifi"
 summary: "Shaykh 'Abdul-Razzaq ibn Afifi ibn Atiyyah was born in Shanshur, Ashmoun Center, Al-Munufiyyah Governorate in 1323 AH."
 ---

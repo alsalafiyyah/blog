@@ -1,6 +1,6 @@
 ---
-layout: post
 publisher: alsalafiyyah.manhaj@gmail.com
+name: "Shaykh Abdul Salam ibn Abdullah ibn Muhammad Al-Sulaiman"
 title: "Shaykh Abdul Salam ibn Abdullah ibn Muhammad Al-Sulaiman"
 official_web: https://alsuliman.af.org.sa/
 summary: "He is Abdul Salam bin Abdullah bin Mohammed Al-Sulaiman, from the Nawasir clan of the Banu Tamim tribe. On his mother’s side, his lineage traces back to the Al-Hussain family of the Nawasir from Banu Tamim. He was born in the city of Riyadh."

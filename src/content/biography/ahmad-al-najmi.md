@@ -1,7 +1,8 @@
 ---
 layout: post
 publisher: "alsalafiyyah@icloud.com"
-title: "Shaykh Ahmad Yahya An-Najmi"
+name: "Shaykh Ahmad ibn Yahya An-Najmi"
+title: "Shaykh Ahmad ibn Yahya An-Najmi"
 official_web: https://alnajmi.net/
 summary: "The Shaikh was born in the village of Najamiyyah on the 22nd of Shawal of 1346H, and was raised in the house of his two righteous parents."
 ---

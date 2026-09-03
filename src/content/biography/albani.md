@@ -1,5 +1,6 @@
 ---
 publisher: alsalafiyyah@icloud.com
+name: "Shaykh Muhammad Nasiruddin al-Albani"
 title: "Shaykh Al-Albani"
 official_web: https://www.al-albany.com/
 summary: "He is Abu Abd al-Rahman Muhammad Nasir al-Din, son of Nuh Najati, son of Adam, al-Shqodri—relative to his birthplace—al-Albani—relative to his country and ethnicity."
