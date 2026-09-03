@@ -1,20 +1,16 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "The Duty of Muslims Towards Palestine"
+title: The Duty of Muslims Towards Palestine
 date: 2026-08-26
 hijri: '1448-03-13'
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 category: [videos, palestine]
 videoURL: https://youtu.be/CIU4ZNqJ144
 videoID: CIU4ZNqJ144
-summary: "The Muslims must first and foremost rectify themselves—they must reform themselves, repent to Allah, return to their religion, and implement the law of their Lord."
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan
+summary: The Muslims must first and foremost rectify themselves—they must reform themselves,
+  repent to Allah, return to their religion, and implement the law of their Lord.
 ---
-
 ### Question: 
 
 What is the duty of Muslims regarding what is happening in Palestine, and regarding the Jews—may the curse of Allah be upon them?

@@ -1,21 +1,16 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "On the Alleged Repetition in Ibn Abd al-Wahhab’s Works"
+title: On the Alleged Repetition in Ibn Abd al-Wahhab’s Works
 hijri: '1446-01-18'
 date: 2024-07-24
 category: [creed, wahhabism]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 lang: en
 link: https://www.al-amen.com/vb/showthread.php?t=21291
 summary: It is either an ignorant individual who has neither studied them nor grasped
   their reality.
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan
 ---
-
 ### Question: 
 
 What is your opinion on someone who describes the writings of Imam Muhammad ibn Abd al-Wahhab in jurisprudence (Fiqh) and creed (Aqeedah) as being repetitive?

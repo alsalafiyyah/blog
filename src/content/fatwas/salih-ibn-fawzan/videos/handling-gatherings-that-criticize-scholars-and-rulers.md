@@ -5,17 +5,13 @@ hijri: '1447-11-16'
 date: 2026-05-03
 category: [videos, rulership]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
-summary: "The Ayats (verses) of Allah forbid reviling the Muslim rulers and forbid attacking the honor of [any] Muslims."
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
+summary: The Ayats (verses) of Allah forbid reviling the Muslim rulers and forbid
+  attacking the honor of [any] Muslims.
 videoURL: https://youtu.be/q6ycncXQpoo
 videoID: q6ycncXQpoo
-source: "Fatawa Duroos 39 (4717)"
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan/
+source: Fatawa Duroos 39 (4717)
 ---
-
 ### Question: 
 
 We find many people speaking ill and harboring ill-will toward the [Muslim] rulers and the scholars, using descriptions that we detest. When we denounce their behavior, they laugh at us and say, 'You are poor, soul-less people who do not know.' I even remember being in a gathering where we were discussing this, and I mentioned to them that I pray (make Du'a) for the rulers; they laughed at me and mocked my words. So, what should be said to such people?

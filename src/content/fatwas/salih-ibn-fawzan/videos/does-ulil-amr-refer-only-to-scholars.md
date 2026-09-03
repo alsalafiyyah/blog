@@ -5,18 +5,13 @@ hijri: '1447-11-16'
 date: 2026-05-03
 category: [videos, rulership]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 summary: Those in authority are both the scholars and the rulers, as you have heard.
   In fact, the outward, apparent meaning of the term refers to the rulers.
 videoURL: https://youtu.be/7CL7K-BYVy8
 videoID: 7CL7K-BYVy8
 source: Fatawa Duroos 963/1350
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan/
 ---
-
 ### Question: 
 
 What is your opinion on those who say that the meaning of "those in authority" mentioned in the [Quranic] verse [^1] refers only to the scholars and not the rulers? Is this correct?

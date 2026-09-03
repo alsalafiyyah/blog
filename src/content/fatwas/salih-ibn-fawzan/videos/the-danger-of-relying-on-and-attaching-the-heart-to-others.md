@@ -5,17 +5,12 @@ hijri: '1448-02-25'
 title: The Danger of Relying on and Attaching the Heart to Others
 category: [videos, creed]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 videoURL: https://youtu.be/RuOrc5SSPxc
 videoID: RuOrc5SSPxc
 lang: en
 summary: There is no doubt that the heart's attachment to other than Allah is shirk.
-muftis:
-  shaykh:
-  - name: Shaykh Salih al-Fawzan
-    url: /biography/fawzan/
 ---
-
 ### Question: 
 
 Is the heart's attachment to other than Allah considered a form of hidden shirk (associating partners with Allah)?

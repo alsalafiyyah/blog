@@ -1,19 +1,15 @@
 ---
-title: "Ruling on the Sect Known as Quranism"
+title: Ruling on the Sect Known as Quranism
 date: 2026-08-24
-hijri: "1448-03-11"
-scholar: "salih-ibn-fawzan"
-shaykh: "Shaykh Salih ibn Fawzan al-Fawzan"
+hijri: '1448-03-11'
+scholar: salih-ibn-fawzan
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 category: [sects, quranism, videos]
 videoURL: https://youtu.be/8z8pPfD545g
 videoID: 8z8pPfD545g
-summary: "Thus, the Sunnah explains the Quran; whoever does not act upon the Sunnah is not truly acting upon the Quran."
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan
+summary: Thus, the Sunnah explains the Quran; whoever does not act upon the Sunnah
+  is not truly acting upon the Quran.
 ---
-
 ### Question:
 
 There is a group that calls themselves "Quranists," and they only accept the Quran. Is a ruling of 'disbelief' (kufr) passed upon them?

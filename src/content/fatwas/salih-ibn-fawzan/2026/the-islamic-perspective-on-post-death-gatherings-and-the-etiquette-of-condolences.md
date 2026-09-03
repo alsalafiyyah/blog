@@ -4,18 +4,13 @@ title: The Islamic Perspective on Post-Death Gatherings and the Etiquette of Con
 date: 2026-08-10
 category: [creed, funerals, bidah]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
-source: "Majmu' Fatawa Fadhilat ash-Shaykh Salih al-Fawzan, Vol. 2, pp. 682-684"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
+source: Majmu' Fatawa Fadhilat ash-Shaykh Salih al-Fawzan, Vol. 2, pp. 682-684
 summary: These mourning gatherings that are held—what they call condolences, setting
   up tents, gathering people in them, hiring Qur'an reciters, preparing food and drinks,
   and so on—are all newly invented innovations.
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan
 hijri: '1448-02-27'
 ---
-
 ### Question: 
 
 Here in our town in Sudan, when someone dies, a mourning gathering and mattress/bedding setup are held for them for more than three days. Is this mattress/bedding setup for the deceased permissible, and how should condolences be offered for their loss, knowing that they set up these mattresses inside the deceased's home? Also, is it permissible for neighbors to bring their own food and drink to the family of the deceased to share in their grief?

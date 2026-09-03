@@ -1,18 +1,15 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Why Celebrating the Prophet's Birthday Is Prohibited in Islam"
+title: Why Celebrating the Prophet's Birthday Is Prohibited in Islam
 date: 2026-08-23
 hijri: '1448-03-10'
-source: "Al-Kutub al-Minbariyyah, Vol 1, Sermon No. 13811"
+source: Al-Kutub al-Minbariyyah, Vol 1, Sermon No. 13811
 category: [muqolat, sermon, bidah, mawlid]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 lang: en
-summary: "O servants of Allah, this noble Messenger warned us against introducing into his religion that which is not part of it."
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan
+summary: O servants of Allah, this noble Messenger warned us against introducing into
+  his religion that which is not part of it.
 ---
 
 In the name of Allah, the Most Gracious, the Most Merciful. All praise is due to Allah, who sent His Messenger with guidance and the religion of truth to manifest it over all religion, and sufficient is Allah as a Witness. I bear witness that there is no deity except Allah alone, with no partner—a confession of His oneness and absolute monotheism—and I bear witness that Muhammad is His servant and messenger, may Allah's peace and blessings be upon him, his family, his companions, and abundant salutations.

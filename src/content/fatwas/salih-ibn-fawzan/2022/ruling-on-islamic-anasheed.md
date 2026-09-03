@@ -3,19 +3,14 @@ publisher: alsalafiyyah.manhaj@gmail.com
 title: Ruling on Islamic Anasheed
 hijri: '1443-07-13'
 date: 2022-02-14
-source: "Al-Khutab Al-Mimbariyyah 3/184-185"
+source: Al-Khutab Al-Mimbariyyah 3/184-185
 category: [music, bidah, sects]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 lang: en
 summary: As for anasheed, then they are from the ways of the innovating Sufis, those
   who take their religion as play and amusement.
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan/
 ---
-
 What deserves attention also is: The tapes that are being increasingly circulated amongst the practicing youth in which anasheed done in group voices are recorded. They call them Islamic anasheed, but they are a form of singing and sometimes they occur with provocative voices. They can even be found being sold at tape exhibitions along with tapes of the noble Qur’an and religious lectures. Calling these anashid ‘Islamic’ is incorrect, since Islam has not legislated anasheed for us. Rather, it only prescribed for us the remembrance of Allah (Glorified be He), the recitation of the Qur’an, and the acquiring of beneficial knowledge. 
 
 As for anasheed, then they are from the ways of the innovating Sufis, those who take their religion as play and amusement. Furthermore, taking anashid as part of the religion contains in it imitation of the disbelievers, i.e. those who make their religion into collective chanting and musical melodies. 

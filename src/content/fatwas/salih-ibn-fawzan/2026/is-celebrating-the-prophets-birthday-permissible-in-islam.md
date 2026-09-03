@@ -1,21 +1,17 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Is Celebrating the Prophet's Birthday Permissible in Islam?"
+title: Is Celebrating the Prophet's Birthday Permissible in Islam?
 date: 2026-08-23
-hijri: "1448-03-10"
+hijri: '1448-03-10'
 lang: en
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 category: [bidah, mawlid]
-link: "https://alfawzan.live/content/9889/"
-summary: "First, holding celebrations for the Prophet's birthday (Mawlid) is an innovation (bid'ah)."
-source: "Fatwa No. 9889"
-muftis:
-  shaykh:
-  - name: Shaykh Salih al-Fawzan
-    url: /biography/fawzan/
+link: https://alfawzan.live/content/9889/
+summary: First, holding celebrations for the Prophet's birthday (Mawlid) is an innovation
+  (bid'ah).
+source: Fatwa No. 9889
 ---
-
 ### Question:
 
 My family has a habit of holding a gathering at home every so often and on various occasions to celebrate the birthday of the Prophet (peace be upon him). This includes inviting a believing person who has a book titled "Ashraf al-Anam", which contains accounts of the Prophet’s birth, his life before and after prophethood, and lines of poetry praising him (peace be upon him). 

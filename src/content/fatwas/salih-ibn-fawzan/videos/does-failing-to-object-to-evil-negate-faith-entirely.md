@@ -4,19 +4,14 @@ title: Does Failing to Object to Evil Negate Faith Entirely?
 date: 2026-07-31
 category: [videos, amar-maruf]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 summary: If he does not object to the evil—if he says, There is nothing wrong with
   it, such as saying fornication is fine, theft is fine, and does not view it as an
   evil—then he is a disbeliever who denies Allah and His Messenger.
 videoURL: https://youtu.be/3SXImSaiBro
 videoID: 3SXImSaiBro
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan/
 hijri: '1448-02-17'
 ---
-
 ### Question: 
 
 Concerning the saying of the Prophet ﷺ in the Hadith: **"Whoever among you sees an evil, let him change it..."** up to his saying: **"and beyond that there is not even a mustard seed's weight of faith"**. Does this mean that the one who does not object to an evil—even if it is a sin—has no faith whatsoever, or that his faith is [merely] deficient?

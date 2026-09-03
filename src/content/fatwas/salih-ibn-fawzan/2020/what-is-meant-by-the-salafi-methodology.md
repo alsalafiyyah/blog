@@ -1,20 +1,16 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "What is Meant by the Salafi Methodology?"
+title: What is Meant by the Salafi Methodology?
 date: 2020-07-17
 hijri: '1441-11-26'
-source: "Al-Muntaqa min Fataawa Fadilah ash-Shaykh Salih al-Fawzan, Fatwa no. 7080"
+source: Al-Muntaqa min Fataawa Fadilah ash-Shaykh Salih al-Fawzan, Fatwa no. 7080
 category: [creed, salafism]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 lang: en
-summary: "What is meant by the Salafi methodology is that which the Salaf (righteous predecessors) of this Ummah."
-muftis:
-  shaykh:
-  - name: Shaykh Salih ibn Fawzan Al-Fawzan
-    url: /biography/fawzan
+summary: What is meant by the Salafi methodology is that which the Salaf (righteous
+  predecessors) of this Ummah.
 ---
-
 ### Question: 
 
 It is frequently repeated by some people that "so-and-so is a Salafi" and "so-and-so is not a Salafi." What is meant by al-madhhab al-salafi (the Salafi methodology)? Who are the most prominent Muslim scholars who called to it? Is it permissible to call them Ahl al-Sunnah wa al-Jama'ah (the People of the Sunnah and the Community) or al-Firqah al-Najiyah (the Saved Sect)? Furthermore, is this not considered a form of self-commendation?

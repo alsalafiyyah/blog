@@ -1,21 +1,16 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "There is no such thing as a good bid’ah in the religion"
+title: There is no such thing as a good bid’ah in the religion
 date: 2024-07-28
 hijri: '1446-01-22'
-source: "Muhadharat fil-‘Aqidah wad-Da’wah vol.1 pages 196-197"
+source: Muhadharat fil-‘Aqidah wad-Da’wah vol.1 pages 196-197
 category: [muqolat, bidah]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 lang: en
 summary: There is no such thing as a good bid’ah as is claimed by some of the ignorant
   ones. Innovations – in their entirety are a going astray, as was judged by the Messenger
   of Allah ﷺ.
-translated_by: Abu Hatim Muhammad Faruq
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan
 ---
 
 There is no such thing as a ‘**good bid’ah (innovation)**' as is claimed by some of the ignorant ones. Innovations – in their entirety are a going astray, as was judged by the Messenger of Allah ﷺ in his saying: **"Every bid'ah (innovation) is a going astray."** [^1] and in another narration: **"And every going astray is in the Hell-fire."** [^2].
@@ -25,6 +20,8 @@ As for the saying of Amir al-Mu’minin ‘Umar bin Al-Khattab (may Allah be ple
 Thus ‘Umar revived this Sunnah, since the object of caution had ceased; which was: taking it as an obligation. So he revived a Sunnah – he did not come with an innovation.
 
 Rather his saying: **‘What an good bid’ah this is’** – then his intent with that – and Allah Knows best – was the linguistic meaning of an innovation not the Shar’i (legislative) innovation. This is because legislative innovations are prohibited in Islam, and the proof is based upon what we mentioned: that he intended by it the Tarawih prayer – and the Tarawih prayer is not an innovation – rather it is a Sunnah.
+
+Translated by: Abu Hatim Muhammad Faruq
 
 ---
 [^1]: Reported by Abu Dawud as Hadeeth no. 4607, and At-Tirmidhi as Hadith no. 2676, and it was declared Sahih (authentic) by Shaykh Al-Albani.

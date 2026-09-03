@@ -1,20 +1,17 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Refuting Misconceptions: Imam Muhammad ibn Abd al-Wahhab and Ottoman Authority"
+title: 'Refuting Misconceptions: Imam Muhammad ibn Abd al-Wahhab and Ottoman Authority'
 date: 2026-08-19
 hijri: '1448-03-06'
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 category: [videos, creed, wahhabism, rulership]
 videoURL: https://youtu.be/V3K5l2_p0_U
 videoID: V3K5l2_p0_U
-summary: "Najd remained in the hands of its local rulers and chiefs generation after generation until Shaykh Muhammad ibn Abd al-Wahhab—may Allah have mercy on him—came with his call, supported by Muhammad ibn Saud."
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan
+summary: Najd remained in the hands of its local rulers and chiefs generation after
+  generation until Shaykh Muhammad ibn Abd al-Wahhab—may Allah have mercy on him—came
+  with his call, supported by Muhammad ibn Saud.
 ---
-
 ### Question:
 
 May Allah treat you well, your eminence. This questioner asks: "Some people who are hostile to the call (Da'wah) of Shaykh al-Islam Muhammad ibn Abd al-Wahhab—may Allah have mercy on him—say that Shaykh al-Islam and Imam Muhammad ibn Saud rebelled against the ruler at the time, the Ottoman Empire, and broke the oath of obedience, which contradicts the creed of Ahl al-Sunnah wa al-Jama'ah. What is your view on this statement? May Allah reward you."

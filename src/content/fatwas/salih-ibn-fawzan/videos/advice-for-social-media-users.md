@@ -5,18 +5,13 @@ hijri: '1446-03-06'
 date: 2024-09-09
 category: [videos]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 summary: Knowledge is not obtained from websites or social media networks; it is obtained
   directly from scholars, and not obtained from social media networks, rumors, or
   websites
 videoURL: https://youtu.be/NV1hWQJmVQM
 videoID: NV1hWQJmVQM
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan/
 ---
-
 ### Question: 
 
 May Allah protect you, honorable Shaykh. The questioner here asks you to provide advice to social media users.

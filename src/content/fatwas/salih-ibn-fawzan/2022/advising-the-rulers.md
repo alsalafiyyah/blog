@@ -1,24 +1,19 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Correct methodology for advising the rulers"
+title: Correct methodology for advising the rulers
 hijri: '1443-07-13'
 date: 2022-02-14
-source: "Al-Ajwibah Al-Mufidah p. 47-52"
+source: Al-Ajwibah Al-Mufidah p. 47-52
 category: [rulership]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 lang: en
 summary: No one is Infallible except for Allahs Messenger (peace be upon him). Rulers
   are humans and they make errors. So no doubt they have errors and mistakes as they
   are not infallible. However, you should not make their errors a cause for you to
   publicize them and stop obeying them, even if they may be oppressive and unjust
   or sinful, so long as they do not commit clear disbelief.
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan/
 ---
-
 ### Question: 
 
 What is the correct methodology for advising, particularly with regard to advising rulers? Should it be done by publicizing their evil actions from the mimbars or by advising them in private? I would like to know what the correct methodology is concerning this matter. 

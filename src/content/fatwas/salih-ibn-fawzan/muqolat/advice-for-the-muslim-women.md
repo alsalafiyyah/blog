@@ -2,19 +2,14 @@
 publisher: alsalafiyyah.manhaj@gmail.com
 title: Advice for the Muslim Woman
 date: 2024-07-28
-source: "Friday Sermon, Sermon No. 13060"
+source: Friday Sermon, Sermon No. 13060
 category: [muqolat, sermon, women]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 lang: en
-summary: ''
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan
+summary: 'Women are complementary in nature regarding intellect and religious practice, as stated in the authentic Hadith.'
 hijri: '1446-01-22'
 ---
-
 ### First Sermon 
 
 Praise be to Allah, Who created the male and the female, and made a distinction between them: "And the male is not like the female."

@@ -4,18 +4,14 @@ title: The Legal Status and Protection of Non-Muslim Residents
 date: 2026-06-12
 category: [videos, rulership, non-muslim, terrorism]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
-summary: "It is not permissible to attack a non-Muslim if they have entered Muslim lands under a covenant of security (peace/visa/agreement)."
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
+summary: It is not permissible to attack a non-Muslim if they have entered Muslim
+  lands under a covenant of security (peace/visa/agreement).
 link: https://shamela.ws/book/8612/683
 videoURL: https://youtu.be/h-sB7nwmKCk
 videoID: h-sB7nwmKCk
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan/
 hijri: '1447-12-26'
 ---
-
 ### Question:
 
 What is the ruling on attacking a non-Muslim in Muslim lands by beating or killing them, even if it is due to corruption or immorality they are committing?

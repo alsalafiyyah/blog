@@ -4,17 +4,12 @@ title: Distinguishing Between the Salafi
 date: 2026-08-04
 category: [salafism, creed]
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
-source: "Lectures on Creed and Da'wah 3/475-476"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
+source: Lectures on Creed and Da'wah 3/475-476
 summary: Whoever follows the methodology of the Salaf, they are Salafis. However,
   if they oppose the methodology of the Salaf, they are not Salafis.
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan
 hijri: '1448-02-21'
 ---
-
 ### Question:
 
 Is it true that you say "Al-Ikhwan Al-Muslimin" (the Muslim Brotherhood), the "Tablighi Jama'at", and others are included within al-Salafiyyah (Salafism)?

@@ -1,21 +1,17 @@
 ---
 publisher: alsalafiyyah.manhaj@gmail.com
-title: "Sincere Advice, Not Public Exposure: How the Salaf Handled Those in Error"
+title: 'Sincere Advice, Not Public Exposure: How the Salaf Handled Those in Error'
 date: 2026-08-22
 hijri: '1448-03-09'
 scholar: salih-ibn-fawzan
-shaykh: "Shaykh Salih ibn Fawzan Al-Fawzan"
+shaykh: Shaykh Salih ibn Fawzan al-Fawzan
 category: [creed, videos, salafism]
-active: videos
 videoURL: https://youtu.be/ZCJVxXRZEmY
 videoID: ZCJVxXRZEmY
-summary: "As I have told you, whoever affiliates themselves with the methodology of the righteous Salaf must study their methodology and know it—mere affiliation is not enough."
-muftis:
-  shaykh:
-  - name: Shaykh Salih Al-Fawzan
-    url: /biography/fawzan
+summary: As I have told you, whoever affiliates themselves with the methodology of
+  the righteous Salaf must study their methodology and know it—mere affiliation is
+  not enough.
 ---
-
 ### Question: 
 
 The questioner says: In my country, there are some brothers who, if they find someone who is not upon the methodology of al-Salaf al-Salih (the righteous predecessors), speak against him with harsh words and mention bad descriptions of him, saying, "These people have no honor, so backbiting them is permissible." Is this correct?
