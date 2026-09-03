@@ -1,7 +1,7 @@
 ---
 publisher: "alsalafiyyah@icloud.com"
 title: "Shaykh Abdul-Muhsin Al-Abbad"
-official_web: https://al-abbaad.com/
+official_web: "https://al-abbaad.com/"
 summary: "He is the great scholar and Muhaddith, Shaykh ‘Abdul-Muhsin bin Hamad bin ‘Abdil-Muhsin bin ‘Abdillah Al-‘Abbad Ali Badr."
 ---
 

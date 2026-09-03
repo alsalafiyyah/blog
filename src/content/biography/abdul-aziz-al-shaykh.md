@@ -1,7 +1,7 @@
 ---
 publisher: "alsalafiyyah.manhaj@gmail.com"
 title: "Shaykh Abdul-Aziz Aal Al-Shaykh"
-official_web: 
+official_web: ""
 summary: "Grand Mufty of the Kingdom of Saudi Arabia and Chairman of the Departments of Scholarly Research and Ifta"
 ---
 
