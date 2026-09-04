@@ -3,22 +3,15 @@ layout: ../layouts/BaseLayout.astro
 title: About The Site
 ---
 
-      <p class="font-bold text-xl">
         In the name of Allah, the Most Gracious, the Most Merciful.
-      </p>
 
-      <p>
         All praise be to Allah, The Lord of the worlds. And I testify that there is none worthy of worship except Allah, and that Muhammad (ﷺ) is the Messenger of Allah.
-      </p>
 
-      <hr class="border-black dark:border-white my-8 opacity-20" />
-        <h3 class="text-2xl font-black italic uppercase tracking-wider">Our Methodology</h3>
-
-        <p>
+      ### Our Methodology
           Our content is rooted in the authentic ‘aqidah (creed) of Ahlus-Sunnah wal-Jama‘ah, adheres strictly to the Book of Allah (the Qur'an) and the Sunnah of His Messenger ﷺ, and dedicated to preserving and sharing this creed as it was understood and practiced by <a href="https://alsalafiyyah.github.io/audios/who-are-the-salaf/" target="_blank" rel="noopener noreferrer" class="hover:line-through"><mark class="bg-black text-white dark:bg-white dark:text-black px-1 font-black">the Salaf as-Salih</mark> (the Pious Predecessors)</a> of this Ummah (Muslim nation).
         </p>
 
-        <h3 class="text-2xl font-black italic uppercase tracking-wider">Our ‘Aqidah (Creed)</h3>
+      ### Our ‘Aqidah (Creed)
 
 1) First and foremost, we uphold the Tawheed (Oneness) of Allah. Our worship is dedicated solely to Him, performed in the manner He has legislated, and we solemnly bear witness that ***there is none worthy of worship except Allah, and that Muhammad (ﷺ) is His bondman and Messenger.[^1]***
 
