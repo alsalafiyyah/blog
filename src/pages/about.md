@@ -1,17 +1,8 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+layout: ../layouts/BaseLayout.astro
+title: About The Site
 ---
 
-<BaseLayout title="About Us">
-  <main class="max-w-4xl mx-auto px-4 py-12 space-y-8 font-serif leading-relaxed">
-    
-    {/* Header Section */}
-    <header class="border-b-4 border-black dark:border-white pb-6 space-y-4">
-      <h1 class="text-4xl md:text-5xl font-black italic uppercase tracking-tight">About the Site</h1>
-    </header>
-
-    {/* Content Body */}
-    <div class="space-y-6 text-lg">
       <p class="font-bold text-xl">
         In the name of Allah, the Most Gracious, the Most Merciful.
       </p>
@@ -21,8 +12,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       </p>
 
       <hr class="border-black dark:border-white my-8 opacity-20" />
-
-      <section class="space-y-4">
         <h3 class="text-2xl font-black italic uppercase tracking-wider">Our Methodology</h3>
 
         <p>
@@ -165,8 +154,3 @@ The Prophet ﷺ said, ***“Verily, the only cure for ignorance is to ask questi
 [^15]: Sahih Ibn Majah 224.
 [^16]: Sunan Abi Dawud 336
 
-      </section>
-    </div>
-
-  </main>
-</BaseLayout>
