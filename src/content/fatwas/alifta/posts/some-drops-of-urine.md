@@ -1,0 +1,24 @@
+---
+date: 2019-09-01
+group: group1
+hijri: '1441-01-02'
+lang: en
+publisher: alsalafiyyah.manhaj@gmail.com
+source: Fatawa Al-lajnah Al-Da'imah of KSA, Fatwa no. 4279
+summary: Soon after I have performed Istinja' (cleansing the private parts with water)
+  after urination, I feel some small drops of urine being emitted.
+category: [taharah]
+title: Some drops of urine are released after Istinja
+scholar: alifta
+shaykh: The Permanent Committee for Scholarly Research and Ifta
+---
+
+### Question : 
+
+Soon after I have performed Istinja' (cleansing the private parts with water) after urination, I feel some small drops of urine being emitted. What I do then is to change my underwear, although this is difficult to do each time I urinate. Would you please advise me as to what I am obligated to do, and may Allah reward you! 
+
+### Answer: 
+
+If the reality is as you mentioned, and you know that these drops of urine are emitted a short while after you have urinated, after which they stop, it is obligatory on you not to perform Istinja’ or Istijmar (cleansing the private parts with hard material after urination or defecation) until these drops have stopped. However, if they come out a long time after urination, you will have to repeat your Istinja’ and Wudu’ and wash the part of your clothing that has been soiled with urine. However, you should not do so based upon doubt, because Satan may delude you into believing that some drops of urine have leaked out, when this is not the case.
+
+In such a situation, you should not perform Istinja’ again unless you are certain that some drops of urine have leaked. To reduce your doubts, you are permitted to sprinkle some water around your penis after finishing Wudu’.

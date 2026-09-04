@@ -1,0 +1,28 @@
+---
+date: 2019-09-01
+hijri: '1441-01-02'
+lang: en
+group: group6
+publisher: alsalafiyyah.manhaj@gmail.com
+source: Fatawa Al-lajnah Al-Da'imah of KSA, Fatwa no. 10542
+summary: If a person performs Wudu’ (ablution) and hears his stomach rumble, but does
+  not pass wind from his back passage, what is the ruling on this? Does he still have
+  Wudu’ or does this nullify it?
+category: [ablution]
+title: Belly noise does not invalidate ablution
+scholar: alifta
+shaykh: The Permanent Committee for Scholarly Research and Ifta
+---
+
+### Question: 
+
+If a person performs Wudu’ (ablution) and hears his stomach rumble, but does not pass wind from his back passage, what is the ruling on this? Does he still have Wudu’ or does this nullify it? 
+
+### Answer: 
+
+All praise is due to Allah Alone, and peace and blessings be upon His Messenger, his family and Companions.
+
+If a person has Wudu’ and hears the sound of wind or gas inside his stomach, this does not nullify his Wudu’ if he does not pass anything, because the Prophet (peace be upon him) said: “**If any one of you feels something in his stomach, and is not sure whether something came out of him or not, he should not leave the Masjid (mosque) unless he hears a sound or detects an odor.**” (Related by Muslim in his Sahih (authentic) Book of Hadith) [^1]
+
+
+[^1]: Muslim, Sahih, vol. 1, p. 276, no. 362; and Al-Tirmidhy, vol. 1, p. 109, no. 74.
