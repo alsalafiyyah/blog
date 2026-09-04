@@ -318,9 +318,9 @@ export const SCHOLAR_GROUPS = {
       { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-ibn-fawzan" }
     ],
     members: [
-      { name: "Shaykh Muhammad ibn hasan ibn Abdul-Rahman Aal Al-Shaykh", url: "/biography/muhammad-ibn-hasan" },
+      { name: "Shaykh Muhammad ibn hasan ibn Abdul-Rahman Aal Al-Shaykh", url: "/biography/muhammad-ibn-hasan-al-shaykh" },
       { name: "Shaykh Saad ibn Naseer ibn Abdul-Aziz Al-Shathri", url: "/biography/saad-ibn-nasir" },
-      { name: "Shaykh Abdul Salam ibn Abdullah ibn Muhammad Al-Sulaiman", url: "/biography/abdul-salam-ibn-abdullah" }
+      { name: "Shaykh Abdul Salam ibn Abdullah ibn Muhammad Al-Sulaiman", url: "/biography/abdul-salam-al-sulaiman" }
     ]
   }
 };
