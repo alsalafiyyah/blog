@@ -82,7 +82,7 @@ Source: <a target="_blank" class="text-red-600" href="https://mujaddid.net/%d8%b
 export const SCHOLAR_GROUPS = {
   group1: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/ibn-baz" }
     ],
     deputy_chairman: [
       { name: "Shaykh Abdul-Razzaq Afifi", url: "/biography/abdul-razzaq-afifi" }
@@ -95,21 +95,21 @@ export const SCHOLAR_GROUPS = {
 
   group2: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/ibn-baz" }
     ],
     deputy_chairman: [
       { name: "Shaykh Abdul-Aziz Aal Al-Shaykh", url: "/biography/abdul-aziz-al-shaykh" }
     ],
     members: [
       { name: "Shaykh Abdullah ibn Ghudayyan", url: "/biography/abdullah-ibn-ghudayyan" },
-      { name: "Shaykh Salih Al-Fawzan", url: "/biography/salih-al-fawzan" },
+      { name: "Shaykh Salih Al-Fawzan", url: "/biography/salih-ibn-fawzan" },
       { name: "Shaykh Bakr Abu Zayd", url: "/biography/bakr-abu-zayd" }
     ]
   },
 
   group3: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/ibn-baz" }
     ],
     deputy_chairman: [
       { name: "Shaykh Abdul-Razzaq Afifi", url: "/biography/abdul-razzaq-afifi" }
@@ -136,14 +136,14 @@ export const SCHOLAR_GROUPS = {
     ],
     members: [
       { name: "Shaykh Abdullah ibn Ghudayyan", url: "/biography/abdullah-ibn-ghudayyan" },
-      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-al-fawzan" }, // Added missing comma
+      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-ibn-fawzan" }, // Added missing comma
       { name: "Shaykh Bakr Abu Zayd", url: "/biography/bakr-abu-zayd" }
     ]
   },
 
   group6: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/ibn-baz" }
     ],
     deputy_chairman: [
       { name: "Shaykh Abdul-Razzaq Afifi", url: "/biography/abdul-razzaq-afifi" }
@@ -155,7 +155,7 @@ export const SCHOLAR_GROUPS = {
 
   group7: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/ibn-baz" }
     ],
     deputy_chairman: [
       { name: "Shaykh Abdul-Razzaq Afifi", url: "/biography/abdul-razzaq-afifi" }
@@ -163,14 +163,14 @@ export const SCHOLAR_GROUPS = {
     members: [
       { name: "Shaykh Abdullah ibn Ghudayyan", url: "/biography/abdullah-ibn-ghudayyan" },
       { name: "Shaykh Abdul-Aziz Aal al-Shaykh", url: "/biography/abdul-aziz-al-shaykh" },
-      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-al-fawzan" },
+      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-ibn-fawzan" },
       { name: "Shaykh Bakr Abu Zayd", url: "/biography/bakr-abu-zayd" }
     ]
   },
 
   group8: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/ibn-baz" }
     ],
     members: [
       { name: "Shaykh Abdullah ibn Ghudayyan", url: "/biography/abdullah-ibn-ghudayyan" }
@@ -179,7 +179,7 @@ export const SCHOLAR_GROUPS = {
 
   group9: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/ibn-baz" }
     ],
     deputy_chairman: [
       { name: "Shaykh Abdul-Razzaq Afifi", url: "/biography/abdul-razzaq-afifi" }
@@ -191,7 +191,7 @@ export const SCHOLAR_GROUPS = {
 
   group10: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/ibn-baz" }
     ],
     members: [
       { name: "Shaykh Abdullah ibn Qa'ud", url: "/biography/abdullah-ibn-qaud" }
@@ -212,7 +212,7 @@ export const SCHOLAR_GROUPS = {
 
   group12: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/ibn-baz" }
     ],
     deputy_chairman: [
       { name: "Shaykh Abdul-Razzaq Afifi", url: "/biography/abdul-razzaq-afifi" }
@@ -221,34 +221,34 @@ export const SCHOLAR_GROUPS = {
 
   group13: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/ibn-baz" }
     ],
     members: [
       { name: "Shaykh Abdul-Aziz Aal al-Shaykh", url: "/biography/abdul-aziz-al-shaykh" },
-      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-al-fawzan" },
+      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-ibn-fawzan" },
       { name: "Shaykh Bakr Abu Zayd", url: "/biography/bakr-abu-zayd" }
     ]
   },
 
   group14: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/ibn-baz" }
     ],
     members: [
       { name: "Shaykh Abdullah ibn Ghudayyan", url: "/biography/abdullah-ibn-ghudayyan" },
       { name: "Shaykh Abdul-Aziz Aal al-Shaykh", url: "/biography/abdul-aziz-al-shaykh" },
-      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-al-fawzan" },
+      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-ibn-fawzan" },
       { name: "Shaykh Bakr Abu Zayd", url: "/biography/bakr-abu-zayd" }
     ]
   },
 
   group15: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz Ibn Baz", url: "/biography/ibn-baz" }
     ],
     members: [
       { name: "Shaykh Abdul-Aziz Aal al-Shaykh", url: "/biography/abdul-aziz-al-shaykh" },
-      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-al-fawzan" }
+      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-ibn-fawzan" }
     ]
   },
 
@@ -261,7 +261,7 @@ export const SCHOLAR_GROUPS = {
     ],
     members: [
       { name: "Shaykh Abdullah ibn Ghudayyan", url: "/biography/abdullah-ibn-ghudayyan" },
-      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-al-fawzan" },
+      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-ibn-fawzan" },
       { name: "Shaykh Bakr Abu Zayd", url: "/biography/bakr-abu-zayd" }
     ]
   },
@@ -271,7 +271,7 @@ export const SCHOLAR_GROUPS = {
       { name: "Shaykh Abdul-Aziz Aal al-Shaykh", url: "/biography/abdul-aziz-al-shaykh" }
     ],
     members: [
-      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-al-fawzan" },
+      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-ibn-fawzan" },
       { name: "Shaykh Bakr Abu Zayd", url: "/biography/bakr-abu-zayd" }
     ]
   },
@@ -288,14 +288,14 @@ export const SCHOLAR_GROUPS = {
 
   group19: {
     chairman: [
-      { name: "Shaykh Abdul-Aziz ibn Baz", url: "/biography/binbaz" }
+      { name: "Shaykh Abdul-Aziz ibn Baz", url: "/biography/ibn-baz" }
     ],
     deputy_chairman: [
       { name: "Shaykh Abdul-Razzaq Afifi", url: "/biography/abdul-razzaq-afifi" }
     ],
     members: [
       { name: "Shaykh Abdul-Aziz Aal al-Shaykh", url: "/biography/abdul-aziz-al-shaykh" }, // Added missing comma
-      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-al-fawzan" },
+      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-ibn-fawzan" },
       { name: "Shaykh Bakr Abu Zayd", url: "/biography/bakr-abu-zayd" }
     ]
   },
@@ -315,10 +315,10 @@ export const SCHOLAR_GROUPS = {
 
   group21: {
     chairman: [
-      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-al-fawzan" }
+      { name: "Shaykh Salih al-Fawzan", url: "/biography/salih-ibn-fawzan" }
     ],
     members: [
-      { name: "Shaykh Muhammad ibn hasan ibn Abdul-Rahman Aal Al-Shaykh", url: "/biography/muhammad-ibn-hasan" }, // Added missing comma
+      { name: "Shaykh Muhammad ibn hasan ibn Abdul-Rahman Aal Al-Shaykh", url: "/biography/muhammad-ibn-hasan" },
       { name: "Shaykh Saad ibn Naseer ibn Abdul-Aziz Al-Shathri", url: "/biography/saad-ibn-nasir" },
       { name: "Shaykh Abdul Salam ibn Abdullah ibn Muhammad Al-Sulaiman", url: "/biography/abdul-salam-ibn-abdullah" }
     ]
