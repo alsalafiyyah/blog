@@ -1,5 +1,5 @@
 ---
-group18: group18
+group: group18
 hijri: '1441-12-07'
 lang: en
 publisher: alsalafiyyah.manhaj@gmail.com
