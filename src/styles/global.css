@@ -1,3 +1,11 @@
 @import "tailwindcss";
 
 @variant dark (&:where(.dark, .dark *));
+
+#question {
+  @apply text-black dark:text-white;
+}
+
+#answer {
+  @apply text-black dark:text-white;
+}
