@@ -45,7 +45,7 @@ const currentYear = new Date().getFullYear();
             <span class="text-gray-600 dark:text-zinc-600 text-[9px] tracking-[0.3em]">{NAVIGATION_TITLE}</span>
             <div class="flex flex-col gap-2 items-start">
                 {FOOTER_MENU.map((item) => (
-                    <a itemprop="url" href={item.href} class="hover:line-through transition-all">
+                    <a itemprop="url" title={item.label} href={item.href} class="hover:line-through transition-all">
                         <span itemprop="name">{item.label}</span>
                     </a>
                 ))}
