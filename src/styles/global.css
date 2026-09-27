@@ -3,7 +3,7 @@
 @variant dark (&:where(.dark, .dark *));
 
 /* Target the Question block and everything inside it */
-#question {
+#question, [id="question"] {
   /* Scale up headings (like h1, h2, h3) inside the question */
   & :is(h1, h2, h3, h4) {
     @apply text-2xl md:text-3xl font-black dark:text-white tracking-tight;
@@ -16,7 +16,7 @@
 }
 
 /* Target the Answer block and everything inside it */
-#answer {
+#answer, [id="answer"] {
   /* Scale up headings (like h1, h2, h3) inside the answer */
   & :is(h1, h2, h3, h4) {
     @apply text-2xl md:text-3xl font-black dark:text-white tracking-tight;
