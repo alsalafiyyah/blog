@@ -3,7 +3,7 @@ date: 2020-07-27
 hijri: '1441-12-06'
 lang: en
 layout: post
-group6: true
+group: group6
 publisher: alsalafiyyah.manhaj@gmail.com
 source: Fatawa Al-Lajnah Al-Da'imah of KSA, Fatwa no. 10498, Question 3
 summary: Offering benefits and doing good to non-hostile unbelievers are from the
