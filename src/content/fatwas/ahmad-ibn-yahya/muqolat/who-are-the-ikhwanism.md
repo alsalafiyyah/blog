@@ -83,7 +83,6 @@ There are other observations that can be addressed later.
 50. **Extreme laxity regarding the issue of photography/image-making.**
 
 ---
----
 
 Sheikh Hammad al-Ansari (may Allah have mercy on him) said: **"Indeed, the Muslim Brotherhood are supporters of Khomeini and the Rafidah [a pejorative term used for Shia Muslims]."** [Al-Majmu', 2/699]
 
