@@ -10,7 +10,7 @@ summary: Offering benefits and doing good to non-hostile unbelievers are from th
   worldly matters which are permissible, as long as a Muslim denies their beliefs
   and religion.
 title: Treating Christians kindly
-category: non-muslim
+category: [non-muslim]
 ---
 
 ### Question: 
