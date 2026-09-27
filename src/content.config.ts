@@ -1,6 +1,13 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
+// Helper function to safely transform single strings or nulls into arrays
+const preprocessArray = z.preprocess((val) => {
+  if (!val) return [];
+  if (typeof val === 'string') return [val];
+  return val;
+}, z.array(z.string()).optional());
+
 const fatwas = defineCollection({
   loader: glob({ 
     pattern: '**/[^_]*.md', 
@@ -29,14 +36,13 @@ const fatwas = defineCollection({
     active: z.string().optional(),
     publisher: z.string().optional(),
     img: z.string().optional(),
-    layout: z.string().optional(),
     featured: z.boolean().optional(),
     published: z.boolean().optional(),
     mass_edited: z.boolean().optional(),
     translation: z.boolean().optional(),
     featured_muqolat: z.boolean().optional(),
-    category: z.array(z.string()).optional(),
-    categories: z.array(z.string()).optional(),
+    category: preprocessArray,
+    categories: preprocessArray,
     shaykhs: z.array(z.string()).optional(),
     tags: z.array(z.string()).optional(),
     videoURL: z.string().optional(),
