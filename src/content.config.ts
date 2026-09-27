@@ -2,7 +2,14 @@ import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
 const fatwas = defineCollection({
-  loader: glob({ pattern: '**/[^_]*.md', base: './src/content/fatwas' }),
+  loader: glob({ 
+    pattern: '**/[^_]*.md', 
+    base: './src/content/fatwas',
+    id: ({ filename, base, entry }) => {
+      // filename is just the file name like '2024-09-02-ruling-on-takfir'
+      return filename.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+    }
+  }),
   schema: z.object({
     title: z.string(),
     date: z.coerce.date(),
