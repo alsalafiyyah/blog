@@ -111,7 +111,7 @@ const getCleanUrl = (id: string) => {
                   <span class="text-[9px] font-bold uppercase tracking-widest text-gray-400 dark:text-zinc-500">
                     {fatwa.data.hijri} / {fatwa.data.date.toISOString().split('T')[0]}
                   </span>
-                  <a href={getCleanUrl(fatwa.id)} class="text-sm font-black uppercase leading-tight hover:underline">
+                  <a href={getCleanUrl(fatwa.id)} class="text-sm font-black leading-tight hover:underline">
                     {fatwa.data.title}
                   </a>
                 </div>
