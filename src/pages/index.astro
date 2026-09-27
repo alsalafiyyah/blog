@@ -35,7 +35,7 @@ const getCleanUrl = (id: string) => {
                    {featuredFatwa.data.title}
                 </span>
             </a>
-            <div class="flex items-center gap-6 text-[10px] font-black uppercase tracking-widest text-gray-400 italic">
+            <div class="flex items-center gap-6 text-[10px] font-black uppercase tracking-widest text-gray-600 italic">
                 <span>{featuredFatwa.data.hijri} / {featuredFatwa.data.date.toISOString().split('T')[0]}</span>
             </div>
             <p class="text-xl md:text-3xl font-bold leading-relaxed max-w-5xl">
@@ -108,10 +108,10 @@ const getCleanUrl = (id: string) => {
               <div class="space-y-4 divide-y divide-gray-100 dark:divide-zinc-800">
                {recentFatwas.map((fatwa: any) => (
                 <div class="pt-4 first:pt-0 flex flex-col space-y-1">
-                  <span class="text-[9px] font-bold uppercase tracking-widest text-gray-400 dark:text-zinc-500">
+                  <span class="text-[9px] font-bold uppercase tracking-widest text-gray-600 dark:text-zinc-500">
                     {fatwa.data.hijri} / {fatwa.data.date.toISOString().split('T')[0]}
                   </span>
-                  <a href={getCleanUrl(fatwa.id)} class="text-sm font-black leading-tight hover:underline">
+                  <a href={getCleanUrl(fatwa.id)} class="text-normal font-black leading-tight hover:underline">
                     {fatwa.data.title}
                   </a>
                 </div>
