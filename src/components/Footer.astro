@@ -11,7 +11,7 @@ const currentYear = new Date().getFullYear();
     <div itemscope itemtype="https://schema.org/Organization" class="flex flex-col gap-4 max-w-sm w-full">
         <div class="flex items-center justify-between md:justify-start gap-4">
 
-            <a href={SITE_URL} class="flex-none hover:opacity-50 transition-opacity">
+            <a href={SITE_URL} title={SITE_TITLE} class="flex-none hover:opacity-50 transition-opacity">
                 <Logo class="w-auto h-10 object-contain dark:invert transition-all duration-300" />
             </a>
 
@@ -24,7 +24,7 @@ const currentYear = new Date().getFullYear();
                 </svg>
             </button>
 
-            <a href="/ar/" class="text-black dark:text-white hover:opacity-50 transition-opacity">
+            <a href="/ar/" title="Arabic" class="text-black dark:text-white hover:opacity-50 transition-opacity">
              <TranslateIcon/>
             </a>
         </div>
