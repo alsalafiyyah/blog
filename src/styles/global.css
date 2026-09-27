@@ -2,28 +2,42 @@
 
 @variant dark (&:where(.dark, .dark *));
 
-/* Target the Question block and everything inside it */
+/* Target the Question block elements natively */
 #question, [id="question"] {
-  /* Scale up headings (like h1, h2, h3) inside the question */
-  & :is(h1, h2, h3, h4) {
-    @apply text-2xl md:text-3xl font-black dark:text-white tracking-tight;
+  /* Scale up headings (like h1, h2, h3, h4) inside the question block */
+  & h1, & h2, & h3, & h4 {
+    font-size: var(--text-2xl) !important;
+    font-weight: var(--font-black) !important;
+    letter-spacing: var(--tracking-tight) !important;
   }
   
-  /* Scale up paragraphs/body text inside the question */
-  & :is(p, li, span, strong) {
-    @apply text-xl leading-relaxed dark:text-white;
+  /* Scale up paragraphs, lists, and body items inside the question block */
+  & p, & li, & span, & strong {
+    font-size: var(--text-xl) !important;
+    line-height: var(--leading-relaxed) !important;
   }
 }
 
-/* Target the Answer block and everything inside it */
+/* Target the Answer block elements natively */
 #answer, [id="answer"] {
-  /* Scale up headings (like h1, h2, h3) inside the answer */
-  & :is(h1, h2, h3, h4) {
-    @apply text-2xl md:text-3xl font-black dark:text-white tracking-tight;
+  /* Scale up headings (like h1, h2, h3, h4) inside the answer block */
+  & h1, & h2, & h3, & h4 {
+    font-size: var(--text-2xl) !important;
+    font-weight: var(--font-black) !important;
+    letter-spacing: var(--tracking-tight) !important;
   }
   
-  /* Scale up paragraphs/body text inside the answer */
-  & :is(p, li, span, strong) {
-    @apply text-xl leading-relaxed dark:text-white;
+  /* Scale up paragraphs, lists, and body items inside the answer block */
+  & p, & li, & span, & strong {
+    font-size: var(--text-xl) !important;
+    line-height: var(--leading-relaxed) !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #question, [id="question"], #answer, [id="answer"] {
+    & h1, & h2, & h3, & h4 {
+      font-size: var(--text-3xl) !important;
+    }
   }
 }
