@@ -5,9 +5,12 @@ const fatwas = defineCollection({
   loader: glob({ 
     pattern: '**/[^_]*.md', 
     base: './src/content/fatwas',
-    id: ({ filename, base, entry }) => {
-      // filename is just the file name like '2024-09-02-ruling-on-takfir'
-      return filename.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+    // Correctly intercept the entry path to generate a clean ID
+    generateId: ({ entry }) => {
+      return entry
+        .replace(/\.md$/, '')                    // Remove file extension
+        .replace(/^\d{4}-\d{2}-\d{2}-/, '')      // Strip the YYYY-MM-DD- prefix
+        .replace(/\/$/, '');                     // Clean trailing slashes if any
     }
   }),
   schema: z.object({
