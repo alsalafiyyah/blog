@@ -101,6 +101,16 @@ const getAudioSrc = (fileOrUrl: string) => {
     margin-top: 1.25rem;
     margin-bottom: 0.25rem;
   }
+  /* Blockquotes (Markdown Style) */
+  blockquote {
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid #f87171; /* red-400 thick left border */
+    font-style: italic;
+  }
+  blockquote p {
+    margin-bottom: 0; /* clean up nested margins */
+  }
   /* Links */
   #markdown-container a {
     color: #dc2626;       /* red-600 */
@@ -148,6 +158,11 @@ const getAudioSrc = (fileOrUrl: string) => {
   }
   ol li {
     margin-top: 0.25rem;
+  }
+  /* Footnote List Items (Markdown Generated) */
+  ol li[id^="user-content-fn-"] {
+    font-size: 0.875rem; /* text-sm slightly smaller for notes */
+    margin-top: 0.5rem;
   }
   /* Horizontal Rules */
   hr {
